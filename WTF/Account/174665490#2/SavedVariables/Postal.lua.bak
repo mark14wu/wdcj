@@ -1,0 +1,22 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Lrsgmarkwu|贫瘠之地|Horde", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Lrsgmarkwu - 贫瘠之地"] = "Lrsgmarkwu - 贫瘠之地",
+	},
+	["profiles"] = {
+		["Lrsgmarkwu - 贫瘠之地"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Fssgmarkwu", -- [1]
+				},
+			},
+		},
+	},
+}

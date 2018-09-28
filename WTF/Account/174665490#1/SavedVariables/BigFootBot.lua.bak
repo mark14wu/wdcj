@@ -1,0 +1,197 @@
+
+ItemSourceDB = {
+}
+ObjectLocationDB = {
+}
+CreatureLocationDB = {
+}
+CreatureDB = {
+}
+QuestDB = {
+}
+QuestCompleteDB = {
+}
+QuestEventDB = {
+}
+SkillSourceDB = {
+}
+BigFootBot_Version = {
+}
+BigFootBot_Info = nil
+PlayersDB = {
+}
+UtilDB = {
+	["M"] = {
+		["NumSysUnread"] = 0,
+		["MD5"] = "6442036542646679073615480242673345278",
+		["NumNormalRead"] = 0,
+		["NumSysRead"] = 0,
+		["NumNormalUnread"] = 0,
+	},
+}
+NPCMarkCollectionDB = {
+}
+BigFootBot_collectData = {
+	["WildBattlePetData"] = {
+		["Creature-0-3923-1669-1001-128020-0000176953"] = {
+			["Name"] = "小胖",
+			["Level"] = 25,
+			["MapLevel"] = 0,
+			["TypeId"] = 5,
+		},
+		["Creature-0-3929-1669-30937-128162-000088DE36"] = {
+			["TypeId"] = 8,
+			["Level"] = 25,
+			["Name"] = "灾怨幼虫",
+			["MapLevel"] = 0,
+		},
+		["Creature-0-3923-1669-1001-128024-0000176953"] = {
+			["Name"] = "小乌",
+			["Level"] = 25,
+			["MapLevel"] = 0,
+			["TypeId"] = 4,
+		},
+		["Creature-0-1950-1116-1-85003-00469B3D68"] = {
+			["Map"] = "霜火岭",
+			["X"] = 55,
+			["Name"] = "冰脊幼崽",
+			["Y"] = 37,
+			["MapLevel"] = 0,
+			["Level"] = 24,
+			["MapZone"] = "龟裂平原",
+			["TypeId"] = 8,
+		},
+		["Creature-0-3046-1220-14588-110741-00020D181A"] = {
+			["Name"] = "闪蹄小鹿",
+			["Level"] = 25,
+			["MapLevel"] = 0,
+			["TypeId"] = 5,
+		},
+		["Creature-0-3929-1669-10167-128009-00000ED0A7"] = {
+			["MapLevel"] = 0,
+			["Level"] = 25,
+			["TypeId"] = 3,
+			["Name"] = "毒光鳐",
+		},
+		["Creature-0-3046-1220-14588-110741-00000D34AA"] = {
+			["Name"] = "闪蹄小鹿",
+			["Level"] = 25,
+			["MapLevel"] = 0,
+			["TypeId"] = 5,
+		},
+	},
+	["BigFootBank_Data"] = {
+	},
+	["CombatBattlePetData"] = {
+		["小捋沙蟹"] = {
+			["PetType"] = 9,
+			["enemyPetType"] = 7,
+			["StyPetType"] = "水栖",
+			["name"] = "小捋沙蟹",
+			["health"] = 1036,
+			["speed"] = 319,
+			["speciesName"] = "小捋沙蟹",
+			["level"] = 25,
+			["maxHealth"] = 1036,
+			["attack"] = 186,
+		},
+		["重锤下士"] = {
+			["PetType"] = 10,
+			["enemyPetType"] = 7,
+			["StyPetType"] = "机械",
+			["name"] = "重锤下士",
+			["health"] = 1920,
+			["speed"] = 241,
+			["speciesName"] = "重锤下士",
+			["level"] = 25,
+			["maxHealth"] = 1920,
+			["attack"] = 346,
+		},
+		["M-37"] = {
+			["PetType"] = 10,
+			["enemyPetType"] = 7,
+			["StyPetType"] = "机械",
+			["name"] = "M-37",
+			["health"] = 1500,
+			["speed"] = 350,
+			["speciesName"] = "M-37",
+			["level"] = 25,
+			["maxHealth"] = 1500,
+			["attack"] = 332,
+		},
+		["毒光鳐"] = {
+			["PetType"] = 3,
+			["enemyPetType"] = 2,
+			["StyPetType"] = "飞行",
+			["name"] = "毒光鳐",
+			["health"] = 1997,
+			["speed"] = 464,
+			["speciesName"] = "毒光鳐",
+			["level"] = 25,
+			["maxHealth"] = 1997,
+			["attack"] = 518,
+		},
+		["海滨跳蛙"] = {
+			["PetType"] = 9,
+			["enemyPetType"] = 7,
+			["StyPetType"] = "水栖",
+			["name"] = "海滨跳蛙",
+			["health"] = 1010,
+			["speed"] = 223,
+			["speciesName"] = "海滨跳蛙",
+			["level"] = 25,
+			["maxHealth"] = 1010,
+			["attack"] = 160,
+		},
+		["夹钳"] = {
+			["PetType"] = 10,
+			["enemyPetType"] = 7,
+			["StyPetType"] = "机械",
+			["name"] = "夹钳",
+			["health"] = 1789,
+			["speed"] = 311,
+			["speciesName"] = "夹钳",
+			["level"] = 25,
+			["maxHealth"] = 1789,
+			["attack"] = 297,
+		},
+		["轻盈的水黾"] = {
+			["PetType"] = 9,
+			["enemyPetType"] = 7,
+			["StyPetType"] = "水栖",
+			["name"] = "轻盈的水黾",
+			["health"] = 958,
+			["speed"] = 210,
+			["speciesName"] = "轻盈的水黾",
+			["level"] = 25,
+			["maxHealth"] = 958,
+			["attack"] = 178,
+		},
+		["小胖"] = {
+			["PetType"] = 5,
+			["enemyPetType"] = 2,
+			["StyPetType"] = "小动物",
+			["name"] = "小胖",
+			["health"] = 1879,
+			["speed"] = 291,
+			["speciesName"] = "小胖",
+			["level"] = 25,
+			["maxHealth"] = 1879,
+			["attack"] = 540,
+		},
+		["黏黏的软泥怪"] = {
+			["PetType"] = 6,
+			["enemyPetType"] = 7,
+			["StyPetType"] = "魔法",
+			["name"] = "黏黏的软泥怪",
+			["health"] = 1320,
+			["speed"] = 225,
+			["speciesName"] = "黏黏的软泥怪",
+			["level"] = 25,
+			["maxHealth"] = 1320,
+			["attack"] = 202,
+		},
+	},
+}
+SpamChatDB = {
+}

@@ -1,0 +1,75 @@
+VER 3 0100000000000013 "DB_Arms_AOE" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Arms_AOE
+END
+VER 3 0100000000000012 "DB_Arms_ST" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Arms_ST
+END
+VER 3 0100000000000010 "DB_Fury1" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Fury1
+END
+VER 3 0100000000000011 "DB_Fury2" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Fury2
+END
+VER 3 010000000000000E "DB_Fury3" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Fury3
+END
+VER 3 010000000000000F "DB_Fury4" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click DB_Fury4
+END
+VER 3 010000000000000B "亲吻" "INV_MISC_QUESTIONMARK"
+/KISS
+END
+VER 3 0100000000000004 "冲锋" "INV_MISC_QUESTIONMARK"
+/cast 冲锋
+/咆哮
+END
+VER 3 0100000000000009 "单" "INV_MISC_QUESTIONMARK"
+#showtooltip 复仇
+/startattack 
+/console Sound_EnableSFX 0 
+/castsequence reset=0.5 1,2,3,雷霆一击
+/castsequence reset=0.5 1,2,毁灭打击
+/castsequence reset=0.5 1,盾牌猛击
+/castsequence reset=0.5 复仇
+/script UIErrorsFrame:Clear() 
+/console Sound_EnableSFX 1
+END
+VER 3 010000000000000D "啊" "INV_MISC_QUESTIONMARK"
+/run for k, v in pairs({ ["炮舰"] = 32098, ["怒之煞"] = 32099, ["纳拉克"] = 32518, ["乌达斯塔"] = 32519}) do print(format("%s: %s", k, IsQuestFlaggedCompleted(v) and "\124cff00ff00已杀\124r" or "\124cffff0000未杀\124r")) end
+END
+VER 3 010000000000000C "啊啊" "INV_MISC_QUESTIONMARK"
+/目标 基巴露胸女王
+END
+VER 3 0100000000000002 "打中" "INV_MISC_QUESTIONMARK"
+/y 命中目标！
+END
+VER 3 0100000000000005 "拦截" "INV_MISC_QUESTIONMARK"
+/cast 拦截
+/咆哮
+END
+VER 3 0100000000000003 "显示声望" "INV_MISC_QUESTIONMARK"
+/run SetWatchedFactionIndex(8)) 
+END
+VER 3 010000000000000A "群" "INV_MISC_QUESTIONMARK"
+#showtooltip 雷霆一击
+/startattack 
+/console Sound_EnableSFX 0 
+/castsequence reset=0.5 1,2,3,毁灭打击
+/castsequence reset=0.5 1,2,盾牌猛击
+/castsequence reset=0.5 1,雷霆一击
+/castsequence reset=0.5 复仇
+/script UIErrorsFrame:Clear() 
+/console Sound_EnableSFX 1
+END
+VER 3 0100000000000001 "蛋疼" "INV_MISC_QUESTIONMARK"
+/y %T注意啦！你已经被自杀式飞艇锁定拉！赶快跳楼吧！
+END
+VER 3 0100000000000008 "风之悍将" "INV_MISC_QUESTIONMARK"
+风之悍将 傻逼
+END

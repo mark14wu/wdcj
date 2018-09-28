@@ -1,0 +1,47 @@
+
+SGI_DATA = {
+	["一少纯帅之父 - 贫瘠之地"] = {
+		["settings"] = {
+			["whispers"] = {
+			},
+			["checkboxes"] = {
+				["SGI_CHANGES"] = 1,
+			},
+			["inviteMode"] = 1,
+			["highLimit"] = 90,
+			["frames"] = {
+				["SGI_MiniMapButton"] = {
+					"CENTER", -- [1]
+					"CENTER", -- [2]
+					-58.32, -- [3]
+					-51.79, -- [4]
+				},
+				["SGI_ChangeLog"] = {
+					"CENTER", -- [1]
+					"CENTER", -- [2]
+					0, -- [3]
+					0, -- [4]
+				},
+			},
+			["dropdown"] = {
+				["SGI_WHISPER_MODE"] = 2,
+			},
+			["lowLimit"] = 1,
+			["raceStart"] = 90,
+			["interval"] = 5,
+			["whisper"] = "Dear PLAYER. Would you like to join <NAME> (Lvl LEVEL)? You would make great recruit, so please accept! :)",
+			["exceptions"] = {
+			},
+			["classStart"] = 90,
+		},
+	},
+	["lock"] = {
+	},
+	["guildList"] = {
+		["干巴瘦"] = "幸福家园",
+		["Lemont"] = "魅影骑士团",
+		["丷幽蓝星丷"] = "十人众",
+	},
+	["amountBroadcast"] = 0,
+	["showedChanges"] = "6.7",
+}

@@ -1,0 +1,6 @@
+BINDINGMODE 0
+bind ALT-1 CLICK DuowanActionBar1Button1:LeftButton
+bind ALT-2 CLICK DuowanActionBar1Button2:LeftButton
+bind ALT-3 CLICK DuowanActionBar1Button3:LeftButton
+bind ALT-4 CLICK DuowanActionBar1Button4:LeftButton
+bind ALT-5 CLICK DuowanActionBar1Button5:LeftButton

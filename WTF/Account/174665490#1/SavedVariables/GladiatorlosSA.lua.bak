@@ -1,0 +1,13 @@
+
+GladiatorlosSADB = {
+	["profileKeys"] = {
+		["Zssgmarkwu - 贫瘠之地"] = "Default",
+		["Dksgmarkwu - 贫瘠之地"] = "Default",
+		["Fssgmarkwu - 贫瘠之地"] = "Default",
+		["Qssgmarkwu - 贫瘠之地"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

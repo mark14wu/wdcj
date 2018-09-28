@@ -1,0 +1,18 @@
+
+Gladius2DB = {
+	["profileKeys"] = {
+		["Zssgmarkwu - 贫瘠之地"] = "Zssgmarkwu - 贫瘠之地",
+	},
+	["profiles"] = {
+		["Zssgmarkwu - 贫瘠之地"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 1,
+			["y"] = {
+				["arena1"] = 465.919907115298,
+			},
+			["x"] = {
+				["arena1"] = 79.35999541123692,
+			},
+		},
+	},
+}

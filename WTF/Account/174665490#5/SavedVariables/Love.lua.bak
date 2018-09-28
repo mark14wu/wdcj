@@ -1,0 +1,24 @@
+
+LoveDB = {
+	["贫瘠之地_Horde_Dzsgmarkwu"] = {
+		["FriendsLogDB"] = {
+			"Fssgmarkwu", -- [1]
+			"Nothingness", -- [2]
+			"Zssgmarkwu", -- [3]
+			"卡呗尔灬小成", -- [4]
+			"生煎上的芝嘛", -- [5]
+		},
+		["RaidMark"] = {
+			["locked"] = false,
+		},
+	},
+}
+ezIconsDB = {
+	["profileKeys"] = {
+		["Dzsgmarkwu - 贫瘠之地"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

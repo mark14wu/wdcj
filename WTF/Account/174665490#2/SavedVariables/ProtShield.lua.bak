@@ -1,0 +1,2 @@
+
+ProtShieldDB = nil

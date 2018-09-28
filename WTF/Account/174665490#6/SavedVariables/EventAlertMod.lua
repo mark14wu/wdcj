@@ -1,0 +1,1165 @@
+
+EA_Config = {
+	["ShowFlash"] = false,
+	["ShowTimer"] = true,
+	["AlertSound"] = "Sound\\Spells\\ShaysBell.wav",
+	["ChangeTimer"] = false,
+	["Target_MyDebuff"] = true,
+	["IconSize"] = 60,
+	["TimerFontSize"] = 18,
+	["ShowFrame"] = true,
+	["LockFrame"] = true,
+	["AlertSoundValue"] = 1,
+	["StackFontSize"] = 18,
+	["ShowName"] = true,
+	["Version"] = "5.0.4",
+	["DoAlertSound"] = true,
+	["AllowAltAlerts"] = true,
+	["AllowESC"] = false,
+	["SNameFontSize"] = 15,
+}
+EA_Position = {
+	["Execution"] = 0,
+	["GreenDebuff"] = 0.5,
+	["xOffset"] = 0,
+	["TarAnchor"] = "CENTER",
+	["yOffset"] = 0,
+	["PlayerLv2BOSS"] = true,
+	["relativePoint"] = "CENTER",
+	["Anchor"] = "CENTER",
+	["yLoc"] = 46,
+	["Tar_yOffset"] = -134,
+	["RedDebuff"] = 0.5,
+	["Tar_xOffset"] = 0,
+	["Scd_yOffset"] = 80,
+	["TarrelativePoint"] = "CENTER",
+	["Scd_xOffset"] = 0,
+	["ScdAnchor"] = "CENTER",
+	["Tar_NewLine"] = true,
+	["xLoc"] = 136,
+}
+EA_Items = {
+	["OTHER"] = {
+		[80353] = {
+			["enable"] = true,
+		},
+		[96229] = {
+			["enable"] = true,
+		},
+		[91308] = {
+			["enable"] = true,
+		},
+		[83099] = {
+			["enable"] = true,
+		},
+		[2825] = {
+			["enable"] = true,
+		},
+		[96228] = {
+			["enable"] = true,
+		},
+		[91828] = {
+			["enable"] = true,
+		},
+		[86622] = {
+			["enable"] = true,
+		},
+		[91832] = {
+			["enable"] = true,
+		},
+		[91836] = {
+			["enable"] = true,
+		},
+		[96230] = {
+			["enable"] = true,
+		},
+		[91007] = {
+			["enable"] = true,
+		},
+		[91816] = {
+			["enable"] = true,
+		},
+		[82705] = {
+			["enable"] = true,
+		},
+		[92222] = {
+			["enable"] = true,
+		},
+		[89091] = {
+			["enable"] = true,
+		},
+		[88518] = {
+			["enable"] = true,
+		},
+	},
+	["DRUID"] = {
+		[16886] = {
+			["enable"] = false,
+		},
+		[48517] = {
+			["enable"] = false,
+		},
+		[48518] = {
+			["enable"] = false,
+		},
+		[48391] = {
+			["enable"] = true,
+		},
+		[50334] = {
+			["enable"] = false,
+		},
+		[100977] = {
+			["enable"] = true,
+		},
+		[69369] = {
+			["enable"] = true,
+		},
+		[93622] = {
+			["enable"] = true,
+		},
+		[16870] = {
+			["enable"] = true,
+		},
+		[52610] = {
+			["enable"] = true,
+		},
+		[93400] = {
+			["enable"] = true,
+		},
+		[80951] = {
+			["enable"] = false,
+		},
+		[81192] = {
+			["enable"] = false,
+		},
+	},
+}
+EA_AltItems = {
+	["DRUID"] = {
+	},
+}
+EA_TarItems = {
+	["DRUID"] = {
+		[93402] = {
+			["enable"] = false,
+			["self"] = true,
+		},
+		[5570] = {
+			["enable"] = false,
+			["self"] = true,
+		},
+		[33745] = {
+			["enable"] = false,
+			["self"] = true,
+		},
+		[1079] = {
+			["enable"] = false,
+			["self"] = true,
+		},
+		[8921] = {
+			["enable"] = false,
+			["self"] = true,
+		},
+		[1822] = {
+			["enable"] = false,
+			["self"] = true,
+		},
+		[33876] = {
+			["enable"] = false,
+			["self"] = true,
+		},
+		[52610] = {
+			["enable"] = false,
+			["self"] = true,
+		},
+		[33763] = {
+			["enable"] = false,
+			["self"] = true,
+		},
+		[99] = {
+			["enable"] = false,
+			["self"] = true,
+		},
+		[774] = {
+			["enable"] = false,
+			["self"] = true,
+		},
+	},
+}
+EA_ScdItems = {
+	["DRUID"] = {
+		[17116] = {
+			["enable"] = false,
+		},
+		[48438] = {
+			["enable"] = false,
+		},
+		[29166] = {
+			["enable"] = false,
+		},
+		[18562] = {
+			["enable"] = false,
+		},
+		[78674] = {
+			["enable"] = false,
+		},
+	},
+}
+EA_GrpItems = {
+	["DRUID"] = {
+		{
+			["IconPoint"] = "Top",
+			["GroupIconID"] = 0,
+			["enable"] = false,
+			["LocY"] = -200,
+			["LocX"] = 0,
+			["ActiveTalentGroup"] = 1,
+			["GroupResult"] = false,
+			["GroupIndex"] = 1,
+			["IconSize"] = 80,
+			["Spells"] = {
+				{
+					["SpellIconPath"] = "Interface\\Icons\\Ability_Mount_JungleTiger",
+					["Checks"] = {
+						{
+							["SubChecks"] = {
+								{
+									["CheckCD"] = 5217,
+									["EventType"] = "UNIT_POWER",
+									["SubCheckResult"] = false,
+									["PowerType"] = "ENERGY",
+									["PowerTypeNum"] = 3,
+									["SubCheckAndOp"] = true,
+									["UnitType"] = "player",
+									["PowerLessThanValue"] = 40,
+									["PowerCompType"] = 2,
+								}, -- [1]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [1]
+					},
+					["SpellResult"] = false,
+					["SpellIconID"] = 5217,
+					["SpellName"] = "猛虎之怒",
+				}, -- [1]
+			},
+			["IconAlpha"] = 0.5,
+			["IconRelatePoint"] = "Top",
+		}, -- [1]
+		{
+			["IconPoint"] = "Top",
+			["GroupIconID"] = 0,
+			["enable"] = false,
+			["LocY"] = -200,
+			["LocX"] = 0,
+			["ActiveTalentGroup"] = 2,
+			["GroupResult"] = false,
+			["GroupIndex"] = 2,
+			["IconSize"] = 80,
+			["Spells"] = {
+				{
+					["SpellIconPath"] = "Interface\\Icons\\Ability_Druid_Flourish",
+					["Checks"] = {
+						{
+							["SubChecks"] = {
+								{
+									["CheckCD"] = 48438,
+									["EventType"] = "UNIT_POWER",
+									["SubCheckResult"] = false,
+									["PowerType"] = "MANA",
+									["PowerTypeNum"] = 0,
+									["SubCheckAndOp"] = true,
+									["UnitType"] = "player",
+									["PowerLessThanValue"] = 5000,
+									["PowerCompType"] = 4,
+								}, -- [1]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [1]
+					},
+					["SpellResult"] = false,
+					["SpellIconID"] = 48438,
+					["SpellName"] = "野性成长",
+				}, -- [1]
+			},
+			["IconAlpha"] = 0.5,
+			["IconRelatePoint"] = "Top",
+		}, -- [2]
+		{
+			["IconPoint"] = "Top",
+			["GroupIconID"] = 0,
+			["enable"] = false,
+			["LocY"] = -200,
+			["LocX"] = 80,
+			["ActiveTalentGroup"] = 2,
+			["GroupResult"] = false,
+			["GroupIndex"] = 3,
+			["IconSize"] = 80,
+			["Spells"] = {
+				{
+					["SpellIconPath"] = "Interface\\Icons\\Spell_Nature_Lightning",
+					["Checks"] = {
+						{
+							["SubChecks"] = {
+								{
+									["CheckCD"] = 29166,
+									["EventType"] = "UNIT_POWER",
+									["SubCheckResult"] = false,
+									["PowerType"] = "MANA",
+									["UnitType"] = "player",
+									["PowerTypeNum"] = 0,
+									["SubCheckAndOp"] = true,
+									["PowerLessThanPercent"] = 80,
+									["PowerCompType"] = 2,
+								}, -- [1]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [1]
+					},
+					["SpellResult"] = false,
+					["SpellIconID"] = 29166,
+					["SpellName"] = "激活",
+				}, -- [1]
+			},
+			["IconAlpha"] = 0.5,
+			["IconRelatePoint"] = "Top",
+		}, -- [3]
+		{
+			["IconPoint"] = "Top",
+			["GroupIconID"] = 0,
+			["enable"] = false,
+			["LocY"] = -200,
+			["LocX"] = -80,
+			["ActiveTalentGroup"] = 2,
+			["GroupResult"] = false,
+			["GroupIndex"] = 4,
+			["IconSize"] = 80,
+			["Spells"] = {
+				{
+					["SpellIconPath"] = "Interface\\Icons\\INV_Relics_IdolofRejuvenation",
+					["Checks"] = {
+						{
+							["SubChecks"] = {
+								{
+									["CheckCD"] = 18562,
+									["EventType"] = "UNIT_POWER",
+									["SubCheckResult"] = false,
+									["PowerType"] = "MANA",
+									["PowerTypeNum"] = 0,
+									["SubCheckAndOp"] = true,
+									["UnitType"] = "player",
+									["PowerLessThanValue"] = 1700,
+									["PowerCompType"] = 4,
+								}, -- [1]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [1]
+					},
+					["SpellResult"] = false,
+					["SpellIconID"] = 18562,
+					["SpellName"] = "迅捷治愈",
+				}, -- [1]
+			},
+			["IconAlpha"] = 0.5,
+			["IconRelatePoint"] = "Top",
+		}, -- [4]
+		{
+			["IconPoint"] = "Top",
+			["GroupIconID"] = 0,
+			["enable"] = false,
+			["LocY"] = -200,
+			["LocX"] = -80,
+			["ActiveTalentGroup"] = 1,
+			["GroupResult"] = false,
+			["GroupIndex"] = 5,
+			["IconSize"] = 80,
+			["Spells"] = {
+				{
+					["SpellIconPath"] = "Interface\\Icons\\Ability_Druid_Mangle2",
+					["Checks"] = {
+						{
+							["SubChecks"] = {
+								{
+									["CheckCD"] = 33878,
+									["EventType"] = "UNIT_POWER",
+									["SubCheckResult"] = false,
+									["PowerType"] = "RAGE",
+									["PowerTypeNum"] = 1,
+									["SubCheckAndOp"] = true,
+									["UnitType"] = "player",
+									["PowerLessThanValue"] = 15,
+									["PowerCompType"] = 4,
+								}, -- [1]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [1]
+					},
+					["SpellResult"] = false,
+					["SpellIconID"] = 33878,
+					["SpellName"] = "裂伤",
+				}, -- [1]
+				{
+					["SpellIconPath"] = "Interface\\Icons\\Ability_Druid_Lacerate",
+					["Checks"] = {
+						{
+							["SubChecks"] = {
+								{
+									["CheckCD"] = 33745,
+									["EventType"] = "UNIT_POWER",
+									["SubCheckResult"] = false,
+									["PowerType"] = "RAGE",
+									["PowerTypeNum"] = 1,
+									["SubCheckAndOp"] = true,
+									["UnitType"] = "player",
+									["PowerLessThanValue"] = 15,
+									["PowerCompType"] = 4,
+								}, -- [1]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [1]
+						{
+							["SubChecks"] = {
+								{
+									["SubCheckResult"] = false,
+									["UnitType"] = "target",
+									["SubCheckAndOp"] = true,
+									["CheckAuraNotExist"] = 33745,
+									["CastByPlayer"] = true,
+									["EventType"] = "UNIT_AURA",
+								}, -- [1]
+								{
+									["SubCheckResult"] = false,
+									["EventType"] = "UNIT_AURA",
+									["StackLessThanValue"] = 2,
+									["SubCheckAndOp"] = false,
+									["CheckAuraExist"] = 33745,
+									["CastByPlayer"] = true,
+									["StackCompType"] = 2,
+									["UnitType"] = "target",
+								}, -- [2]
+								{
+									["TimeLessThanValue"] = 3,
+									["TimeCompType"] = 2,
+									["UnitType"] = "target",
+									["SubCheckAndOp"] = false,
+									["SubCheckResult"] = false,
+									["CastByPlayer"] = true,
+									["CheckAuraExist"] = 33745,
+									["EventType"] = "UNIT_AURA",
+								}, -- [3]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [2]
+					},
+					["SpellResult"] = false,
+					["SpellIconID"] = 33745,
+					["SpellName"] = "割伤",
+				}, -- [2]
+				{
+					["SpellResult"] = false,
+					["SpellIconID"] = 80313,
+					["Checks"] = {
+						{
+							["SubChecks"] = {
+								{
+									["CheckCD"] = 80313,
+									["EventType"] = "UNIT_POWER",
+									["SubCheckResult"] = false,
+									["PowerType"] = "RAGE",
+									["PowerTypeNum"] = 1,
+									["SubCheckAndOp"] = true,
+									["UnitType"] = "player",
+									["PowerLessThanValue"] = 15,
+									["PowerCompType"] = 4,
+								}, -- [1]
+								{
+									["SubCheckResult"] = false,
+									["UnitType"] = "target",
+									["SubCheckAndOp"] = true,
+									["CastByPlayer"] = true,
+									["EventType"] = "UNIT_AURA",
+									["CheckAuraExist"] = 33745,
+								}, -- [2]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [1]
+						{
+							["SubChecks"] = {
+								{
+									["TimeLessThanValue"] = 3,
+									["TimeCompType"] = 2,
+									["UnitType"] = "player",
+									["SubCheckAndOp"] = true,
+									["SubCheckResult"] = false,
+									["CheckAuraExist"] = 80951,
+									["EventType"] = "UNIT_AURA",
+								}, -- [1]
+								{
+									["SubCheckResult"] = false,
+									["UnitType"] = "player",
+									["SubCheckAndOp"] = false,
+									["CheckAuraNotExist"] = 80951,
+									["EventType"] = "UNIT_AURA",
+								}, -- [2]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [2]
+					},
+				}, -- [3]
+				{
+					["SpellIconPath"] = "INTERFACE\\ICONS\\spell_druid_thrash",
+					["Checks"] = {
+						{
+							["SubChecks"] = {
+								{
+									["CheckCD"] = 77758,
+									["EventType"] = "UNIT_POWER",
+									["SubCheckResult"] = false,
+									["PowerType"] = "RAGE",
+									["PowerTypeNum"] = 1,
+									["SubCheckAndOp"] = true,
+									["UnitType"] = "player",
+									["PowerLessThanValue"] = 25,
+									["PowerCompType"] = 4,
+								}, -- [1]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [1]
+					},
+					["SpellResult"] = false,
+					["SpellIconID"] = 77758,
+					["SpellName"] = "痛击",
+				}, -- [4]
+				{
+					["SpellIconPath"] = "Interface\\Icons\\INV_Misc_MonsterClaw_03",
+					["Checks"] = {
+						{
+							["SubChecks"] = {
+								{
+									["CheckCD"] = 779,
+									["EventType"] = "UNIT_POWER",
+									["SubCheckResult"] = false,
+									["PowerType"] = "RAGE",
+									["PowerTypeNum"] = 1,
+									["SubCheckAndOp"] = true,
+									["UnitType"] = "player",
+									["PowerLessThanValue"] = 15,
+									["PowerCompType"] = 4,
+								}, -- [1]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [1]
+					},
+					["SpellResult"] = false,
+					["SpellIconID"] = 779,
+					["SpellName"] = "横扫",
+				}, -- [5]
+			},
+			["IconAlpha"] = 0.5,
+			["IconRelatePoint"] = "Top",
+		}, -- [5]
+		{
+			["IconPoint"] = "Top",
+			["GroupIconID"] = 0,
+			["enable"] = false,
+			["LocY"] = -200,
+			["LocX"] = 0,
+			["ActiveTalentGroup"] = 1,
+			["GroupResult"] = false,
+			["IconAlpha"] = 0.5,
+			["IconSize"] = 80,
+			["Spells"] = {
+				{
+					["SpellIconPath"] = "Interface\\Icons\\Ability_Mount_JungleTiger",
+					["Checks"] = {
+						{
+							["SubChecks"] = {
+								{
+									["CheckCD"] = 5217,
+									["EventType"] = "UNIT_POWER",
+									["SubCheckResult"] = false,
+									["PowerType"] = "ENERGY",
+									["PowerTypeNum"] = 3,
+									["SubCheckAndOp"] = true,
+									["PowerLessThanValue"] = 40,
+									["UnitType"] = "player",
+									["PowerCompType"] = 2,
+								}, -- [1]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [1]
+					},
+					["SpellResult"] = false,
+					["SpellIconID"] = 5217,
+					["SpellName"] = "猛虎之怒",
+				}, -- [1]
+			},
+			["GroupIndex"] = 6,
+			["IconRelatePoint"] = "Top",
+		}, -- [6]
+		{
+			["IconPoint"] = "Top",
+			["GroupIconID"] = 0,
+			["enable"] = false,
+			["LocY"] = -200,
+			["LocX"] = 0,
+			["ActiveTalentGroup"] = 2,
+			["GroupResult"] = false,
+			["IconAlpha"] = 0.5,
+			["IconSize"] = 80,
+			["Spells"] = {
+				{
+					["SpellIconPath"] = "Interface\\Icons\\Ability_Druid_Flourish",
+					["Checks"] = {
+						{
+							["SubChecks"] = {
+								{
+									["CheckCD"] = 48438,
+									["EventType"] = "UNIT_POWER",
+									["SubCheckResult"] = false,
+									["PowerType"] = "MANA",
+									["PowerTypeNum"] = 0,
+									["SubCheckAndOp"] = true,
+									["PowerLessThanValue"] = 5000,
+									["UnitType"] = "player",
+									["PowerCompType"] = 4,
+								}, -- [1]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [1]
+					},
+					["SpellResult"] = false,
+					["SpellIconID"] = 48438,
+					["SpellName"] = "野性成长",
+				}, -- [1]
+			},
+			["GroupIndex"] = 7,
+			["IconRelatePoint"] = "Top",
+		}, -- [7]
+		{
+			["IconPoint"] = "Top",
+			["GroupIconID"] = 0,
+			["enable"] = false,
+			["LocY"] = -200,
+			["LocX"] = 80,
+			["ActiveTalentGroup"] = 2,
+			["GroupResult"] = false,
+			["IconAlpha"] = 0.5,
+			["IconSize"] = 80,
+			["Spells"] = {
+				{
+					["SpellIconPath"] = "Interface\\Icons\\Spell_Nature_Lightning",
+					["Checks"] = {
+						{
+							["SubChecks"] = {
+								{
+									["CheckCD"] = 29166,
+									["EventType"] = "UNIT_POWER",
+									["SubCheckResult"] = false,
+									["PowerType"] = "MANA",
+									["UnitType"] = "player",
+									["PowerTypeNum"] = 0,
+									["SubCheckAndOp"] = true,
+									["PowerLessThanPercent"] = 80,
+									["PowerCompType"] = 2,
+								}, -- [1]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [1]
+					},
+					["SpellResult"] = false,
+					["SpellIconID"] = 29166,
+					["SpellName"] = "激活",
+				}, -- [1]
+			},
+			["GroupIndex"] = 8,
+			["IconRelatePoint"] = "Top",
+		}, -- [8]
+		{
+			["IconPoint"] = "Top",
+			["GroupIconID"] = 0,
+			["enable"] = false,
+			["LocY"] = -200,
+			["LocX"] = -80,
+			["ActiveTalentGroup"] = 2,
+			["GroupResult"] = false,
+			["IconAlpha"] = 0.5,
+			["IconSize"] = 80,
+			["Spells"] = {
+				{
+					["SpellIconPath"] = "Interface\\Icons\\INV_Relics_IdolofRejuvenation",
+					["Checks"] = {
+						{
+							["SubChecks"] = {
+								{
+									["CheckCD"] = 18562,
+									["EventType"] = "UNIT_POWER",
+									["SubCheckResult"] = false,
+									["PowerType"] = "MANA",
+									["PowerTypeNum"] = 0,
+									["SubCheckAndOp"] = true,
+									["PowerLessThanValue"] = 1700,
+									["UnitType"] = "player",
+									["PowerCompType"] = 4,
+								}, -- [1]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [1]
+					},
+					["SpellResult"] = false,
+					["SpellIconID"] = 18562,
+					["SpellName"] = "迅捷治愈",
+				}, -- [1]
+			},
+			["GroupIndex"] = 9,
+			["IconRelatePoint"] = "Top",
+		}, -- [9]
+		{
+			["IconPoint"] = "Top",
+			["GroupIconID"] = 0,
+			["enable"] = false,
+			["LocY"] = -200,
+			["LocX"] = -80,
+			["ActiveTalentGroup"] = 1,
+			["GroupResult"] = false,
+			["IconAlpha"] = 0.5,
+			["IconSize"] = 80,
+			["Spells"] = {
+				{
+					["SpellIconPath"] = "Interface\\Icons\\Ability_Druid_Mangle2",
+					["Checks"] = {
+						{
+							["SubChecks"] = {
+								{
+									["CheckCD"] = 33878,
+									["EventType"] = "UNIT_POWER",
+									["SubCheckResult"] = false,
+									["PowerType"] = "RAGE",
+									["PowerTypeNum"] = 1,
+									["SubCheckAndOp"] = true,
+									["PowerLessThanValue"] = 15,
+									["UnitType"] = "player",
+									["PowerCompType"] = 4,
+								}, -- [1]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [1]
+					},
+					["SpellResult"] = false,
+					["SpellIconID"] = 33878,
+					["SpellName"] = "裂伤",
+				}, -- [1]
+				{
+					["SpellIconPath"] = "Interface\\Icons\\Ability_Druid_Lacerate",
+					["Checks"] = {
+						{
+							["SubChecks"] = {
+								{
+									["CheckCD"] = 33745,
+									["EventType"] = "UNIT_POWER",
+									["SubCheckResult"] = false,
+									["PowerType"] = "RAGE",
+									["PowerTypeNum"] = 1,
+									["SubCheckAndOp"] = true,
+									["PowerLessThanValue"] = 15,
+									["UnitType"] = "player",
+									["PowerCompType"] = 4,
+								}, -- [1]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [1]
+						{
+							["SubChecks"] = {
+								{
+									["SubCheckResult"] = false,
+									["UnitType"] = "target",
+									["SubCheckAndOp"] = true,
+									["CheckAuraNotExist"] = 33745,
+									["CastByPlayer"] = true,
+									["EventType"] = "UNIT_AURA",
+								}, -- [1]
+								{
+									["SubCheckResult"] = false,
+									["UnitType"] = "target",
+									["StackLessThanValue"] = 2,
+									["SubCheckAndOp"] = false,
+									["StackCompType"] = 2,
+									["CastByPlayer"] = true,
+									["EventType"] = "UNIT_AURA",
+									["CheckAuraExist"] = 33745,
+								}, -- [2]
+								{
+									["TimeLessThanValue"] = 3,
+									["TimeCompType"] = 2,
+									["UnitType"] = "target",
+									["SubCheckAndOp"] = false,
+									["EventType"] = "UNIT_AURA",
+									["CastByPlayer"] = true,
+									["CheckAuraExist"] = 33745,
+									["SubCheckResult"] = false,
+								}, -- [3]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [2]
+					},
+					["SpellResult"] = false,
+					["SpellIconID"] = 33745,
+					["SpellName"] = "割伤",
+				}, -- [2]
+				{
+					["SpellResult"] = false,
+					["Checks"] = {
+						{
+							["SubChecks"] = {
+								{
+									["CheckCD"] = 80313,
+									["EventType"] = "UNIT_POWER",
+									["SubCheckResult"] = false,
+									["PowerType"] = "RAGE",
+									["PowerTypeNum"] = 1,
+									["SubCheckAndOp"] = true,
+									["PowerLessThanValue"] = 15,
+									["UnitType"] = "player",
+									["PowerCompType"] = 4,
+								}, -- [1]
+								{
+									["SubCheckResult"] = false,
+									["UnitType"] = "target",
+									["SubCheckAndOp"] = true,
+									["CastByPlayer"] = true,
+									["EventType"] = "UNIT_AURA",
+									["CheckAuraExist"] = 33745,
+								}, -- [2]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [1]
+						{
+							["SubChecks"] = {
+								{
+									["TimeLessThanValue"] = 3,
+									["TimeCompType"] = 2,
+									["UnitType"] = "player",
+									["SubCheckAndOp"] = true,
+									["EventType"] = "UNIT_AURA",
+									["CheckAuraExist"] = 80951,
+									["SubCheckResult"] = false,
+								}, -- [1]
+								{
+									["SubCheckResult"] = false,
+									["UnitType"] = "player",
+									["SubCheckAndOp"] = false,
+									["CheckAuraNotExist"] = 80951,
+									["EventType"] = "UNIT_AURA",
+								}, -- [2]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [2]
+					},
+					["SpellIconID"] = 80313,
+				}, -- [3]
+				{
+					["SpellIconPath"] = "INTERFACE\\ICONS\\spell_druid_thrash",
+					["Checks"] = {
+						{
+							["SubChecks"] = {
+								{
+									["CheckCD"] = 77758,
+									["EventType"] = "UNIT_POWER",
+									["SubCheckResult"] = false,
+									["PowerType"] = "RAGE",
+									["PowerTypeNum"] = 1,
+									["SubCheckAndOp"] = true,
+									["PowerLessThanValue"] = 25,
+									["UnitType"] = "player",
+									["PowerCompType"] = 4,
+								}, -- [1]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [1]
+					},
+					["SpellResult"] = false,
+					["SpellIconID"] = 77758,
+					["SpellName"] = "痛击",
+				}, -- [4]
+				{
+					["SpellIconPath"] = "Interface\\Icons\\INV_Misc_MonsterClaw_03",
+					["Checks"] = {
+						{
+							["SubChecks"] = {
+								{
+									["CheckCD"] = 779,
+									["EventType"] = "UNIT_POWER",
+									["SubCheckResult"] = false,
+									["PowerType"] = "RAGE",
+									["PowerTypeNum"] = 1,
+									["SubCheckAndOp"] = true,
+									["PowerLessThanValue"] = 15,
+									["UnitType"] = "player",
+									["PowerCompType"] = 4,
+								}, -- [1]
+							},
+							["CheckResult"] = false,
+							["CheckAndOp"] = true,
+						}, -- [1]
+					},
+					["SpellResult"] = false,
+					["SpellIconID"] = 779,
+					["SpellName"] = "横扫",
+				}, -- [5]
+			},
+			["GroupIndex"] = 10,
+			["IconRelatePoint"] = "Top",
+		}, -- [10]
+	},
+}
+EA_Pos = {
+	["DEATHKNIGHT"] = {
+		["Execution"] = 0,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = 0,
+		["TarAnchor"] = "CENTER",
+		["yOffset"] = 0,
+		["PlayerLv2BOSS"] = true,
+		["relativePoint"] = "CENTER",
+		["Anchor"] = "CENTER",
+		["yLoc"] = 46,
+		["Tar_yOffset"] = -134,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 0,
+		["Scd_yOffset"] = 80,
+		["TarrelativePoint"] = "CENTER",
+		["Scd_xOffset"] = 0,
+		["ScdAnchor"] = "CENTER",
+		["Tar_NewLine"] = true,
+		["xLoc"] = 136,
+	},
+	["WARRIOR"] = {
+		["Execution"] = 0,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = 0,
+		["TarAnchor"] = "CENTER",
+		["yOffset"] = 0,
+		["PlayerLv2BOSS"] = true,
+		["relativePoint"] = "CENTER",
+		["Anchor"] = "CENTER",
+		["yLoc"] = 46,
+		["Tar_yOffset"] = -134,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 0,
+		["Scd_yOffset"] = 80,
+		["TarrelativePoint"] = "CENTER",
+		["Scd_xOffset"] = 0,
+		["ScdAnchor"] = "CENTER",
+		["Tar_NewLine"] = true,
+		["xLoc"] = 136,
+	},
+	["PALADIN"] = {
+		["Execution"] = 0,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = 0,
+		["TarAnchor"] = "CENTER",
+		["yOffset"] = 0,
+		["PlayerLv2BOSS"] = true,
+		["relativePoint"] = "CENTER",
+		["Anchor"] = "CENTER",
+		["yLoc"] = 46,
+		["Tar_yOffset"] = -134,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 0,
+		["Scd_yOffset"] = 80,
+		["TarrelativePoint"] = "CENTER",
+		["Scd_xOffset"] = 0,
+		["ScdAnchor"] = "CENTER",
+		["Tar_NewLine"] = true,
+		["xLoc"] = 136,
+	},
+	["MAGE"] = {
+		["Execution"] = 0,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = 0,
+		["TarAnchor"] = "CENTER",
+		["yOffset"] = 0,
+		["PlayerLv2BOSS"] = true,
+		["relativePoint"] = "CENTER",
+		["Anchor"] = "CENTER",
+		["yLoc"] = 46,
+		["Tar_yOffset"] = -134,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 0,
+		["Scd_yOffset"] = 80,
+		["TarrelativePoint"] = "CENTER",
+		["Scd_xOffset"] = 0,
+		["ScdAnchor"] = "CENTER",
+		["Tar_NewLine"] = true,
+		["xLoc"] = 136,
+	},
+	["PRIEST"] = {
+		["Execution"] = 0,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = 0,
+		["TarAnchor"] = "CENTER",
+		["yOffset"] = 0,
+		["PlayerLv2BOSS"] = true,
+		["relativePoint"] = "CENTER",
+		["Anchor"] = "CENTER",
+		["yLoc"] = 46,
+		["Tar_yOffset"] = -134,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 0,
+		["Scd_yOffset"] = 80,
+		["TarrelativePoint"] = "CENTER",
+		["Scd_xOffset"] = 0,
+		["ScdAnchor"] = "CENTER",
+		["Tar_NewLine"] = true,
+		["xLoc"] = 136,
+	},
+	["WARLOCK"] = {
+		["Execution"] = 0,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = 0,
+		["TarAnchor"] = "CENTER",
+		["yOffset"] = 0,
+		["PlayerLv2BOSS"] = true,
+		["relativePoint"] = "CENTER",
+		["Anchor"] = "CENTER",
+		["yLoc"] = 46,
+		["Tar_yOffset"] = -134,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 0,
+		["Scd_yOffset"] = 80,
+		["TarrelativePoint"] = "CENTER",
+		["Scd_xOffset"] = 0,
+		["ScdAnchor"] = "CENTER",
+		["Tar_NewLine"] = true,
+		["xLoc"] = 136,
+	},
+	["SHAMAN"] = {
+		["Execution"] = 0,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = 0,
+		["TarAnchor"] = "CENTER",
+		["yOffset"] = 0,
+		["PlayerLv2BOSS"] = true,
+		["relativePoint"] = "CENTER",
+		["Anchor"] = "CENTER",
+		["yLoc"] = 46,
+		["Tar_yOffset"] = -134,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 0,
+		["Scd_yOffset"] = 80,
+		["TarrelativePoint"] = "CENTER",
+		["Scd_xOffset"] = 0,
+		["ScdAnchor"] = "CENTER",
+		["Tar_NewLine"] = true,
+		["xLoc"] = 136,
+	},
+	["HUNTER"] = {
+		["Execution"] = 0,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = 0,
+		["TarAnchor"] = "CENTER",
+		["yOffset"] = 0,
+		["PlayerLv2BOSS"] = true,
+		["relativePoint"] = "CENTER",
+		["Anchor"] = "CENTER",
+		["yLoc"] = 46,
+		["Tar_yOffset"] = -134,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 0,
+		["Scd_yOffset"] = 80,
+		["TarrelativePoint"] = "CENTER",
+		["Scd_xOffset"] = 0,
+		["ScdAnchor"] = "CENTER",
+		["Tar_NewLine"] = true,
+		["xLoc"] = 136,
+	},
+	["DRUID"] = {
+		["Execution"] = 0,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = 0,
+		["TarAnchor"] = "CENTER",
+		["yOffset"] = 0,
+		["PlayerLv2BOSS"] = true,
+		["relativePoint"] = "CENTER",
+		["Anchor"] = "CENTER",
+		["yLoc"] = 46,
+		["Tar_yOffset"] = -134,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 0,
+		["Scd_yOffset"] = 80,
+		["TarrelativePoint"] = "CENTER",
+		["Scd_xOffset"] = 0,
+		["ScdAnchor"] = "CENTER",
+		["Tar_NewLine"] = true,
+		["xLoc"] = 136,
+	},
+	["MONK"] = {
+		["Execution"] = 0,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = 0,
+		["TarAnchor"] = "CENTER",
+		["yOffset"] = 0,
+		["PlayerLv2BOSS"] = true,
+		["relativePoint"] = "CENTER",
+		["Anchor"] = "CENTER",
+		["yLoc"] = 46,
+		["Tar_yOffset"] = -134,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 0,
+		["Scd_yOffset"] = 80,
+		["TarrelativePoint"] = "CENTER",
+		["Scd_xOffset"] = 0,
+		["ScdAnchor"] = "CENTER",
+		["Tar_NewLine"] = true,
+		["xLoc"] = 136,
+	},
+	["ROGUE"] = {
+		["Execution"] = 0,
+		["GreenDebuff"] = 0.5,
+		["xOffset"] = 0,
+		["TarAnchor"] = "CENTER",
+		["yOffset"] = 0,
+		["PlayerLv2BOSS"] = true,
+		["relativePoint"] = "CENTER",
+		["Anchor"] = "CENTER",
+		["yLoc"] = 46,
+		["Tar_yOffset"] = -134,
+		["RedDebuff"] = 0.5,
+		["Tar_xOffset"] = 0,
+		["Scd_yOffset"] = 80,
+		["TarrelativePoint"] = "CENTER",
+		["Scd_xOffset"] = 0,
+		["ScdAnchor"] = "CENTER",
+		["Tar_NewLine"] = true,
+		["xLoc"] = 136,
+	},
+}
+EA_SpecFlag = {
+	["Lifebloom"] = false,
+	["ComboPoint"] = false,
+	["HolyPower"] = false,
+	["SoulShards"] = false,
+	["RunicPower"] = false,
+	["Eclipse"] = false,
+}

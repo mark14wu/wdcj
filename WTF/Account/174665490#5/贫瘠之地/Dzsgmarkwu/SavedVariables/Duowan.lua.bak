@@ -1,0 +1,12 @@
+
+Duowan_Character = {
+	["guild"] = "future",
+	["region"] = "cn10",
+	["class"] = "ROGUE",
+	["race"] = "Orc",
+	["name"] = "Dzsgmarkwu",
+	["faction"] = "Horde",
+	["level"] = 83,
+	["sex"] = 2,
+	["realm"] = "贫瘠之地",
+}

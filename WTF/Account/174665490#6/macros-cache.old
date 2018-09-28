@@ -1,0 +1,7 @@
+VER 3 0000000000000002 "Decursive" "1"
+/stopcasting
+/cast [@mouseover,nomod,exists] 自然之愈;  [@mouseover,exists,mod:ctrl] 旋风; [@mouseover,exists,mod:shift] 自然之愈
+END
+VER 3 0000000000000001 "坐骑" "Ability_Mount_Charger"
+/RandomMount
+END

@@ -1,0 +1,12 @@
+
+Duowan_Character = {
+	["guild"] = "future",
+	["region"] = "cn10",
+	["class"] = "DRUID",
+	["race"] = "Tauren",
+	["name"] = "Xdsgmarkwu",
+	["faction"] = "Horde",
+	["level"] = 82,
+	["sex"] = 2,
+	["realm"] = "贫瘠之地",
+}

@@ -1,0 +1,85 @@
+
+HPetSaves = {
+	["OnlyInPetInfo"] = false,
+	["FastForfeit"] = true,
+	["ShowBandageButton"] = false,
+	["ShowGrowInfo"] = true,
+	["ShowBreedID"] = false,
+	["PetBreedInfo"] = false,
+	["ShowMsg"] = true,
+	["Sound"] = true,
+	["EnemyAbility"] = true,
+	["AbScale"] = 0.8,
+	["ShowHideID"] = true,
+	["Tooltip"] = true,
+	["PetGreedInfo"] = true,
+	["HighGlow"] = true,
+	["AutoSaveAbility"] = true,
+	["BreedIDStyle"] = true,
+	["AbPoint"] = {
+		["Enemy2"] = {
+			"RIGHT", -- [1]
+			"HAbiFrameActiveEnemy", -- [2]
+			"LEFT", -- [3]
+			400, -- [4]
+			0, -- [5]
+		},
+		["Enemy3"] = {
+			"LEFT", -- [1]
+			"HAbiFrameActiveEnemy", -- [2]
+			"RIGHT", -- [3]
+			-400, -- [4]
+			0, -- [5]
+		},
+		["ActiveEnemy"] = {
+			nil, -- [1]
+			nil, -- [2]
+			nil, -- [3]
+			nil, -- [4]
+			640, -- [5]
+		},
+	},
+	["Ver"] = "2.2.13",
+	["PetAbilitys"] = {
+		["BattlePet-0-0000010DB267"] = "123",
+		["0x0000000000E393F0"] = "156",
+		["0x0000000000E255CE"] = "156",
+		["0x00000000004D9B7E"] = "423",
+		["BattlePet-0-000000E0C374"] = "123",
+		["0x0000000000C2EFE0"] = "423",
+		["0x0000000000ED5054"] = "453",
+		["0x00000000010F87F5"] = "126",
+		["0x0000000000E2563F"] = "423",
+		["0x00000000010D33E7"] = "453",
+		["0x0000000000E0C373"] = "456",
+		["0x00000000003D992C"] = "456",
+		["0x0000000000EFB13D"] = "153",
+		["BattlePet-0-000000C2EFE0"] = "153",
+		["0x0000000000EF1FAE"] = "153",
+		["0x0000000000E22448"] = "126",
+		["0x0000000000EDF6E3"] = "426",
+		["0x00000000010F885E"] = "456",
+		["0x0000000000E0C374"] = "426",
+		["0x00000000010DB267"] = "153",
+		["0x0000000000EDD05F"] = "126",
+		["0x0000000000EF6D8C"] = "123",
+		["0x0000000001031AD2"] = "456",
+		["0x0000000000828BFA"] = "453",
+		["0x0000000000E25772"] = "126",
+		["0x000000000082C4A0"] = "126",
+		["0x00000000005E5662"] = "156",
+		["0x0000000000E34DC2"] = "426",
+		["0x0000000000E22D02"] = "423",
+		["0x0000000000EB3F0F"] = "426",
+		["0x0000000000E255FA"] = "123",
+		["0x000000000082BC44"] = "426",
+		["BattlePet-0-000000EDD05F"] = "423",
+		["0x00000000003D9923"] = "453",
+	},
+	["AllyAbility"] = false,
+	["MiniTip"] = false,
+	["LockAbilitys"] = false,
+	["ShowAbilitysName"] = false,
+	["OtherAbility"] = false,
+	["god"] = false,
+}

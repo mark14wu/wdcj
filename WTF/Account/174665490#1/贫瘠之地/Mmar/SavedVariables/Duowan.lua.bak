@@ -1,0 +1,11 @@
+
+Duowan_Character = {
+	["region"] = "cn10",
+	["class"] = "PRIEST",
+	["race"] = "Human",
+	["name"] = "Mmar",
+	["faction"] = "Alliance",
+	["level"] = 1,
+	["sex"] = 2,
+	["realm"] = "贫瘠之地",
+}

@@ -1,0 +1,19 @@
+
+BF_Frames_Config = {
+	["CoolLine"] = {
+	},
+}
+BigFoot_Character = {
+	["Region"] = "cn0",
+	["Gender"] = 1,
+	["Race"] = "地精",
+	["Name"] = "Fssgmarkwu",
+	["Faction"] = 1,
+	["Class"] = "法师",
+	["Level"] = 90,
+	["VCode"] = "921424027138767644132592150721979071685",
+	["Realm"] = "贫瘠之地",
+}
+BigFoot_SysTemSetTab = {
+	["BigFoot_LoadBefore"] = 1,
+}

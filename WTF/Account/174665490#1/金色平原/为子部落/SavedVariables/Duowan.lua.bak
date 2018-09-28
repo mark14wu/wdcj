@@ -1,0 +1,11 @@
+
+Duowan_Character = {
+	["region"] = "cn5",
+	["class"] = "PRIEST",
+	["race"] = "BloodElf",
+	["name"] = "为子部落",
+	["faction"] = "Horde",
+	["level"] = 1,
+	["sex"] = 3,
+	["realm"] = "金色平原",
+}

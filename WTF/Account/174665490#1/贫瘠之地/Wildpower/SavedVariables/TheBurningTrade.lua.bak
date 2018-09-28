@@ -1,0 +1,89 @@
+
+TradeLog_TradesHistory = {
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 1,
+		["playerItems"] = {
+			{
+				["numItems"] = 1,
+				["name"] = "犁血长裤",
+				["itemLink"] = "|cffa335ee|Hitem:147051::::::::110:254::4:3:3564:1475:3336:::|h[犁血长裤]|h|r",
+				["texture"] = 1529803,
+			}, -- [1]
+		},
+		["targetItems"] = {
+		},
+		["player"] = "Wildpower",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "迪斯丶马克斯-古加尔",
+		["when"] = "08-01 19:06:33",
+		["result"] = "complete",
+		["where"] = "萨格拉斯之墓",
+	}, -- [1]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 2,
+		["playerItems"] = {
+		},
+		["reason"] = "other",
+		["targetItems"] = {
+		},
+		["player"] = "Wildpower",
+		["where"] = "安托鲁斯，燃烧王座",
+		["who"] = "织命使薇薇安",
+		["when"] = "08-02 20:48:00",
+		["result"] = "cancelled",
+		["toofar"] = "no",
+	}, -- [2]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 3,
+		["playerItems"] = {
+		},
+		["reason"] = "self",
+		["targetItems"] = {
+		},
+		["player"] = "Wildpower",
+		["where"] = "安托鲁斯，燃烧王座",
+		["who"] = "织命使薇薇安",
+		["when"] = "08-02 20:48:31",
+		["result"] = "cancelled",
+	}, -- [3]
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 4,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			{
+				["name"] = "设计图：厚重黑曜石胸甲",
+				["numItems"] = 1,
+				["isUsable"] = false,
+				["itemLink"] = "|cff0070dd|Hitem:22222::::::::110:254::::::|h[设计图：厚重黑曜石胸甲]|h|r",
+				["texture"] = 134941,
+			}, -- [1]
+		},
+		["player"] = "Wildpower",
+		["events"] = {
+			"TRADE_SHOW", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_CLOSED", -- [3]
+		},
+		["who"] = "八方支援",
+		["when"] = "08-06 03:16:50",
+		["result"] = "complete",
+		["where"] = "安其拉",
+	}, -- [4]
+}
+TRADE_LOG_BUTTON_POS = 190
+TradeLog_Announce_Checked = nil
+TradeLog_AnnounceChannel = "WHISPER"
+TBT_CurrentPortal = nil

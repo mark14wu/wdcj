@@ -1,0 +1,984 @@
+
+MasterPlanAG = {
+	["贫瘠之地"] = {
+		["Fssgmarkwu"] = {
+			["faction"] = "Horde",
+			["class"] = "MAGE",
+		},
+		["Wildpower"] = {
+			["faction"] = "Horde",
+			["class"] = "HUNTER",
+		},
+		["Zssgmarkwu"] = {
+			["class"] = "WARRIOR",
+			["summary"] = {
+				["inProgress"] = {
+					[115] = 1422208339,
+					[155] = 1422201188,
+					[145] = 1422201207,
+					[255] = 1422226335,
+					[116] = 1422204760,
+					[359] = 1422233038,
+					[162] = 1422202983,
+				},
+			},
+			["faction"] = "Horde",
+		},
+		["Wssgmarkwu"] = {
+			["class"] = "MONK",
+			["faction"] = "Horde",
+		},
+	},
+	["格瑞姆巴托"] = {
+		["Wssgmarkwu"] = {
+			["class"] = "MONK",
+			["faction"] = "Horde",
+		},
+	},
+}
+SV_GarrisonMissionManager = {
+}
+IPMDB = {
+	["profiles"] = {
+		["Zssgmarkwu-贫瘠之地"] = {
+			{
+				["description"] = "",
+				["cost"] = 10,
+				["isZoneSupport"] = false,
+				["locPrefix"] = "GarrMissionLocation-FrostfireRidge",
+				["followers"] = {
+					"0x000000000032B633", -- [1]
+					"0x000000000056F8CB", -- [2]
+					"0x0000000000640A67", -- [3]
+				},
+				["inProgress"] = true,
+				["overmaxRewards"] = {
+				},
+				["hasBonusEffect"] = false,
+				["missionEndTime"] = 1422208339,
+				["isMaxLevel"] = true,
+				["name"] = "硬皮生物",
+				["canStart"] = false,
+				["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+				["successChance"] = 100,
+				["followerTypeID"] = 1,
+				["offeredGarrMissionTextureID"] = 0,
+				["durationSeconds"] = 10800,
+				["missionID"] = 115,
+				["iLevel"] = 0,
+				["overmaxSucceeded"] = false,
+				["offerTimeRemaining"] = "0秒",
+				["charText"] = "|cffc69b6dZssgmarkwu|r-贫瘠之地",
+				["timeLeft"] = "0秒",
+				["level"] = 100,
+				["mapPosY"] = 0,
+				["type"] = "战斗",
+				["followerInfo"] = {
+					["0x000000000032B633"] = {
+						["displayHeight"] = 0.5,
+						["followerTypeID"] = 1,
+						["iLevel"] = 609,
+						["scale"] = 0.600000023841858,
+						["classAtlas"] = "GarrMission_ClassIcon-Rogue",
+						["isTroop"] = false,
+						["displayIDs"] = {
+							{
+								["followerPageScale"] = 1,
+								["showWeapon"] = true,
+								["id"] = 56419,
+							}, -- [1]
+						},
+						["displayScale"] = 1,
+						["status"] = "正在执行任务",
+						["level"] = 100,
+						["quality"] = 4,
+						["portraitIconID"] = 1066122,
+						["isFavorite"] = false,
+						["classSpec"] = 28,
+						["xp"] = 0,
+						["abilities"] = {
+							159, -- [1]
+							60, -- [2]
+							221, -- [3]
+							105, -- [4]
+							77, -- [5]
+						},
+						["className"] = "敏锐潜行者",
+						["isMaxLevel"] = true,
+						["name"] = "卡拉",
+						["followerID"] = "0x000000000032B633",
+						["height"] = 1.29999995231628,
+						["levelXP"] = 0,
+						["isCollected"] = true,
+						["garrFollowerID"] = 153,
+					},
+					["0x0000000000640A67"] = {
+						["displayHeight"] = 0.5,
+						["followerTypeID"] = 1,
+						["iLevel"] = 600,
+						["scale"] = 0.699999988079071,
+						["classAtlas"] = "GarrMission_ClassIcon-DeathKnight",
+						["isTroop"] = false,
+						["displayIDs"] = {
+							{
+								["followerPageScale"] = 1,
+								["showWeapon"] = true,
+								["id"] = 59710,
+							}, -- [1]
+						},
+						["displayScale"] = 1,
+						["status"] = "正在执行任务",
+						["level"] = 100,
+						["quality"] = 2,
+						["portraitIconID"] = 1066344,
+						["isFavorite"] = false,
+						["classSpec"] = 4,
+						["xp"] = 51659,
+						["abilities"] = {
+							116, -- [1]
+							58, -- [2]
+						},
+						["className"] = "邪恶死亡骑士",
+						["isMaxLevel"] = true,
+						["name"] = "本杰明·吉布",
+						["followerID"] = "0x0000000000640A67",
+						["height"] = 1.20000004768372,
+						["levelXP"] = 60000,
+						["isCollected"] = true,
+						["garrFollowerID"] = 204,
+					},
+					["0x000000000056F8CB"] = {
+						["displayHeight"] = 0.5,
+						["followerTypeID"] = 1,
+						["iLevel"] = 600,
+						["scale"] = 0.600000023841858,
+						["classAtlas"] = "GarrMission_ClassIcon-Warrior",
+						["isTroop"] = false,
+						["displayIDs"] = {
+							{
+								["followerPageScale"] = 1,
+								["showWeapon"] = true,
+								["id"] = 52397,
+							}, -- [1]
+						},
+						["displayScale"] = 1,
+						["status"] = "正在执行任务",
+						["level"] = 100,
+						["quality"] = 3,
+						["portraitIconID"] = 1066097,
+						["isFavorite"] = false,
+						["classSpec"] = 35,
+						["xp"] = 33721,
+						["abilities"] = {
+							122, -- [1]
+							55, -- [2]
+							74, -- [3]
+						},
+						["className"] = "武器战士",
+						["isMaxLevel"] = true,
+						["name"] = "武器锻造师纳什拉",
+						["followerID"] = "0x000000000056F8CB",
+						["height"] = 1.29999995231628,
+						["levelXP"] = 120000,
+						["isCollected"] = true,
+						["garrFollowerID"] = 179,
+					},
+				},
+				["timeLeftSeconds"] = 0,
+				["requiredSuccessChance"] = 0,
+				["rewards"] = {
+					{
+						["title"] = "奖励追随者经验",
+						["followerXP"] = 8000,
+						["tooltip"] = "+8,000经验值",
+						["icon"] = "Interface\\Icons\\XPBonus_Icon",
+						["name"] = "+8,000经验值",
+					}, -- [1]
+				},
+				["requiredChampionCount"] = 3,
+				["numFollowers"] = 3,
+				["completed"] = false,
+				["areaID"] = 0,
+				["costCurrencyTypesID"] = 824,
+				["basecost"] = 10,
+				["location"] = "霜火岭",
+				["isRare"] = false,
+				["mapPosX"] = 0,
+				["duration"] = "3小时",
+			}, -- [1]
+			{
+				["description"] = "",
+				["cost"] = 20,
+				["isZoneSupport"] = false,
+				["locPrefix"] = "GarrMissionLocation-FrostfireRidge",
+				["followers"] = {
+					"0x000000000032C5D3", -- [1]
+					"0x0000000000658394", -- [2]
+					"0x000000000080C8A4", -- [3]
+				},
+				["inProgress"] = true,
+				["overmaxRewards"] = {
+				},
+				["hasBonusEffect"] = false,
+				["missionEndTime"] = 1422204760,
+				["isMaxLevel"] = true,
+				["name"] = "钢铁部落的党羽",
+				["canStart"] = false,
+				["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+				["successChance"] = 100,
+				["followerTypeID"] = 1,
+				["offeredGarrMissionTextureID"] = 0,
+				["durationSeconds"] = 7200,
+				["missionID"] = 116,
+				["iLevel"] = 0,
+				["overmaxSucceeded"] = false,
+				["offerTimeRemaining"] = "0秒",
+				["charText"] = "|cffc69b6dZssgmarkwu|r-贫瘠之地",
+				["timeLeft"] = "0秒",
+				["level"] = 100,
+				["mapPosY"] = 0,
+				["type"] = "战斗",
+				["followerInfo"] = {
+					["0x000000000032C5D3"] = {
+						["displayHeight"] = 0.5,
+						["followerTypeID"] = 1,
+						["iLevel"] = 607,
+						["scale"] = 0.699999988079071,
+						["classAtlas"] = "GarrMission_ClassIcon-Mage",
+						["isTroop"] = false,
+						["displayIDs"] = {
+							{
+								["followerPageScale"] = 1,
+								["showWeapon"] = true,
+								["id"] = 56610,
+							}, -- [1]
+						},
+						["displayScale"] = 1,
+						["status"] = "正在执行任务",
+						["level"] = 100,
+						["quality"] = 4,
+						["portraitIconID"] = 1066126,
+						["isFavorite"] = false,
+						["classSpec"] = 15,
+						["xp"] = 0,
+						["abilities"] = {
+							231, -- [1]
+							5, -- [2]
+							221, -- [3]
+							172, -- [4]
+							80, -- [5]
+						},
+						["className"] = "火焰法师",
+						["isMaxLevel"] = true,
+						["name"] = "薇薇安",
+						["followerID"] = "0x000000000032C5D3",
+						["height"] = 1.20000004768372,
+						["levelXP"] = 0,
+						["isCollected"] = true,
+						["garrFollowerID"] = 216,
+					},
+					["0x000000000080C8A4"] = {
+						["displayHeight"] = 0.5,
+						["followerTypeID"] = 1,
+						["iLevel"] = 600,
+						["scale"] = 0.699999988079071,
+						["classAtlas"] = "GarrMission_ClassIcon-Priest",
+						["isTroop"] = false,
+						["displayIDs"] = {
+							{
+								["followerPageScale"] = 1,
+								["showWeapon"] = true,
+								["id"] = 61408,
+							}, -- [1]
+						},
+						["displayScale"] = 1,
+						["status"] = "正在执行任务",
+						["level"] = 93,
+						["quality"] = 3,
+						["portraitIconID"] = 1086426,
+						["isFavorite"] = false,
+						["classSpec"] = 24,
+						["xp"] = 1407,
+						["abilities"] = {
+							150, -- [1]
+							71, -- [2]
+							221, -- [3]
+						},
+						["className"] = "神圣牧师",
+						["isMaxLevel"] = false,
+						["name"] = "普里西拉·影日",
+						["followerID"] = "0x000000000080C8A4",
+						["height"] = 1.20000004768372,
+						["levelXP"] = 1600,
+						["isCollected"] = true,
+						["garrFollowerID"] = 352,
+					},
+					["0x0000000000658394"] = {
+						["displayHeight"] = 0.5,
+						["followerTypeID"] = 1,
+						["iLevel"] = 600,
+						["scale"] = 0.699999988079071,
+						["classAtlas"] = "GarrMission_ClassIcon-Hunter",
+						["isTroop"] = false,
+						["displayIDs"] = {
+							{
+								["followerPageScale"] = 1,
+								["showWeapon"] = true,
+								["id"] = 54367,
+							}, -- [1]
+						},
+						["displayScale"] = 1.10000002384186,
+						["status"] = "正在执行任务",
+						["level"] = 99,
+						["quality"] = 2,
+						["portraitIconID"] = 1066105,
+						["isFavorite"] = false,
+						["classSpec"] = 12,
+						["xp"] = 1149,
+						["abilities"] = {
+							103, -- [1]
+							53, -- [2]
+						},
+						["className"] = "射击猎人",
+						["isMaxLevel"] = false,
+						["name"] = "暗影猎手莱拉",
+						["followerID"] = "0x0000000000658394",
+						["height"] = 1.25,
+						["levelXP"] = 6000,
+						["isCollected"] = true,
+						["garrFollowerID"] = 180,
+					},
+				},
+				["timeLeftSeconds"] = 0,
+				["requiredSuccessChance"] = 0,
+				["rewards"] = {
+					{
+						["title"] = "奖励追随者经验",
+						["followerXP"] = 8000,
+						["tooltip"] = "+8,000经验值",
+						["icon"] = "Interface\\Icons\\XPBonus_Icon",
+						["name"] = "+8,000经验值",
+					}, -- [1]
+				},
+				["requiredChampionCount"] = 3,
+				["numFollowers"] = 3,
+				["completed"] = false,
+				["areaID"] = 0,
+				["costCurrencyTypesID"] = 824,
+				["basecost"] = 20,
+				["location"] = "霜火岭",
+				["isRare"] = false,
+				["mapPosX"] = 0,
+				["duration"] = "2小时",
+			}, -- [2]
+			{
+				["description"] = "",
+				["cost"] = 10,
+				["isZoneSupport"] = false,
+				["locPrefix"] = "GarrMissionLocation-FrostfireRidge",
+				["followers"] = {
+					"0x0000000000877621", -- [1]
+				},
+				["inProgress"] = true,
+				["overmaxRewards"] = {
+				},
+				["hasBonusEffect"] = false,
+				["missionEndTime"] = 1422201207,
+				["isMaxLevel"] = false,
+				["name"] = "脚下的阴影",
+				["canStart"] = false,
+				["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+				["successChance"] = 100,
+				["followerTypeID"] = 1,
+				["offeredGarrMissionTextureID"] = 0,
+				["durationSeconds"] = 3600,
+				["missionID"] = 145,
+				["iLevel"] = 0,
+				["overmaxSucceeded"] = false,
+				["offerTimeRemaining"] = "0秒",
+				["charText"] = "|cffc69b6dZssgmarkwu|r-贫瘠之地",
+				["timeLeft"] = "0秒",
+				["level"] = 91,
+				["mapPosY"] = 0,
+				["type"] = "战斗",
+				["followerInfo"] = {
+					["0x0000000000877621"] = {
+						["displayHeight"] = 0.5,
+						["followerTypeID"] = 1,
+						["iLevel"] = 600,
+						["scale"] = 0.699999988079071,
+						["classAtlas"] = "GarrMission_ClassIcon-Monk",
+						["isTroop"] = false,
+						["displayIDs"] = {
+							{
+								["followerPageScale"] = 1,
+								["showWeapon"] = true,
+								["id"] = 61395,
+							}, -- [1]
+						},
+						["displayScale"] = 1.10000002384186,
+						["status"] = "正在执行任务",
+						["level"] = 91,
+						["quality"] = 3,
+						["portraitIconID"] = 1086416,
+						["isFavorite"] = false,
+						["classSpec"] = 19,
+						["xp"] = 737,
+						["abilities"] = {
+							140, -- [1]
+							59, -- [2]
+							73, -- [3]
+						},
+						["className"] = "踏风武僧",
+						["isMaxLevel"] = false,
+						["name"] = "卡纳汀",
+						["followerID"] = "0x0000000000877621",
+						["height"] = 1.25,
+						["levelXP"] = 800,
+						["isCollected"] = true,
+						["garrFollowerID"] = 452,
+					},
+				},
+				["timeLeftSeconds"] = 0,
+				["requiredSuccessChance"] = 0,
+				["rewards"] = {
+					{
+						["title"] = "奖励追随者经验",
+						["followerXP"] = 200,
+						["tooltip"] = "+200经验值",
+						["icon"] = "Interface\\Icons\\XPBonus_Icon",
+						["name"] = "+200经验值",
+					}, -- [1]
+				},
+				["requiredChampionCount"] = 1,
+				["numFollowers"] = 1,
+				["completed"] = false,
+				["areaID"] = 0,
+				["costCurrencyTypesID"] = 824,
+				["basecost"] = 10,
+				["location"] = "霜火岭",
+				["isRare"] = false,
+				["mapPosX"] = 0,
+				["duration"] = "1小时",
+			}, -- [3]
+			{
+				["description"] = "",
+				["cost"] = 10,
+				["isZoneSupport"] = false,
+				["locPrefix"] = "GarrMissionLocation-Talador",
+				["followers"] = {
+					"0x0000000000780F11", -- [1]
+				},
+				["inProgress"] = true,
+				["overmaxRewards"] = {
+				},
+				["hasBonusEffect"] = false,
+				["missionEndTime"] = 1422201188,
+				["isMaxLevel"] = false,
+				["name"] = "群鸦之首",
+				["canStart"] = false,
+				["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+				["successChance"] = 100,
+				["followerTypeID"] = 1,
+				["offeredGarrMissionTextureID"] = 0,
+				["durationSeconds"] = 3600,
+				["missionID"] = 155,
+				["iLevel"] = 0,
+				["overmaxSucceeded"] = false,
+				["offerTimeRemaining"] = "0秒",
+				["charText"] = "|cffc69b6dZssgmarkwu|r-贫瘠之地",
+				["timeLeft"] = "0秒",
+				["level"] = 94,
+				["mapPosY"] = 0,
+				["type"] = "战斗",
+				["followerInfo"] = {
+					["0x0000000000780F11"] = {
+						["displayHeight"] = 0.5,
+						["followerTypeID"] = 1,
+						["iLevel"] = 600,
+						["scale"] = 0.600000023841858,
+						["classAtlas"] = "GarrMission_ClassIcon-Monk",
+						["isTroop"] = false,
+						["displayIDs"] = {
+							{
+								["followerPageScale"] = 1,
+								["showWeapon"] = true,
+								["id"] = 61380,
+							}, -- [1]
+						},
+						["displayScale"] = 1,
+						["status"] = "正在执行任务",
+						["level"] = 94,
+						["quality"] = 3,
+						["portraitIconID"] = 1086406,
+						["isFavorite"] = false,
+						["classSpec"] = 18,
+						["xp"] = 1309,
+						["abilities"] = {
+							142, -- [1]
+							79, -- [2]
+							38, -- [3]
+						},
+						["className"] = "织雾武僧",
+						["isMaxLevel"] = false,
+						["name"] = "法维拉·熊皮",
+						["followerID"] = "0x0000000000780F11",
+						["height"] = 1.29999995231628,
+						["levelXP"] = 2000,
+						["isCollected"] = true,
+						["garrFollowerID"] = 445,
+					},
+				},
+				["timeLeftSeconds"] = 0,
+				["requiredSuccessChance"] = 0,
+				["rewards"] = {
+					{
+						["title"] = "奖励追随者经验",
+						["followerXP"] = 500,
+						["tooltip"] = "+500经验值",
+						["icon"] = "Interface\\Icons\\XPBonus_Icon",
+						["name"] = "+500经验值",
+					}, -- [1]
+				},
+				["requiredChampionCount"] = 1,
+				["numFollowers"] = 1,
+				["completed"] = false,
+				["areaID"] = 0,
+				["costCurrencyTypesID"] = 824,
+				["basecost"] = 10,
+				["location"] = "塔拉多",
+				["isRare"] = false,
+				["mapPosX"] = 0,
+				["duration"] = "1小时",
+			}, -- [4]
+			{
+				["description"] = "",
+				["cost"] = 10,
+				["isZoneSupport"] = false,
+				["locPrefix"] = "GarrMissionLocation-SpiresofArak",
+				["followers"] = {
+					"0x00000000006F408D", -- [1]
+				},
+				["inProgress"] = true,
+				["overmaxRewards"] = {
+				},
+				["hasBonusEffect"] = false,
+				["missionEndTime"] = 1422202983,
+				["isMaxLevel"] = false,
+				["name"] = "教训双头飞龙",
+				["canStart"] = false,
+				["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+				["successChance"] = 100,
+				["followerTypeID"] = 1,
+				["offeredGarrMissionTextureID"] = 0,
+				["durationSeconds"] = 5400,
+				["missionID"] = 162,
+				["iLevel"] = 0,
+				["overmaxSucceeded"] = false,
+				["offerTimeRemaining"] = "0秒",
+				["charText"] = "|cffc69b6dZssgmarkwu|r-贫瘠之地",
+				["timeLeft"] = "0秒",
+				["level"] = 97,
+				["mapPosY"] = 0,
+				["type"] = "战斗",
+				["followerInfo"] = {
+					["0x00000000006F408D"] = {
+						["displayHeight"] = 0.5,
+						["followerTypeID"] = 1,
+						["iLevel"] = 600,
+						["scale"] = 0.600000023841858,
+						["classAtlas"] = "GarrMission_ClassIcon-Rogue",
+						["isTroop"] = false,
+						["displayIDs"] = {
+							{
+								["followerPageScale"] = 1,
+								["showWeapon"] = true,
+								["id"] = 60488,
+							}, -- [1]
+						},
+						["displayScale"] = 1,
+						["status"] = "正在执行任务",
+						["level"] = 97,
+						["quality"] = 3,
+						["portraitIconID"] = 1066453,
+						["isFavorite"] = false,
+						["classSpec"] = 26,
+						["xp"] = 1838,
+						["abilities"] = {
+							52, -- [1]
+							160, -- [2]
+							36, -- [3]
+						},
+						["className"] = "奇袭潜行者",
+						["isMaxLevel"] = false,
+						["name"] = "奎拉·血刃",
+						["followerID"] = "0x00000000006F408D",
+						["height"] = 1.29999995231628,
+						["levelXP"] = 4000,
+						["isCollected"] = true,
+						["garrFollowerID"] = 364,
+					},
+				},
+				["timeLeftSeconds"] = 0,
+				["requiredSuccessChance"] = 0,
+				["rewards"] = {
+					{
+						["title"] = "奖励追随者经验",
+						["followerXP"] = 800,
+						["tooltip"] = "+800经验值",
+						["icon"] = "Interface\\Icons\\XPBonus_Icon",
+						["name"] = "+800经验值",
+					}, -- [1]
+				},
+				["requiredChampionCount"] = 1,
+				["numFollowers"] = 1,
+				["completed"] = false,
+				["areaID"] = 0,
+				["costCurrencyTypesID"] = 824,
+				["basecost"] = 10,
+				["location"] = "阿兰卡峰林",
+				["isRare"] = false,
+				["mapPosX"] = 0,
+				["duration"] = "1小时30分钟",
+			}, -- [5]
+			{
+				["description"] = "",
+				["cost"] = 15,
+				["isZoneSupport"] = false,
+				["locPrefix"] = "GarrMissionLocation-Gorgrond",
+				["followers"] = {
+					"0x0000000000329819", -- [1]
+					"0x00000000003C33FC", -- [2]
+					"0x000000000040800B", -- [3]
+				},
+				["inProgress"] = true,
+				["overmaxRewards"] = {
+				},
+				["hasBonusEffect"] = false,
+				["missionEndTime"] = 1422226335,
+				["isMaxLevel"] = true,
+				["name"] = "集体搭错船",
+				["canStart"] = false,
+				["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+				["successChance"] = 100,
+				["followerTypeID"] = 1,
+				["offeredGarrMissionTextureID"] = 0,
+				["durationSeconds"] = 28800,
+				["missionID"] = 255,
+				["iLevel"] = 615,
+				["overmaxSucceeded"] = false,
+				["offerTimeRemaining"] = "0秒",
+				["charText"] = "|cffc69b6dZssgmarkwu|r-贫瘠之地",
+				["timeLeft"] = "0秒",
+				["level"] = 100,
+				["mapPosY"] = 0,
+				["type"] = "战斗",
+				["followerInfo"] = {
+					["0x0000000000329819"] = {
+						["displayHeight"] = 0.5,
+						["followerTypeID"] = 1,
+						["iLevel"] = 630,
+						["scale"] = 0.600000023841858,
+						["classAtlas"] = "GarrMission_ClassIcon-Warrior",
+						["isTroop"] = false,
+						["displayIDs"] = {
+							{
+								["followerPageScale"] = 1,
+								["showWeapon"] = true,
+								["id"] = 55046,
+							}, -- [1]
+						},
+						["displayScale"] = 1,
+						["status"] = "正在执行任务",
+						["level"] = 100,
+						["quality"] = 4,
+						["portraitIconID"] = 1066111,
+						["isFavorite"] = false,
+						["classSpec"] = 38,
+						["xp"] = 0,
+						["abilities"] = {
+							6, -- [1]
+							120, -- [2]
+							49, -- [3]
+							4, -- [4]
+							42, -- [5]
+						},
+						["className"] = "防护战士",
+						["isMaxLevel"] = true,
+						["name"] = "欧林·棕皮",
+						["followerID"] = "0x0000000000329819",
+						["height"] = 1,
+						["levelXP"] = 0,
+						["isCollected"] = true,
+						["garrFollowerID"] = 34,
+					},
+					["0x000000000040800B"] = {
+						["displayHeight"] = 0.5,
+						["followerTypeID"] = 1,
+						["iLevel"] = 607,
+						["scale"] = 0.699999988079071,
+						["classAtlas"] = "GarrMission_ClassIcon-Rogue",
+						["isTroop"] = false,
+						["displayIDs"] = {
+							{
+								["followerPageScale"] = 1,
+								["showWeapon"] = true,
+								["id"] = 10456,
+							}, -- [1]
+						},
+						["displayScale"] = 1,
+						["status"] = "正在执行任务",
+						["level"] = 100,
+						["quality"] = 4,
+						["portraitIconID"] = 1066003,
+						["isFavorite"] = false,
+						["classSpec"] = 26,
+						["xp"] = 0,
+						["abilities"] = {
+							160, -- [1]
+							162, -- [2]
+							79, -- [3]
+							46, -- [4]
+							9, -- [5]
+						},
+						["className"] = "奇袭潜行者",
+						["isMaxLevel"] = true,
+						["name"] = "阿莱克斯·巴罗夫",
+						["followerID"] = "0x000000000040800B",
+						["height"] = 1.20000004768372,
+						["levelXP"] = 0,
+						["isCollected"] = true,
+						["garrFollowerID"] = 195,
+					},
+					["0x00000000003C33FC"] = {
+						["displayHeight"] = 0.5,
+						["followerTypeID"] = 1,
+						["iLevel"] = 612,
+						["scale"] = 0.75,
+						["classAtlas"] = "GarrMission_ClassIcon-Hunter",
+						["isTroop"] = false,
+						["displayIDs"] = {
+							{
+								["followerPageScale"] = 1,
+								["showWeapon"] = true,
+								["id"] = 54373,
+							}, -- [1]
+						},
+						["displayScale"] = 1,
+						["status"] = "正在执行任务",
+						["level"] = 100,
+						["quality"] = 4,
+						["portraitIconID"] = 1066106,
+						["isFavorite"] = false,
+						["classSpec"] = 13,
+						["xp"] = 0,
+						["abilities"] = {
+							105, -- [1]
+							54, -- [2]
+							101, -- [3]
+							74, -- [4]
+							38, -- [5]
+						},
+						["className"] = "生存猎人",
+						["isMaxLevel"] = true,
+						["name"] = "穆维里克",
+						["followerID"] = "0x00000000003C33FC",
+						["height"] = 1,
+						["levelXP"] = 0,
+						["isCollected"] = true,
+						["garrFollowerID"] = 182,
+					},
+				},
+				["timeLeftSeconds"] = 0,
+				["requiredSuccessChance"] = 0,
+				["rewards"] = {
+					{
+						["title"] = "奖励追随者经验",
+						["followerXP"] = 12000,
+						["tooltip"] = "+12,000经验值",
+						["icon"] = "Interface\\Icons\\XPBonus_Icon",
+						["name"] = "+12,000经验值",
+					}, -- [1]
+				},
+				["requiredChampionCount"] = 3,
+				["numFollowers"] = 3,
+				["completed"] = false,
+				["areaID"] = 0,
+				["costCurrencyTypesID"] = 824,
+				["basecost"] = 15,
+				["location"] = "钢铁码头",
+				["isRare"] = false,
+				["mapPosX"] = 0,
+				["duration"] = "8小时",
+			}, -- [6]
+			{
+				["description"] = "",
+				["cost"] = 25,
+				["isZoneSupport"] = false,
+				["locPrefix"] = "GarrMissionLocation-SpiresofArak",
+				["followers"] = {
+					"0x00000000003356BA", -- [1]
+					"0x00000000003EDEB5", -- [2]
+					"0x000000000041A84C", -- [3]
+				},
+				["inProgress"] = true,
+				["overmaxRewards"] = {
+				},
+				["hasBonusEffect"] = false,
+				["missionEndTime"] = 1422233038,
+				["isMaxLevel"] = true,
+				["name"] = "鲁克玛",
+				["canStart"] = false,
+				["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+				["successChance"] = 100,
+				["followerTypeID"] = 1,
+				["offeredGarrMissionTextureID"] = 0,
+				["durationSeconds"] = 36000,
+				["missionID"] = 359,
+				["iLevel"] = 0,
+				["overmaxSucceeded"] = false,
+				["offerTimeRemaining"] = "0秒",
+				["charText"] = "|cffc69b6dZssgmarkwu|r-贫瘠之地",
+				["timeLeft"] = "0秒",
+				["level"] = 100,
+				["mapPosY"] = 0,
+				["type"] = "战斗",
+				["followerInfo"] = {
+					["0x00000000003356BA"] = {
+						["displayHeight"] = 0.5,
+						["followerTypeID"] = 1,
+						["iLevel"] = 631,
+						["scale"] = 0.699999988079071,
+						["classAtlas"] = "GarrMission_ClassIcon-Priest",
+						["isTroop"] = false,
+						["displayIDs"] = {
+							{
+								["followerPageScale"] = 1,
+								["showWeapon"] = true,
+								["id"] = 57339,
+							}, -- [1]
+						},
+						["displayScale"] = 1,
+						["status"] = "正在执行任务",
+						["level"] = 100,
+						["quality"] = 4,
+						["portraitIconID"] = 1066198,
+						["isFavorite"] = false,
+						["classSpec"] = 24,
+						["xp"] = 0,
+						["abilities"] = {
+							148, -- [1]
+							4, -- [2]
+							70, -- [3]
+							11, -- [4]
+							45, -- [5]
+						},
+						["className"] = "神圣牧师",
+						["isMaxLevel"] = true,
+						["name"] = "乌娜·斯莱舍",
+						["followerID"] = "0x00000000003356BA",
+						["height"] = 1.20000004768372,
+						["levelXP"] = 0,
+						["isCollected"] = true,
+						["garrFollowerID"] = 463,
+					},
+					["0x000000000041A84C"] = {
+						["displayHeight"] = 0.5,
+						["followerTypeID"] = 1,
+						["iLevel"] = 600,
+						["scale"] = 0.75,
+						["classAtlas"] = "GarrMission_ClassIcon-Rogue",
+						["isTroop"] = false,
+						["displayIDs"] = {
+							{
+								["followerPageScale"] = 1,
+								["showWeapon"] = true,
+								["id"] = 59265,
+							}, -- [1]
+						},
+						["displayScale"] = 1,
+						["status"] = "正在执行任务",
+						["level"] = 100,
+						["quality"] = 3,
+						["portraitIconID"] = 1066335,
+						["isFavorite"] = false,
+						["classSpec"] = 28,
+						["xp"] = 95467,
+						["abilities"] = {
+							104, -- [1]
+							72, -- [2]
+							76, -- [3]
+						},
+						["className"] = "敏锐潜行者",
+						["isMaxLevel"] = true,
+						["name"] = "艾苏克之魂",
+						["followerID"] = "0x000000000041A84C",
+						["height"] = 1,
+						["levelXP"] = 120000,
+						["isCollected"] = true,
+						["garrFollowerID"] = 212,
+					},
+					["0x00000000003EDEB5"] = {
+						["displayHeight"] = 0.5,
+						["followerTypeID"] = 1,
+						["iLevel"] = 600,
+						["scale"] = 0.75,
+						["classAtlas"] = "GarrMission_ClassIcon-Shaman",
+						["isTroop"] = false,
+						["displayIDs"] = {
+							{
+								["followerPageScale"] = 1,
+								["showWeapon"] = true,
+								["id"] = 52490,
+							}, -- [1]
+						},
+						["displayScale"] = 1,
+						["status"] = "正在执行任务",
+						["level"] = 100,
+						["quality"] = 3,
+						["portraitIconID"] = 1084769,
+						["isFavorite"] = false,
+						["classSpec"] = 29,
+						["xp"] = 24851,
+						["abilities"] = {
+							154, -- [1]
+							37, -- [2]
+							7, -- [3]
+						},
+						["className"] = "元素萨满祭司",
+						["isMaxLevel"] = true,
+						["name"] = "可敬的卡尔戈",
+						["followerID"] = "0x00000000003EDEB5",
+						["height"] = 1,
+						["levelXP"] = 120000,
+						["isCollected"] = true,
+						["garrFollowerID"] = 184,
+					},
+				},
+				["timeLeftSeconds"] = 0,
+				["requiredSuccessChance"] = 0,
+				["rewards"] = {
+					{
+						["title"] = "货币奖励",
+						["quantity"] = 1,
+						["icon"] = 838813,
+						["currencyID"] = 994,
+					}, -- [1]
+				},
+				["requiredChampionCount"] = 3,
+				["numFollowers"] = 3,
+				["completed"] = false,
+				["areaID"] = 0,
+				["costCurrencyTypesID"] = 824,
+				["basecost"] = 25,
+				["location"] = "阿兰卡峰林",
+				["isRare"] = true,
+				["mapPosX"] = 0,
+				["duration"] = "10小时",
+			}, -- [7]
+		},
+	},
+	["ignores"] = {
+	},
+	["enableGarrisonMissions"] = true,
+}

@@ -1,0 +1,118 @@
+
+DBM_SavedOptions = {
+	["SpecialWarningFontSize"] = 50,
+	["dwSetDefault"] = 2,
+	["ArrowPosX"] = 0,
+	["HPFramePoint"] = "CENTER",
+	["UseMasterVolume"] = true,
+	["StatusEnabled"] = true,
+	["InfoFrameX"] = 75,
+	["CountdownPullTimer"] = true,
+	["AprilFools"] = true,
+	["RangeFrameX"] = 50,
+	["DisableCinematicsOutside"] = false,
+	["AlwaysShowSpeedKillTimer"] = true,
+	["RangeFrameY"] = -50,
+	["EnableModels"] = true,
+	["ArrowPoint"] = "TOP",
+	["ModelSoundValue"] = "Short",
+	["SpecialWarningSound2"] = "Sound\\Spells\\PVPFlagTaken.wav",
+	["InfoFramePoint"] = "CENTER",
+	["RangeFrameRadarPoint"] = "CENTER",
+	["SpecialWarningY"] = 75,
+	["RangeFrameUpdates"] = "Average",
+	["SpecialWarningPoint"] = "CENTER",
+	["RaidWarningSound"] = "Sound\\Doodad\\BellTollNightElf.wav",
+	["SpecialWarningX"] = 0,
+	["WhisperStats"] = true,
+	["RaidWarningPosition"] = {
+		["Y"] = -185,
+		["X"] = 0,
+		["Point"] = "TOP",
+	},
+	["ShowKillMessage"] = true,
+	["HealthFrameWidth"] = 200,
+	["WarningIconLeft"] = true,
+	["RangeFrameSound1"] = "none",
+	["HPFrameY"] = 50,
+	["ShowMinimapButton"] = true,
+	["MoviesSeen"] = {
+	},
+	["SettingsMessageShown"] = true,
+	["ShowWarningsInChat"] = true,
+	["DontSetIcons"] = false,
+	["BigBrotherAnnounceToRaid"] = false,
+	["CountdownVoice"] = "Mosh",
+	["InfoFrameY"] = -75,
+	["SpecialWarningSound"] = "Sound\\Spells\\PVPFlagTaken.wav",
+	["WarningIconRight"] = true,
+	["HealthFrameGrowUp"] = false,
+	["HideBossEmoteFrame"] = false,
+	["RangeFrameRadarX"] = 100,
+	["ShowBigBrotherOnCombatStart"] = false,
+	["InfoFrameShowSelf"] = false,
+	["SpecialWarningFont"] = "Fonts\\ARKai_T.ttf",
+	["SpamBlockRaidWarning"] = true,
+	["ShowFakedRaidWarnings"] = false,
+	["LatencyThreshold"] = 250,
+	["ShowLoadMessage"] = true,
+	["DontShowBossAnnounces"] = false,
+	["EnableReadyCheckSound"] = true,
+	["RangeFramePoint"] = "CENTER",
+	["BlockVersionUpdateNotice"] = false,
+	["SpecialWarningFontColor"] = {
+		0.41, -- [1]
+		0.8, -- [2]
+		0.9399999999999999, -- [3]
+	},
+	["DontSendBossWhispers"] = false,
+	["LastRevision"] = 8250,
+	["WarningColors"] = {
+		{
+			["r"] = 0.41,
+			["g"] = 0.8,
+			["b"] = 0.9399999999999999,
+		}, -- [1]
+		{
+			["r"] = 0.95,
+			["g"] = 0.95,
+			["b"] = 0,
+		}, -- [2]
+		{
+			["r"] = 1,
+			["g"] = 0.5,
+			["b"] = 0,
+		}, -- [3]
+		{
+			["r"] = 1,
+			["g"] = 0.1,
+			["b"] = 0.1,
+		}, -- [4]
+	},
+	["ShowPizzaMessage"] = true,
+	["RangeFrameSound2"] = "none",
+	["ShowLHFrame"] = true,
+	["DontSendBossAnnounces"] = false,
+	["HPFrameMaxEntries"] = 5,
+	["Enabled"] = true,
+	["ArrowPosY"] = -150,
+	["HealthFrameLocked"] = false,
+	["DisableCinematics"] = false,
+	["MovieFilters"] = {
+	},
+	["RangeFrameRadarY"] = -100,
+	["ShowWipeMessage"] = true,
+	["RangeFrameLocked"] = false,
+	["RangeFrameFrames"] = "text",
+	["ShowSpecialWarnings"] = true,
+	["AlwaysShowHealthFrame"] = false,
+	["HPFrameX"] = -50,
+	["AutoRespond"] = true,
+	["SpamBlockBossWhispers"] = false,
+	["ShowRecoveryMessage"] = true,
+	["ShowEngageMessage"] = true,
+}
+DBT_SavedOptions = {
+	["DBM"] = {
+	},
+}

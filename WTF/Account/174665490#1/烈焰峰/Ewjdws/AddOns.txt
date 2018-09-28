@@ -1,0 +1,10 @@
+Bagnon: disabled
+Bagnon_GuildBank: disabled
+Bagnon_VoidStorage: disabled
+Bagnon_Config: disabled
+MapPlus: disabled
+ezIcons: disabled
+PartyAssist: disabled
+BFClassMods: disabled
+FestivalHelper: disabled
+LucidNightmareHelper: disabled

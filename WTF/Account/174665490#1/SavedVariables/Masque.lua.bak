@@ -1,0 +1,15 @@
+
+MasqueDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Zssgmarkwu - 贫瘠之地"] = "Default",
+		["Dhsgmarkwu - 贫瘠之地"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

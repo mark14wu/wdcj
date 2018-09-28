@@ -1,0 +1,2 @@
+
+DuowanAddon_BattleInfoDB = nil

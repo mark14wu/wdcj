@@ -1,0 +1,3 @@
+BINDINGMODE 0
+bind ALT-1 CLICK DuowanActionBar1Button1:LeftButton
+bind ALT-2 CLICK DuowanActionBar1Button2:LeftButton

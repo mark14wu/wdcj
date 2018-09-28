@@ -1,0 +1,37 @@
+
+LoveDB = {
+	["贫瘠之地_Horde_Lrsgmarkwu"] = {
+		["FriendsLogDB"] = {
+			"比斯克", -- [1]
+			"Dangteng", -- [2]
+			"Fssgmarkwu", -- [3]
+			"Miska", -- [4]
+			"Nothingness", -- [5]
+			"Stcolin", -- [6]
+			"Zssgmarkwu", -- [7]
+			"华灬驼", -- [8]
+			"奶霸小成", -- [9]
+			"尽管伤害太少", -- [10]
+			"拉风丶灰烬", -- [11]
+			"氼巭孬嫑勥茓", -- [12]
+			"隐子夜", -- [13]
+			"雪魄弑心", -- [14]
+			"龅大牙", -- [15]
+			"卡呗尔灬小成", -- [16]
+			"鼓瑟吹笙", -- [17]
+			"惊风羽", -- [18]
+		},
+		["RaidMark"] = {
+			["locked"] = false,
+		},
+	},
+}
+ezIconsDB = {
+	["profileKeys"] = {
+		["Lrsgmarkwu - 贫瘠之地"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

@@ -1,0 +1,6 @@
+VER 3 0100000000000001 "护盾" "INV_MISC_QUESTIONMARK"
+#showtooltip 寒冰护体
+/cast 寒冰护体
+/cast 法师结界
+/cast 法力护盾
+END

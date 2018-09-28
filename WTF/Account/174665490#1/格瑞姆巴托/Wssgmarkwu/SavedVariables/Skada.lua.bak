@@ -1,0 +1,179 @@
+
+SkadaPerCharDB = {
+	["total"] = {
+		["orb_count"] = 0,
+		["healingabsorbed"] = 0,
+		["dispells"] = 0,
+		["ffdamagedone"] = 0,
+		["overhealing"] = 0,
+		["interrupts"] = 0,
+		["alertDamage"] = 0,
+		["damagetaken"] = 0,
+		["damage"] = 0,
+		["players"] = {
+			{
+				["last"] = 1538038286,
+				["healingabsorbed"] = 0,
+				["class"] = "MONK",
+				["damaged"] = {
+				},
+				["auras"] = {
+					["真气突"] = {
+						["school"] = 1,
+						["name"] = "真气突",
+						["active"] = 1,
+						["id"] = 119085,
+						["started"] = 1538038286,
+						["auratype"] = "BUFF",
+						["uptime"] = 0,
+					},
+					["坚韧远航"] = {
+						["school"] = 1,
+						["name"] = "坚韧远航",
+						["active"] = 1,
+						["id"] = 268911,
+						["started"] = 1538038286,
+						["auratype"] = "BUFF",
+						["uptime"] = 0,
+					},
+					["泰坦档案库"] = {
+						["school"] = 1,
+						["name"] = "泰坦档案库",
+						["active"] = 1,
+						["id"] = 280709,
+						["started"] = 1538038286,
+						["auratype"] = "BUFF",
+						["uptime"] = 0,
+					},
+				},
+				["ffdamagedone"] = 0,
+				["interrupts"] = 0,
+				["damagespells"] = {
+				},
+				["damagetaken"] = 0,
+				["healing"] = 0,
+				["name"] = "Wssgmarkwu",
+				["ffdamagedonespells"] = {
+				},
+				["orb_hit"] = 0,
+				["dispells"] = 0,
+				["ccbreaks"] = 0,
+				["overhealing"] = 0,
+				["orb_spells"] = {
+				},
+				["damage"] = 0,
+				["healingspells"] = {
+				},
+				["alertDamage"] = 0,
+				["role"] = "TANK",
+				["shielding"] = 0,
+				["id"] = "Player-866-04F84874",
+				["orb_click"] = 0,
+				["time"] = 0,
+				["damagetakenspells"] = {
+				},
+				["maxhp"] = 201440,
+				["deathlog"] = {
+				},
+				["ffdamagedonetargets"] = {
+				},
+				["alertCount"] = 0,
+				["power"] = {
+				},
+				["healed"] = {
+				},
+				["alert"] = {
+				},
+				["first"] = 1538038286,
+			}, -- [1]
+		},
+		["deaths"] = 0,
+		["mobs"] = {
+			["黑暗符文助手"] = {
+				["players"] = {
+				},
+				["hdone"] = 46572,
+				["htakenspell"] = {
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 0,
+				["hdonespell"] = {
+					["恢复"] = {
+						["min"] = 9498,
+						["crits"] = 0,
+						["max"] = 21425,
+						["healing"] = 30923,
+						["overhealing"] = 14035,
+						["hits"] = 2,
+					},
+					["治疗之环"] = {
+						["min"] = 15649,
+						["crits"] = 0,
+						["max"] = 15649,
+						["healing"] = 15649,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+			},
+			["被俘虏的雇佣兵队长"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["恢复"] = {
+						["min"] = 9498,
+						["crits"] = 0,
+						["max"] = 21425,
+						["healing"] = 30923,
+						["overhealing"] = 14035,
+						["hits"] = 2,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 30923,
+				["hdonespell"] = {
+				},
+			},
+			["冰虫巨兽"] = {
+				["players"] = {
+				},
+				["hdone"] = 0,
+				["htakenspell"] = {
+					["治疗之环"] = {
+						["min"] = 15649,
+						["crits"] = 0,
+						["max"] = 15649,
+						["healing"] = 15649,
+						["overhealing"] = 0,
+						["hits"] = 1,
+					},
+				},
+				["taken"] = 0,
+				["done"] = 0,
+				["htaken"] = 15649,
+				["hdonespell"] = {
+				},
+			},
+		},
+		["mobtaken"] = 0,
+		["ccbreaks"] = 0,
+		["healing"] = 0,
+		["power"] = {
+		},
+		["auras"] = {
+		},
+		["starttime"] = 1538038205,
+		["time"] = 0,
+		["name"] = "总计",
+		["alertCount"] = 0,
+		["shielding"] = 0,
+		["mobhdone"] = 46572,
+		["last_action"] = 1538038205,
+		["mobdone"] = 0,
+	},
+	["sets"] = {
+	},
+}

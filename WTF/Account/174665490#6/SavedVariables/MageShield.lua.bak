@@ -1,0 +1,2 @@
+
+MageShieldDB = nil

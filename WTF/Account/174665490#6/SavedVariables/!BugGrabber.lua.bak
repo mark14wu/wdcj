@@ -1,0 +1,15 @@
+
+BugGrabberDB = {
+	["lastSanitation"] = 3,
+	["session"] = 1,
+	["errors"] = {
+		{
+			["message"] = "...terface\\AddOns\\GS-SequenceEditor\\translator-core.lua:173: attempt to concatenate field '?' (a nil value)",
+			["time"] = "2017/02/15 21:45:34",
+			["locals"] = "str = \"Savage Defense\"\nfromLocale = \"enUS\"\ntoLocale = \"zhCN\"\ncleanNewLines = false\noutput = \"\"\nfound = false\nconditionals = false\nmods = \"|cff55cc55|r\"\netc = \"Savage Defense\"\nfoundspell = 132402\n(*temporary) = \"\"\n(*temporary) = \"|cff88bbdd\"\n(*temporary) = nil\n(*temporary) = \"|r\"\n(*temporary) = \"GS-SequenceTranslator\"\n(*temporary) = false\n(*temporary) = \"attempt to concatenate field '?' (a nil value)\"\nGNOME = \"GS-SequenceTranslator\"\n",
+			["stack"] = "...terface\\AddOns\\GS-SequenceEditor\\translator-core.lua:173: in function `GSTRTranslateSpell'\n...terface\\AddOns\\GS-SequenceEditor\\translator-core.lua:110: in function `GSTranslateString'\n...terface\\AddOns\\GS-SequenceEditor\\translator-core.lua:46: in function <...terface\\AddOns\\GS-SequenceEditor\\translator-core.lua:29>\n(tail call): ?\nInterface\\AddOns\\GS-Core\\Core.lua:565: in function `GSUpdateSequence'\nInterface\\AddOns\\GS-Core\\Core.lua:215: in function `GSReloadSequences'\n...terface\\AddOns\\GS-SequenceEditor\\translator-core.lua:298: in main chunk",
+			["session"] = 1,
+			["counter"] = 1,
+		}, -- [1]
+	},
+}

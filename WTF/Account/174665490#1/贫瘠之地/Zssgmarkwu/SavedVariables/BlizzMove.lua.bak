@@ -1,0 +1,206 @@
+
+BlizzMoveDB = {
+	["TradeSkillFrame"] = {
+	},
+	["RaidParentFrame"] = {
+	},
+	["ClassTrainerFrame"] = {
+	},
+	["VideoOptionsFrame"] = {
+	},
+	["CharacterFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -116,
+			["xOfs"] = 16.0000019073486,
+		},
+		["relativePoint"] = "TOP",
+		["yOfs"] = -69.0666198730469,
+		["xOfs"] = -174.400009155273,
+		["point"] = "TOP",
+	},
+	["MailFrame"] = {
+	},
+	["MacroFrame"] = {
+	},
+	["CollectionsJournal"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -22.0000610351563,
+			["xOfs"] = 16.0000019073486,
+		},
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = 0,
+		["xOfs"] = 91.5200119018555,
+		["point"] = "TOPLEFT",
+	},
+	["AchievementFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -116,
+			["xOfs"] = 96,
+		},
+		["relativePoint"] = "LEFT",
+		["yOfs"] = 13.8756637573242,
+		["xOfs"] = 0,
+		["point"] = "LEFT",
+		["save"] = true,
+	},
+	["ArchaeologyFrame"] = {
+	},
+	["BlackMarketFrame"] = {
+	},
+	["PlayerTalentFrame"] = {
+	},
+	["GuildBankFrame"] = {
+		["save"] = true,
+	},
+	["SpellBookFrame"] = {
+	},
+	["version"] = "201109013",
+	["PetJournalParent"] = {
+	},
+	["TradeFrame"] = {
+	},
+	["CalendarFrame"] = {
+		["save"] = true,
+	},
+	["InterfaceOptionsFrame"] = {
+	},
+	["InspectFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -116.000007629395,
+			["xOfs"] = 16,
+		},
+		["relativePoint"] = "LEFT",
+		["yOfs"] = 41.77783203125,
+		["xOfs"] = 0,
+		["point"] = "LEFT",
+	},
+	["AuctionFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -116,
+			["xOfs"] = 16.0000019073486,
+		},
+		["relativePoint"] = "LEFT",
+		["yOfs"] = 60.7808151245117,
+		["xOfs"] = 0,
+		["point"] = "LEFT",
+		["save"] = true,
+	},
+	["LFRParentFrame"] = {
+	},
+	["BankFrame"] = {
+	},
+	["FriendsFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -116,
+			["xOfs"] = 16.0000019073486,
+		},
+		["relativePoint"] = "LEFT",
+		["yOfs"] = 76.6222610473633,
+		["xOfs"] = 20.2666511535645,
+		["point"] = "LEFT",
+	},
+	["GossipFrame"] = {
+	},
+	["LFDParentFrame"] = {
+	},
+	["KeyBindingFrame"] = {
+	},
+	["DressUpFrame"] = {
+	},
+	["WorldMapFrame"] = {
+		["default"] = {
+			["relativeTo"] = "WorldMapScreenAnchor",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = 0,
+			["xOfs"] = 0,
+		},
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -31.8133449554443,
+		["xOfs"] = 125.199996948242,
+		["point"] = "TOPLEFT",
+	},
+	["GuildFrame"] = {
+	},
+	["GameMenuFrame"] = {
+	},
+	["LootFrame"] = {
+		["default"] = {
+			["yOfs"] = 546.817565917969,
+			["xOfs"] = 727.550964355469,
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "BOTTOMLEFT",
+		},
+		["relativePoint"] = "CENTER",
+		["yOfs"] = 48.2071113586426,
+		["xOfs"] = 6.82441997528076,
+		["point"] = "CENTER",
+	},
+	["LookingForGuildFrame"] = {
+	},
+	["PVEFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -116.000007629395,
+			["xOfs"] = 16,
+		},
+		["relativePoint"] = "LEFT",
+		["yOfs"] = 53.2888908386231,
+		["xOfs"] = 0,
+		["point"] = "LEFT",
+	},
+	["TransmogrifyFrame"] = {
+	},
+	["QuestFrame"] = {
+	},
+	["MerchantFrame"] = {
+	},
+	["EncounterJournal"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "TOPLEFT",
+			["relativePoint"] = "TOPLEFT",
+			["yOfs"] = -116,
+			["xOfs"] = 16.0000019073486,
+		},
+		["relativePoint"] = "LEFT",
+		["yOfs"] = -38.3110961914063,
+		["xOfs"] = 17.4222831726074,
+		["point"] = "LEFT",
+	},
+	["ItemSocketingFrame"] = {
+	},
+	["HelpFrame"] = {
+		["default"] = {
+			["relativeTo"] = "UIParent",
+			["point"] = "CENTER",
+			["relativePoint"] = "CENTER",
+			["yOfs"] = 0,
+			["xOfs"] = 0,
+		},
+		["relativePoint"] = "CENTER",
+		["yOfs"] = 17.0666313171387,
+		["xOfs"] = -78.9333648681641,
+		["point"] = "CENTER",
+	},
+}

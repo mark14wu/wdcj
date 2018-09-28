@@ -1,0 +1,21 @@
+VER 3 0100000000000004 "一键" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/castsequence reset=combat 醉酿投,火焰之息,幻灭猛击,猛虎掌,猛虎掌,幻灭猛击,醉酿投,幻灭猛击,猛虎掌,猛虎掌,幻灭猛击,猛虎掌,幻灭猛击
+END
+VER 3 0100000000000001 "一键2" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/castsequence reset=ctrl/alt/shift/combat 醉酿投,幻灭猛击,猛虎掌,火焰之息,幻灭猛击,真气爆裂,猛虎掌,
+END
+VER 3 0100000000000005 "一键3" "INV_MISC_QUESTIONMARK"
+#showtooltip 醉酿投
+/castsequence reset=4 醉酿投,火焰之息,幻灭猛击,猛虎掌,猛虎掌,幻灭猛击
+END
+VER 3 0100000000000003 "取消雕像" "INV_MISC_QUESTIONMARK"
+/click TotemFrameTotem1 RightButton
+END
+VER 3 0100000000000002 "群嘲" "INV_MISC_QUESTIONMARK"
+#showtooltip 嚎镇八方 
+/tar [mod:shift] 玄牛雕像 
+/cast 嚎镇八方 
+/targetlasttarget [mod:shift]
+END

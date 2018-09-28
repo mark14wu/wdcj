@@ -1,0 +1,52 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["Zssgmarkwu - 贫瘠之地"] = "Zssgmarkwu - 贫瘠之地",
+		["Dksgmarkwu - 贫瘠之地"] = "Dksgmarkwu - 贫瘠之地",
+	},
+	["profiles"] = {
+		["Zssgmarkwu - 贫瘠之地"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 140.0000457763672,
+					["h"] = 199.9999694824219,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
+		},
+		["Dksgmarkwu - 贫瘠之地"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 140.0000457763672,
+					["h"] = 199.9999694824219,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+		},
+	},
+}

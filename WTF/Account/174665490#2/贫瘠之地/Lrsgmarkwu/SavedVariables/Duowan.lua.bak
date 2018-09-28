@@ -1,0 +1,12 @@
+
+Duowan_Character = {
+	["guild"] = "future",
+	["region"] = "cn10",
+	["class"] = "HUNTER",
+	["race"] = "BloodElf",
+	["name"] = "Lrsgmarkwu",
+	["faction"] = "Horde",
+	["level"] = 85,
+	["sex"] = 3,
+	["realm"] = "贫瘠之地",
+}

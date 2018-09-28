@@ -1,0 +1,18 @@
+
+tdDropDownDB = {
+	["BrowseName"] = {
+		"书卷", -- [1]
+	},
+	["FriendsFrameBroadcastInput"] = {
+	},
+	["EncounterJournalSearchBox"] = {
+	},
+	["AchievementFrame.searchBox"] = {
+	},
+	["SendMailNameEditBox"] = {
+	},
+	["TradeSkillFrame.SearchBox"] = {
+	},
+	["BuyName"] = {
+	},
+}

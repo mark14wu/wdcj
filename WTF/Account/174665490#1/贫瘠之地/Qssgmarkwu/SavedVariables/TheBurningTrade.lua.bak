@@ -1,0 +1,34 @@
+
+DuowanAddon_TradeLog_TradesHistory = {
+	{
+		["targetMoney"] = 0,
+		["playerMoney"] = 0,
+		["id"] = 1,
+		["playerItems"] = {
+		},
+		["targetItems"] = {
+			[2] = {
+				["name"] = "治疗石",
+				["numItems"] = 1,
+				["itemLink"] = "|cffffffff|Hitem:5512:0:0:0:0:0:0:1551386496:11:0:0|h[治疗石]|h|r",
+				["isUsable"] = 1,
+				["texture"] = "Interface\\Icons\\warlock_ healthstone",
+			},
+		},
+		["player"] = "Qssgmarkwu",
+		["events"] = {
+			"TRADE_CLOSED", -- [1]
+			"TRADE_CLOSED", -- [2]
+			"TRADE_SHOW", -- [3]
+			"TRADE_CLOSED", -- [4]
+			"TRADE_CLOSED", -- [5]
+		},
+		["who"] = "豆哥一控神者-血色十字军",
+		["when"] = "01-18 14:38:59",
+		["result"] = "complete",
+		["where"] = "阿拉希盆地",
+	}, -- [1]
+}
+DuowanAddon_TRADE_LOG_BUTTON_POS = 190
+DuowanAddon_TradeLog_Announce_Checked = nil
+DuowanAddon_TradeLog_AnnounceChannel = "WHISPER"

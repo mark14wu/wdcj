@@ -1,0 +1,10 @@
+
+WWM_friendsWhisp = "OFF"
+WWM_guildWhisp = "ON"
+WWM_totallastplayers = {
+	["君丶洛阳-红龙军团"] = 1,
+	["亢龍有愧-萨菲隆"] = 1,
+	["织命使薇薇安-贫瘠之地"] = 12,
+	["感受这衤-太阳之井"] = 13,
+}
+WWM_entries = 4

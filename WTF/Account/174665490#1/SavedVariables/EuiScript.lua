@@ -1,0 +1,486 @@
+
+ACHIEVEMENTSEARCH_DB = nil
+DejaCharacterStatsDB = nil
+TalentProfilesGlobalDB = {
+	["WARRIOR"] = {
+		["specs"] = {
+			{
+				["profiles"] = {
+				},
+			}, -- [1]
+			{
+				["profiles"] = {
+				},
+			}, -- [2]
+			{
+				["profiles"] = {
+				},
+			}, -- [3]
+		},
+	},
+	["DEMONHUNTER"] = {
+		["specs"] = {
+		},
+	},
+}
+WorldQuestTipsData = {
+	["Zssgmarkwu-贫瘠之地"] = {
+		["reps"] = {
+			[1828] = "|cffffd100尊敬 3.1k /12k|r",
+			[1948] = "|cffffd100尊敬 1.2k /12k|r",
+			[1900] = "|cffffd100中立 1.8k /3k|r",
+			[1883] = "|cffffd100中立 0k /3k|r",
+			[1859] = "|cffffd100中立 2.7k /3k|r",
+			[1894] = "|cffffd100中立 0.2k /3k|r",
+		},
+		["info"] = {
+			["class"] = "WARRIOR",
+			["name"] = "Zssgmarkwu",
+			["level"] = 110,
+		},
+		["worldQuestPartial"] = {
+			[44891] = {
+				["expires"] = 1487663448,
+				["objectivesInit"] = {
+				},
+				["progressed"] = false,
+				["start"] = 1487659890,
+				["duration"] = 0,
+				["active"] = true,
+				["objectives"] = {
+				},
+			},
+			[44908] = {
+				["expires"] = 1487663448,
+				["objectivesInit"] = {
+				},
+				["progressed"] = false,
+				["start"] = 1487659890,
+				["duration"] = 0,
+				["active"] = true,
+				["objectives"] = {
+				},
+			},
+			[44909] = {
+				["expires"] = 1487663448,
+				["objectivesInit"] = {
+				},
+				["progressed"] = false,
+				["start"] = 1487659890,
+				["duration"] = 0,
+				["active"] = true,
+				["objectives"] = {
+				},
+			},
+		},
+	},
+	["global"] = {
+		["pets"] = {
+			["ff"] = {
+				["格里克斯·微泡"] = {
+					true, -- [1]
+					true, -- [2]
+					true, -- [3]
+					true, -- [4]
+					true, -- [5]
+					true, -- [6]
+					true, -- [7]
+					true, -- [8]
+					true, -- [9]
+					true, -- [10]
+				},
+				["杜里安·强果"] = {
+					true, -- [1]
+					true, -- [2]
+					true, -- [3]
+					true, -- [4]
+					true, -- [5]
+					true, -- [6]
+					true, -- [7]
+					true, -- [8]
+					true, -- [9]
+					true, -- [10]
+				},
+				["诱捕者贾伦"] = {
+					true, -- [1]
+					true, -- [2]
+					true, -- [3]
+					true, -- [4]
+					true, -- [5]
+					true, -- [6]
+					true, -- [7]
+					true, -- [8]
+					true, -- [9]
+					true, -- [10]
+				},
+				["蒂梵妮·尼尔森"] = {
+					true, -- [1]
+					true, -- [2]
+					true, -- [3]
+					true, -- [4]
+					true, -- [5]
+					true, -- [6]
+					true, -- [7]
+					true, -- [8]
+					true, -- [9]
+					true, -- [10]
+				},
+				["维雷尼"] = {
+					true, -- [1]
+					true, -- [2]
+					true, -- [3]
+					true, -- [4]
+					true, -- [5]
+					true, -- [6]
+					true, -- [7]
+					true, -- [8]
+					true, -- [9]
+					true, -- [10]
+				},
+				["加尔维斯顿先生"] = {
+					true, -- [1]
+					true, -- [2]
+					true, -- [3]
+					true, -- [4]
+					true, -- [5]
+					true, -- [6]
+					true, -- [7]
+					true, -- [8]
+					true, -- [9]
+					true, -- [10]
+				},
+				["奥多格"] = {
+					true, -- [1]
+					true, -- [2]
+					true, -- [3]
+					true, -- [4]
+					true, -- [5]
+					true, -- [6]
+					true, -- [7]
+					true, -- [8]
+					true, -- [9]
+					true, -- [10]
+				},
+				["布蕾达·柔鬃"] = {
+					true, -- [1]
+					true, -- [2]
+					true, -- [3]
+					true, -- [4]
+					true, -- [5]
+					true, -- [6]
+					true, -- [7]
+					true, -- [8]
+					true, -- [9]
+					true, -- [10]
+				},
+				["阿玛利亚"] = {
+					true, -- [1]
+					true, -- [2]
+					true, -- [3]
+					true, -- [4]
+					true, -- [5]
+					true, -- [6]
+					true, -- [7]
+					true, -- [8]
+					true, -- [9]
+					true, -- [10]
+				},
+				["博迪·日轨"] = {
+					true, -- [1]
+					true, -- [2]
+					true, -- [3]
+					true, -- [4]
+					true, -- [5]
+					true, -- [6]
+					true, -- [7]
+					true, -- [8]
+					true, -- [9]
+					true, -- [10]
+				},
+				["罗伯特·克雷格"] = {
+					true, -- [1]
+					true, -- [2]
+					true, -- [3]
+					true, -- [4]
+					true, -- [5]
+					true, -- [6]
+					true, -- [7]
+					true, -- [8]
+					true, -- [9]
+					true, -- [10]
+				},
+				["驯宠大师弗鲁莫斯"] = {
+					true, -- [1]
+					true, -- [2]
+					true, -- [3]
+					true, -- [4]
+					true, -- [5]
+					true, -- [6]
+					true, -- [7]
+					true, -- [8]
+					true, -- [9]
+					true, -- [10]
+				},
+				["索瓦斯克"] = {
+					true, -- [1]
+					true, -- [2]
+					true, -- [3]
+					true, -- [4]
+					true, -- [5]
+					true, -- [6]
+					true, -- [7]
+					true, -- [8]
+					true, -- [9]
+					true, -- [10]
+				},
+				["奥利尔"] = {
+					true, -- [1]
+					true, -- [2]
+					true, -- [3]
+					true, -- [4]
+					true, -- [5]
+					true, -- [6]
+					true, -- [7]
+					true, -- [8]
+					true, -- [9]
+					true, -- [10]
+				},
+				["守夜人梅瑞尔"] = {
+					true, -- [1]
+					true, -- [2]
+					true, -- [3]
+					true, -- [4]
+					true, -- [5]
+					true, -- [6]
+					true, -- [7]
+					true, -- [8]
+					true, -- [9]
+					true, -- [10]
+				},
+			},
+		},
+		["options"] = {
+			["enigmaticHUDSize"] = 32,
+			["useEnigmaticHUD"] = true,
+			["enigmaticRows"] = 3,
+			["enigmaticSize"] = 6,
+			["enigmaticPos"] = "CENTER",
+			["useEnigmatic"] = true,
+			["TomTomMP"] = true,
+			["PetFF"] = true,
+			["showTimes"] = true,
+			["showExalted"] = true,
+			["TomTomLR"] = true,
+			["showAltRepOnItems"] = true,
+			["enigmaticHUDPathA"] = 0.1,
+			["EditOnC"] = true,
+			["enigmaticHUDMove"] = true,
+			["enigmaticHUDPathDim"] = true,
+			["hideSmallGold"] = true,
+			["debugging"] = false,
+			["TomTomAQ"] = true,
+			["enigmaticHUDEdgeA"] = 0.3,
+			["hideSmallGoldThreshold"] = 10,
+			["enigmaticHUDPos"] = "CENTER",
+			["showRepOnItems"] = true,
+			["enigmaticMove"] = true,
+			["showCurrentRep"] = true,
+		},
+		["worldQuests"] = {
+			[38842] = {
+				["completed"] = 0,
+				["coords"] = {
+					["default"] = {
+						["y"] = 0.836279153823853,
+						["x"] = 0.5448317527771,
+						["m"] = 1018,
+						["f"] = 0,
+					},
+				},
+				["title"] = "林精的骚乱",
+				["timespent"] = 0,
+			},
+			[40050] = {
+				["completed"] = 0,
+				["coords"] = {
+					["default"] = {
+						["y"] = 0.0623570680618286,
+						["x"] = 0.454720139503479,
+						["f"] = 0,
+					},
+				},
+				["title"] = "沉船海湾",
+				["timespent"] = 0,
+			},
+			[37779] = {
+				["completed"] = 0,
+				["coords"] = {
+					["default"] = {
+						["y"] = 0.429530560970306,
+						["x"] = 0.613126814365387,
+						["m"] = 1015,
+						["f"] = 0,
+					},
+				},
+				["title"] = "蛇鳞天平",
+				["timespent"] = 0,
+			},
+			[39317] = {
+				["completed"] = 0,
+				["coords"] = {
+					["default"] = {
+						["y"] = 0.41050398349762,
+						["x"] = 0.508367657661438,
+						["m"] = 1024,
+						["f"] = 0,
+					},
+				},
+				["title"] = "紫喉围攻",
+				["timespent"] = 0,
+			},
+			[38343] = {
+				["completed"] = 0,
+				["coords"] = {
+					["default"] = {
+						["y"] = 0.39162003993988,
+						["x"] = 0.731346368789673,
+						["m"] = 1017,
+						["f"] = 0,
+					},
+				},
+				["title"] = "大闹地狱",
+				["timespent"] = 0,
+			},
+			[42431] = {
+				["completed"] = 0,
+				["coords"] = {
+					["default"] = {
+						["y"] = 0.320279181003571,
+						["x"] = 0.449895560741425,
+						["m"] = 1017,
+						["f"] = 0,
+					},
+				},
+				["title"] = "尼索格之患",
+				["timespent"] = 0,
+			},
+			[39371] = {
+				["completed"] = 0,
+				["coords"] = {
+					["default"] = {
+						["y"] = 0.314588844776154,
+						["x"] = 0.411349415779114,
+						["m"] = 1024,
+						["f"] = 0,
+					},
+				},
+				["title"] = "天空女巫",
+				["timespent"] = 0,
+			},
+			[37965] = {
+				["completed"] = 0,
+				["coords"] = {
+					["default"] = {
+						["y"] = 0.0945092439651489,
+						["x"] = 0.442099273204803,
+						["m"] = 1015,
+						["f"] = 0,
+					},
+				},
+				["title"] = "被污染的酿酒园",
+				["timespent"] = 0,
+			},
+			[42373] = {
+				["completed"] = 0,
+				["coords"] = {
+					["default"] = {
+						["y"] = 0.272997319698334,
+						["x"] = 0.491679430007935,
+						["m"] = 1024,
+						["f"] = 0,
+					},
+				},
+				["title"] = "为黯石复仇",
+				["timespent"] = 0,
+			},
+			[39576] = {
+				["completed"] = 0,
+				["coords"] = {
+					["default"] = {
+						["y"] = 0.715862035751343,
+						["x"] = 0.478385388851166,
+						["m"] = 1024,
+						["f"] = 0,
+					},
+				},
+				["title"] = "死亡之翼的回响",
+				["timespent"] = 0,
+			},
+			[40316] = {
+				["completed"] = 0,
+				["coords"] = {
+					["default"] = {
+						["y"] = 0.459946930408478,
+						["x"] = 0.463959932327271,
+						["m"] = 1024,
+						["f"] = 0,
+					},
+				},
+				["title"] = "响风峭壁",
+				["timespent"] = 0,
+			},
+		},
+	},
+	["version"] = 1.24,
+}
+ArtifactPowerUserDB = nil
+CrucibleWeightDB = {
+	["chars"] = {
+		["Zssgmarkwu - 贫瘠之地"] = {
+			["artifactWeight"] = {
+			},
+		},
+		["Dhsgmarkwu - 贫瘠之地"] = {
+			["artifactWeight"] = {
+			},
+		},
+	},
+	["artifacts"] = {
+		[128910] = {
+			[1145] = 209472,
+			[1149] = 248579,
+			[1146] = 216274,
+			[1150] = 209494,
+			[1143] = 209459,
+			[1147] = 209481,
+			[1151] = 209541,
+			[1144] = 209462,
+			[1148] = 209483,
+			[1613] = 238075,
+		},
+		[128908] = {
+			[1617] = 238076,
+			[989] = 216273,
+			[991] = 200853,
+			[993] = 200857,
+			[995] = 200860,
+			[988] = 200846,
+			[990] = 200849,
+			[992] = 200856,
+			[994] = 200859,
+			[996] = 200861,
+		},
+		[128289] = {
+			[1621] = 238077,
+			[96] = 216272,
+			[100] = 203225,
+			[101] = 203227,
+			[105] = 188632,
+			[98] = 188683,
+			[102] = 188639,
+			[106] = 188644,
+			[95] = 188635,
+			[99] = 203230,
+		},
+	},
+}

@@ -1,0 +1,31 @@
+
+MapsterDB2 = {
+	["namespaces"] = {
+		["GroupIcons"] = {
+		},
+		["Coords"] = {
+		},
+		["FogClear"] = {
+			["global"] = {
+				["errata"] = {
+					["TheHiddenPass"] = {
+						["TheHiddenCliffs"] = 454258982,
+					},
+				},
+			},
+		},
+		["BattleMap"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Dzsgmarkwu - 贫瘠之地"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["point"] = "CENTER",
+			["scale"] = 0.9299809336662292,
+			["y"] = 37.88746558760295,
+			["x"] = 40.1504595122442,
+		},
+	},
+}

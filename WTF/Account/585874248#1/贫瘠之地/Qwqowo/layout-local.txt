@@ -1,0 +1,8 @@
+Version: 1
+Frame: WhisperPopFrame
+FrameLevel: 1
+Anchor: LEFT
+X: 21
+Y: 89
+W: 165
+H: 262

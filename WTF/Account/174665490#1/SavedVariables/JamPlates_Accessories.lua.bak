@@ -1,0 +1,2 @@
+
+JamPlatesAccessoriesDB = nil

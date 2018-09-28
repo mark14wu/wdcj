@@ -1,0 +1,6 @@
+
+_NPCScanOptions = {
+	["CacheWarnings"] = true,
+	["EnableScan"] = true,
+	["Version"] = "5.0.0.3",
+}

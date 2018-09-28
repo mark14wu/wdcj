@@ -1,0 +1,43 @@
+
+FenceDB = {
+	["profiles"] = {
+		["Default"] = {
+			["Version"] = {
+				["Minor"] = 100,
+				["Update"] = true,
+			},
+		},
+	},
+}
+AuctionLiteDB = {
+	["factionrealm"] = {
+		["Horde - 贫瘠之地"] = {
+			["prices"] = {
+				[24899] = {
+					[-19] = {
+						["items"] = 1.000031516214923,
+						["time"] = 1350704842,
+						["scans"] = 1.000031516214923,
+						["price"] = 4508565.999999999,
+						["listings"] = 1.000031516214923,
+					},
+					[-40] = {
+						["items"] = 1.000031516214923,
+						["time"] = 1350704842,
+						["scans"] = 1.000031516214923,
+						["price"] = 118566,
+						["listings"] = 1.000031516214923,
+					},
+					["suffix"] = true,
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Lrsgmarkwu - 贫瘠之地"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

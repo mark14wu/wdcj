@@ -1,0 +1,11 @@
+TheBurningTrade: enabled
+RangeDisplay: enabled
+DBM-Core: enabled
+SmartTabard: enabled
+EventAlertMod: enabled
+Titan: enabled
+AspectPosionBar: enabled
+SexyMap: enabled
+Mapster: enabled
+YssBossLoot: enabled
+Accountant_Classic: enabled

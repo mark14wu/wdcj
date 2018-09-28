@@ -1,0 +1,20 @@
+VER 3 0100000000000002 "乌龟" "INV_MISC_QUESTIONMARK"
+/tar 泰罗佩内
+END
+VER 3 0100000000000003 "分解" "INV_MISC_QUESTIONMARK"
+/cast 分解
+/use 石卫指环
+END
+VER 3 0100000000000004 "分解戒指" "INV_MISC_QUESTIONMARK"
+/cast 分解
+/use item:52306
+/use item:52307
+/use item:52308
+/use item:52309
+/use item:52492
+END
+VER 3 0100000000000001 "稳固" "INV_MISC_QUESTIONMARK"
+#showtooltip 稳固射击
+/cast! 自动射击
+/cast 稳固射击
+END

@@ -1,0 +1,104 @@
+
+FenceDB = {
+	["profiles"] = {
+		["Default"] = {
+			["Version"] = {
+				["Minor"] = 100,
+				["Update"] = true,
+			},
+		},
+	},
+}
+AuctionLiteDB = {
+	["factionrealm"] = {
+		["Horde - 贫瘠之地"] = {
+			["prices"] = {
+				[76138] = {
+					["items"] = 135,
+					["time"] = 1352510577,
+					["scans"] = 1,
+					["price"] = 268799,
+					["listings"] = 88,
+				},
+				[76636] = {
+					["items"] = 17,
+					["time"] = 1352510577,
+					["scans"] = 1,
+					["price"] = 284999,
+					["listings"] = 17,
+				},
+				[76697] = {
+					["items"] = 36,
+					["time"] = 1352510559,
+					["scans"] = 1,
+					["price"] = 554999,
+					["listings"] = 35,
+				},
+				[76698] = {
+					["items"] = 36,
+					["time"] = 1352510559,
+					["scans"] = 1,
+					["price"] = 57400,
+					["listings"] = 35,
+				},
+				[76639] = {
+					["items"] = 7,
+					["time"] = 1352510577,
+					["scans"] = 1,
+					["price"] = 220999,
+					["listings"] = 6,
+				},
+				[76700] = {
+					["items"] = 31,
+					["time"] = 1352510559,
+					["scans"] = 1,
+					["price"] = 209996,
+					["listings"] = 31,
+				},
+				[76701] = {
+					["items"] = 19,
+					["time"] = 1352510559,
+					["scans"] = 1,
+					["price"] = 49700,
+					["listings"] = 15,
+				},
+				[76637] = {
+					["items"] = 6,
+					["time"] = 1352510577,
+					["scans"] = 1,
+					["price"] = 139999,
+					["listings"] = 6,
+				},
+				[76638] = {
+					["items"] = 14,
+					["time"] = 1352510577,
+					["scans"] = 1,
+					["price"] = 329999,
+					["listings"] = 13,
+				},
+				[76142] = {
+					["items"] = 145,
+					["time"] = 1352510559,
+					["scans"] = 1,
+					["price"] = 288800,
+					["listings"] = 76,
+				},
+				[76699] = {
+					["items"] = 13,
+					["time"] = 1352510559,
+					["scans"] = 1,
+					["price"] = 1300000,
+					["listings"] = 13,
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Dzsgmarkwu - 贫瘠之地"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["lastTab"] = 4,
+		},
+	},
+}
