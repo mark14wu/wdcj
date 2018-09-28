@@ -1,0 +1,3 @@
+[submodule "Interface/AddOns"]
+	path = Interface/AddOns
+	url = https://github.com/aby-ui/repo-base.git
