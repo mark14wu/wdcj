@@ -24,6 +24,10 @@ mg_EUF_Options = {
 		["PLAYERRARE"] = 0,
 		["PARTYINFO"] = 1,
 	},
+	["point"] = "LEFT",
+	["relativePoint"] = "LEFT",
+	["scale"] = 1,
+	["xOfs"] = 240.793594360352,
 	["贫瘠之地.Zssgmarkwu"] = {
 		["TARGETCLASSICONSMALL"] = 1,
 		["PARTYCLASSICONSMALL"] = 1,
@@ -48,4 +52,5 @@ mg_EUF_Options = {
 		["NUMBERFORMAT"] = 1,
 		["PARTYINFO"] = 1,
 	},
+	["yOfs"] = -55.6196441650391,
 }

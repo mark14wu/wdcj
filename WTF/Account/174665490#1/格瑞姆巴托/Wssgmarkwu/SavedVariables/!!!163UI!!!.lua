@@ -1,7 +1,6 @@
 
 U1DB = {
 	["minimapPos"] = 191,
-	["enteredWorld"] = true,
 	["addons"] = {
 		["gladiatorlossa_zhcn"] = 1,
 		["battlegroundtargets"] = 0,
@@ -189,8 +188,8 @@ U1DB = {
 		["163ui_combattimer"] = 1,
 		["gearhud"] = 1,
 		["dbm-azeroth-bfa"] = 1,
-		["dbm-dmf"] = 1,
 		["glowfosho"] = 0,
+		["dbm-dmf"] = 1,
 		["163ui_plugins"] = 1,
 		["dbm-coliseum"] = 1,
 		["fizzle"] = 1,
@@ -207,8 +206,8 @@ U1DB = {
 		["dominos_config"] = 1,
 		["dbm-worldevents"] = 1,
 		["dbm_mods_mop"] = 1,
-		["atlaslootreverse"] = 1,
 		["dbm-firelands"] = 1,
+		["atlaslootreverse"] = 1,
 		["combuctor"] = 0,
 		["bagnon_config"] = 1,
 		["broker_micromenu"] = 0,
@@ -230,7 +229,7 @@ U1DB = {
 		["xloot_master"] = 1,
 		["dbm-argus"] = 1,
 		["azeritetooltip"] = 1,
-		["comergy_redux"] = 1,
+		["comergy_redux"] = 0,
 		["garrisonmissionmanager"] = 1,
 		["skada"] = 1,
 		["dbm-vpyike"] = 1,
@@ -266,12 +265,12 @@ U1DB = {
 	["configs"] = {
 		["dbm-core/voice"] = true,
 		["163ui_buff/cvar_buffDurations"] = true,
-		["comergy_redux/Locked"] = false,
 		["!!!163ui!!!/disableLaterLoading"] = true,
+		["163ui_chathistory/showhis"] = false,
 		["!bauderrorframe/PlaySound"] = false,
 		["comergy_redux/VerticalBars"] = false,
-		["dbm-core/hugebar"] = false,
-		["163ui_chathistory/showhis"] = false,
+		["comergy_redux/ShowTargetHealthBar"] = false,
+		["comergy_redux/Locked"] = false,
 		["!!!163ui!!!/sortmem"] = false,
 		["!!!163ui!!!/questWatchSort"] = true,
 		["azeritetooltip/OnlySpec"] = "_NIL",
@@ -280,7 +279,6 @@ U1DB = {
 		["landingGarrisonMMB"] = {
 			["minimapPos"] = 244,
 		},
-		["comergy_redux/ShowTargetHealthBar"] = false,
 		["oglow/oGlowPipes"] = {
 			["merchant"] = true,
 			["bags"] = true,
@@ -293,6 +291,7 @@ U1DB = {
 			["gbank"] = true,
 			["bank"] = true,
 		},
+		["dbm-core/hugebar"] = true,
 		["duowanchat/level"] = true,
 		["deathannounce/auto"] = false,
 		["comergy_redux/ShowPlayerHealthBar"] = false,
@@ -304,20 +303,20 @@ U1DB = {
 	},
 	["frames"] = {
 		["WhisperPopFrame"] = {
-			615.174865722656, -- [1]
+			615.175109863281, -- [1]
 			507.714294433594, -- [2]
 			199.999954223633, -- [3]
 			324.000030517578, -- [4]
 		},
 		["U1CT"] = {
-			622.090881347656, -- [1]
-			671.947021484375, -- [2]
+			621.4140625, -- [1]
+			672.624328613281, -- [2]
 			89.9999694824219, -- [3]
 			26.9999809265137, -- [4]
 		},
 		["WhisperPopNotifyButton"] = {
-			11.7409343719482, -- [1]
-			341.550994873047, -- [2]
+			8.03567981719971, -- [1]
+			344.867767333984, -- [2]
 			20, -- [3]
 			19.9999961853027, -- [4]
 			nil, -- [5]
@@ -328,14 +327,14 @@ U1DB = {
 			2.00000047683716, -- [10]
 		},
 		["TeamStatsFrame"] = {
-			351.174713134766, -- [1]
-			691.428527832031, -- [2]
+			351.174896240234, -- [1]
+			691.428588867188, -- [2]
 			728.000061035156, -- [3]
 			450, -- [4]
 		},
 		["DWCChatFrame"] = {
-			6.74093914031982, -- [1]
-			137.551040649414, -- [2]
+			3.03568434715271, -- [1]
+			140.867752075195, -- [2]
 			235, -- [3]
 			27.0000038146973, -- [4]
 			nil, -- [5]
@@ -358,16 +357,16 @@ U1DB = {
 			-45, -- [10]
 		},
 		["GearHud"] = {
-			641.174682617188, -- [1]
-			569.714172363281, -- [2]
-			148.000091552734, -- [3]
-			147.999969482422, -- [4]
+			641.175109863281, -- [1]
+			569.714233398438, -- [2]
+			148.000198364258, -- [3]
+			148.000045776367, -- [4]
 		},
 		["LiteBuffFrame"] = {
-			828.174743652344, -- [1]
-			219.999786376953, -- [2]
+			1074.01635742188, -- [1]
+			85.2277069091797, -- [2]
 			49.9999313354492, -- [3]
-			50, -- [4]
+			49.9999885559082, -- [4]
 		},
 		["GearManagerExToolBarFrame"] = {
 			79.0000076293945, -- [1]
@@ -382,13 +381,14 @@ U1DB = {
 			0, -- [10]
 		},
 	},
-	["last_logout_time"] = 1538047918,
+	["last_logout_time"] = 1540383089,
+	["selectedTag"] = "COMBATINFO",
 	["ignoreList"] = {
 	},
-	["sortByName"] = true,
-	["selectedTag"] = "RAID",
 	["collectList"] = {
 	},
-	["selectedAddon"] = "exrt",
+	["enteredWorld"] = true,
+	["sortByName"] = true,
+	["selectedAddon"] = "163ui_combattimer",
 	["loadSpeed"] = 2,
 }

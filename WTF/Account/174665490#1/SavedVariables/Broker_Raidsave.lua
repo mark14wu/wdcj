@@ -13,34 +13,46 @@ Broker_RaidSaveConfig = {
 		["格瑞姆巴托"] = {
 			["char"] = {
 				["Wssgmarkwu"] = {
-					["numsaved"] = 15,
+					["numsaved"] = 13,
 					["name"] = "Wssgmarkwu",
-					["numactive"] = 2,
+					["numactive"] = 1,
 					["instance"] = {
 						{
 							["extended"] = false,
-							["id"] = 369127082,
-							["expires"] = 1538607599,
-							["killed"] = "6/16 |cffff0000X|r|cff00ff00O|r|cff00ff00O|r|cffff0000X|r|cff00ff00O|r|cffff0000X|r|cffff0000X|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cffff0000X|r|cffff0000X|r|cff00ff00O|r|cff00ff00O|r",
-							["name"] = "奥杜尔",
-							["difficulty"] = 14,
+							["id"] = 371374967,
+							["expires"] = 1540422000,
+							["killed"] = "2/8 |cffff0000X|r|cffff0000X|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r",
+							["name"] = "奥迪尔",
+							["difficulty"] = 16,
 							["locked"] = true,
 							["idMostSig"] = 524550144,
 							["israid"] = true,
-							["difficultyName"] = "普通",
+							["difficultyName"] = "史诗",
 						}, -- [1]
 						{
 							["extended"] = false,
-							["id"] = 304359595,
-							["expires"] = 1538607599,
-							["killed"] = "6/8 |cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cff00ff00O|r|cff00ff00O|r",
-							["name"] = "奥迪尔",
+							["id"] = 369127082,
+							["expires"] = 0,
+							["killed"] = "6/16 |cffff0000X|r|cff00ff00O|r|cff00ff00O|r|cffff0000X|r|cff00ff00O|r|cffff0000X|r|cffff0000X|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cffff0000X|r|cffff0000X|r|cff00ff00O|r|cff00ff00O|r",
+							["name"] = "奥杜尔",
 							["difficulty"] = 14,
-							["locked"] = true,
-							["idMostSig"] = 524582912,
+							["locked"] = false,
+							["idMostSig"] = 524550144,
 							["israid"] = true,
 							["difficultyName"] = "普通",
 						}, -- [2]
+						{
+							["extended"] = false,
+							["id"] = 3398107618,
+							["expires"] = 0,
+							["killed"] = "4/8 |cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r",
+							["name"] = "巨龙之魂",
+							["difficulty"] = 7,
+							["locked"] = false,
+							["idMostSig"] = 524353536,
+							["israid"] = true,
+							["difficultyName"] = "随机",
+						}, -- [3]
 						{
 							["extended"] = false,
 							["id"] = 3385891240,
@@ -52,18 +64,6 @@ Broker_RaidSaveConfig = {
 							["idMostSig"] = 524386304,
 							["israid"] = true,
 							["difficultyName"] = "10人",
-						}, -- [3]
-						{
-							["extended"] = false,
-							["id"] = 3385891236,
-							["expires"] = 0,
-							["killed"] = "4/4 |cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r",
-							["name"] = "暴富矿区！！",
-							["difficulty"] = 23,
-							["locked"] = false,
-							["idMostSig"] = 524386304,
-							["israid"] = false,
-							["difficultyName"] = "史诗",
 						}, -- [4]
 						{
 							["extended"] = false,
@@ -91,6 +91,18 @@ Broker_RaidSaveConfig = {
 						}, -- [6]
 						{
 							["extended"] = false,
+							["id"] = 3400522502,
+							["expires"] = 0,
+							["killed"] = "4/4 |cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r",
+							["name"] = "阿塔达萨",
+							["difficulty"] = 2,
+							["locked"] = false,
+							["idMostSig"] = 524353536,
+							["israid"] = false,
+							["difficultyName"] = "英雄",
+						}, -- [7]
+						{
+							["extended"] = false,
 							["id"] = 3385891238,
 							["expires"] = 0,
 							["killed"] = "4/4 |cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r",
@@ -100,36 +112,24 @@ Broker_RaidSaveConfig = {
 							["idMostSig"] = 524386304,
 							["israid"] = false,
 							["difficultyName"] = "史诗",
-						}, -- [7]
-						{
-							["extended"] = false,
-							["id"] = 3385891239,
-							["expires"] = 0,
-							["killed"] = "4/4 |cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r",
-							["name"] = "托尔达戈",
-							["difficulty"] = 23,
-							["locked"] = false,
-							["idMostSig"] = 524386304,
-							["israid"] = false,
-							["difficultyName"] = "史诗",
 						}, -- [8]
 						{
 							["extended"] = false,
-							["id"] = 3385891241,
+							["id"] = 304359595,
 							["expires"] = 0,
-							["killed"] = "4/4 |cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r",
-							["name"] = "地渊孢林",
-							["difficulty"] = 23,
+							["killed"] = "6/8 |cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cff00ff00O|r|cff00ff00O|r",
+							["name"] = "奥迪尔",
+							["difficulty"] = 14,
 							["locked"] = false,
-							["idMostSig"] = 524386304,
-							["israid"] = false,
-							["difficultyName"] = "史诗",
+							["idMostSig"] = 524582912,
+							["israid"] = true,
+							["difficultyName"] = "普通",
 						}, -- [9]
 						{
 							["extended"] = false,
-							["id"] = 368502671,
+							["id"] = 370444075,
 							["expires"] = 0,
-							["killed"] = "7/8 |cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cff00ff00O|r",
+							["killed"] = "7/8 |cff00ff00O|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r",
 							["name"] = "奥迪尔",
 							["difficulty"] = 15,
 							["locked"] = false,
@@ -137,18 +137,6 @@ Broker_RaidSaveConfig = {
 							["israid"] = true,
 							["difficultyName"] = "英雄",
 						}, -- [10]
-						{
-							["extended"] = false,
-							["id"] = 368595637,
-							["expires"] = 0,
-							["killed"] = "1/8 |cffff0000X|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r",
-							["name"] = "奥迪尔",
-							["difficulty"] = 16,
-							["locked"] = false,
-							["idMostSig"] = 524550144,
-							["israid"] = true,
-							["difficultyName"] = "史诗",
-						}, -- [11]
 						{
 							["extended"] = false,
 							["id"] = 3387289180,
@@ -160,7 +148,7 @@ Broker_RaidSaveConfig = {
 							["idMostSig"] = 524353536,
 							["israid"] = true,
 							["difficultyName"] = "随机",
-						}, -- [12]
+						}, -- [11]
 						{
 							["extended"] = false,
 							["id"] = 3385891235,
@@ -172,7 +160,7 @@ Broker_RaidSaveConfig = {
 							["idMostSig"] = 524386304,
 							["israid"] = false,
 							["difficultyName"] = "史诗",
-						}, -- [13]
+						}, -- [12]
 						{
 							["extended"] = false,
 							["id"] = 3385891234,
@@ -184,23 +172,11 @@ Broker_RaidSaveConfig = {
 							["idMostSig"] = 524386304,
 							["israid"] = false,
 							["difficultyName"] = "史诗",
-						}, -- [14]
-						{
-							["extended"] = false,
-							["id"] = 3385891237,
-							["expires"] = 0,
-							["killed"] = "4/4 |cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r",
-							["name"] = "塞塔里斯神庙",
-							["difficulty"] = 23,
-							["locked"] = false,
-							["idMostSig"] = 524386304,
-							["israid"] = false,
-							["difficultyName"] = "史诗",
-						}, -- [15]
+						}, -- [13]
 					},
 					["class"] = "MONK",
 					["numgroup"] = 0,
-					["numraid"] = 2,
+					["numraid"] = 1,
 				},
 			},
 			["name"] = "格瑞姆巴托",
@@ -208,70 +184,10 @@ Broker_RaidSaveConfig = {
 		["贫瘠之地"] = {
 			["char"] = {
 				["Zssgmarkwu"] = {
-					["numsaved"] = 5,
+					["numsaved"] = 0,
 					["name"] = "Zssgmarkwu",
 					["numraid"] = 0,
 					["instance"] = {
-						{
-							["extended"] = false,
-							["id"] = 232388185,
-							["expires"] = 0,
-							["difficultyName"] = "25人（英雄）",
-							["name"] = "火焰之地",
-							["israid"] = true,
-							["locked"] = false,
-							["idMostSig"] = 524648448,
-							["difficulty"] = 6,
-							["killed"] = "7/7 |cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r",
-						}, -- [1]
-						{
-							["extended"] = false,
-							["id"] = 468179995,
-							["expires"] = 0,
-							["difficultyName"] = "25人（英雄）",
-							["name"] = "风神王座",
-							["israid"] = true,
-							["locked"] = false,
-							["idMostSig"] = 524943360,
-							["difficulty"] = 6,
-							["killed"] = "2/2 |cffff0000X|r|cffff0000X|r",
-						}, -- [2]
-						{
-							["extended"] = false,
-							["id"] = 468024647,
-							["expires"] = 0,
-							["difficultyName"] = "普通",
-							["name"] = "决战奥格瑞玛",
-							["israid"] = true,
-							["locked"] = false,
-							["idMostSig"] = 524943360,
-							["difficulty"] = 14,
-							["killed"] = "1/14 |cffff0000X|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r",
-						}, -- [3]
-						{
-							["extended"] = false,
-							["id"] = 232340235,
-							["expires"] = 0,
-							["difficultyName"] = "史诗",
-							["name"] = "决战奥格瑞玛",
-							["israid"] = true,
-							["locked"] = false,
-							["idMostSig"] = 524648448,
-							["difficulty"] = 16,
-							["killed"] = "14/14 |cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r|cffff0000X|r",
-						}, -- [4]
-						{
-							["extended"] = false,
-							["id"] = 3354596152,
-							["expires"] = 0,
-							["difficultyName"] = "随机",
-							["name"] = "安托鲁斯，燃烧王座",
-							["israid"] = true,
-							["locked"] = false,
-							["idMostSig"] = 524353536,
-							["difficulty"] = 17,
-							["killed"] = "2/11 |cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cff00ff00O|r|cffff0000X|r|cffff0000X|r",
-						}, -- [5]
 					},
 					["numactive"] = 0,
 					["numgroup"] = 0,

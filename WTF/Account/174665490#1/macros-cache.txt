@@ -1,5 +1,5 @@
 VER 3 000000000000002B " " "INV_Misc_QuestionMark"
-/target 灬尐寳灬
+/target 灬尐寳灬-凤凰之神
 /跟随
 END
 VER 3 0000000000000025 " " "458224"
@@ -77,7 +77,7 @@ VER 3 0000000000000035 "." "132119"
 /use 14
 END
 VER 3 0000000000000036 "." "134400"
-/跟随  纪念爱的代价
+/跟随  鷄児梆硬-死亡之翼
 END
 VER 3 0000000000000034 "." "134174"
 /click StaticPopup1Button1
@@ -253,14 +253,6 @@ END
 VER 3 0000000000000058 "BF_Pet" "236701"
 /BFPET
 END
-VER 3 000000000000005A "Decursive" "134400"
-/stopcasting
-/cast [@mouseover,nomod,exists] 恐惧;  [@mouseover,exists,mod:ctrl] 恐惧; [@mouseover,exists,mod:shift] 恐惧
-END
-VER 3 0000000000000059 "Decursive" "1"
-/stopcasting
-/cast [@mouseover,nomod,exists] 解除诅咒;  [@mouseover,exists,mod:ctrl] 变形术; [@mouseover,exists,mod:shift] 解除诅咒
-END
 VER 3 000000000000005B "Decursive" "134400"
 /stopcasting
 /cast [@mouseover,nomod,exists] 变形术;  [@mouseover,exists,mod:ctrl] 变形术; [@mouseover,exists,mod:shift] 变形术
@@ -271,6 +263,14 @@ END
 VER 3 000000000000005C "Decursive" "134400"
 /stopcasting
 /cast [@mouseover,nomod,exists] 散魔功;  [@mouseover,exists,mod:ctrl] 清创生血; [@mouseover,exists,mod:shift] 散魔功
+END
+VER 3 000000000000005A "Decursive" "134400"
+/stopcasting
+/cast [@mouseover,nomod,exists] 恐惧;  [@mouseover,exists,mod:ctrl] 恐惧; [@mouseover,exists,mod:shift] 恐惧
+END
+VER 3 0000000000000059 "Decursive" "1"
+/stopcasting
+/cast [@mouseover,nomod,exists] 解除诅咒;  [@mouseover,exists,mod:ctrl] 变形术; [@mouseover,exists,mod:shift] 解除诅咒
 END
 VER 3 0000000000000022 "JGH" "Ability_Creature_Disease_01"
 /hw JGH

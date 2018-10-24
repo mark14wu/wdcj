@@ -1,6 +1,6 @@
 
 U1DBG = {
-	["minimapDefaultPos"] = -400,
+	["minimapDefaultPos"] = -760,
 	["quest_font_height"] = 15,
 	["hintSearch"] = 1,
 	["profiles"] = {
@@ -10,20 +10,20 @@ U1DBG = {
 				},
 				["u1dbframes"] = {
 					["WhisperPopFrame"] = {
-						615.174865722656, -- [1]
+						615.175109863281, -- [1]
 						507.714294433594, -- [2]
-						200, -- [3]
-						324.000030517578, -- [4]
+						200.000076293945, -- [3]
+						324, -- [4]
 					},
 					["U1CT"] = {
-						670.175048828125, -- [1]
-						681.428527832031, -- [2]
-						90.0000076293945, -- [3]
+						621.4140625, -- [1]
+						672.624328613281, -- [2]
+						89.9999694824219, -- [3]
 						26.9999809265137, -- [4]
 					},
 					["WhisperPopNotifyButton"] = {
 						25.9631748199463, -- [1]
-						356.450500488281, -- [2]
+						355.264831542969, -- [2]
 						20, -- [3]
 						19.9999961853027, -- [4]
 						nil, -- [5]
@@ -34,14 +34,14 @@ U1DBG = {
 						2.00000047683716, -- [10]
 					},
 					["TeamStatsFrame"] = {
-						351.174713134766, -- [1]
-						691.428527832031, -- [2]
+						351.174896240234, -- [1]
+						691.428588867188, -- [2]
 						728.000061035156, -- [3]
 						450, -- [4]
 					},
 					["DWCChatFrame"] = {
 						20.9631729125977, -- [1]
-						152.450531005859, -- [2]
+						151.264892578125, -- [2]
 						235, -- [3]
 						27.0000038146973, -- [4]
 						nil, -- [5]
@@ -59,16 +59,16 @@ U1DBG = {
 						[9] = 0,
 					},
 					["GearHud"] = {
-						641.174682617188, -- [1]
-						569.714172363281, -- [2]
+						641.174987792969, -- [1]
+						569.714233398438, -- [2]
 						148.000091552734, -- [3]
-						147.999969482422, -- [4]
+						148.000045776367, -- [4]
 					},
 					["LiteBuffFrame"] = {
-						828.174743652344, -- [1]
-						219.999816894531, -- [2]
-						49.9999313354492, -- [3]
-						50, -- [4]
+						828.174987792969, -- [1]
+						219.999694824219, -- [2]
+						50.0000724792481, -- [3]
+						49.9999961853027, -- [4]
 					},
 					["GearManagerExToolBarFrame"] = {
 						79.0000076293945, -- [1]
@@ -85,7 +85,7 @@ U1DBG = {
 				},
 				["ptype"] = "auto",
 				["class"] = "MONK",
-				["savedate"] = 1538038047,
+				["savedate"] = 1539950112,
 				["config"] = {
 					["u1dbconfigs"] = true,
 					["u1dbaddons"] = true,
@@ -135,7 +135,7 @@ U1DBG = {
 				["u1dbaddons"] = {
 					["dbm-draenor"] = 1,
 					["battlegroundtargets"] = 0,
-					["exrt"] = 0,
+					["exrt"] = 1,
 					["dbm-party-wotlk"] = 1,
 					["abybossguide"] = 0,
 					["tinyinspect"] = 1,
@@ -400,20 +400,20 @@ U1DBG = {
 				},
 				["u1dbframes"] = {
 					["WhisperPopFrame"] = {
-						615.174743652344, -- [1]
-						507.714294433594, -- [2]
-						199.999954223633, -- [3]
+						680.19091796875, -- [1]
+						507.714263916016, -- [2]
+						200, -- [3]
 						324.000030517578, -- [4]
 					},
 					["U1CT"] = {
-						670.175048828125, -- [1]
-						681.428527832031, -- [2]
+						687.107055664063, -- [1]
+						671.947021484375, -- [2]
 						90.0000076293945, -- [3]
 						26.9999809265137, -- [4]
 					},
 					["WhisperPopNotifyButton"] = {
-						25.9631748199463, -- [1]
-						356.450500488281, -- [2]
+						1.58221840858459, -- [1]
+						349.847229003906, -- [2]
 						20, -- [3]
 						19.9999961853027, -- [4]
 						nil, -- [5]
@@ -424,14 +424,14 @@ U1DBG = {
 						2.00000047683716, -- [10]
 					},
 					["TeamStatsFrame"] = {
-						351.174713134766, -- [1]
+						481.20654296875, -- [1]
 						691.428527832031, -- [2]
 						728.000061035156, -- [3]
 						450, -- [4]
 					},
 					["DWCChatFrame"] = {
-						20.9631729125977, -- [1]
-						152.450531005859, -- [2]
+						0, -- [1]
+						145.847213745117, -- [2]
 						235, -- [3]
 						27.0000038146973, -- [4]
 						nil, -- [5]
@@ -449,9 +449,9 @@ U1DBG = {
 						[9] = 0,
 					},
 					["GearHud"] = {
-						641.174682617188, -- [1]
+						706.190612792969, -- [1]
 						569.714172363281, -- [2]
-						148.000091552734, -- [3]
+						148.000137329102, -- [3]
 						147.999969482422, -- [4]
 					},
 					["GearManagerExToolBarFrame"] = {
@@ -467,15 +467,15 @@ U1DBG = {
 						0, -- [10]
 					},
 					["LiteBuffFrame"] = {
-						828.174743652344, -- [1]
-						219.999877929688, -- [2]
+						893.190673828125, -- [1]
+						219.999710083008, -- [2]
 						49.9999313354492, -- [3]
-						50, -- [4]
+						49.9999885559082, -- [4]
 					},
 				},
 				["ptype"] = "auto",
 				["class"] = "MONK",
-				["savedate"] = 1538028312,
+				["savedate"] = 1538497535,
 				["config"] = {
 					["u1dbconfigs"] = true,
 					["u1dbaddons"] = true,
@@ -525,7 +525,7 @@ U1DBG = {
 				["u1dbaddons"] = {
 					["dbm-draenor"] = 1,
 					["battlegroundtargets"] = 0,
-					["exrt"] = 0,
+					["exrt"] = 1,
 					["dbm-party-wotlk"] = 1,
 					["abybossguide"] = 0,
 					["tinyinspect"] = 1,
@@ -790,9 +790,50 @@ U1DBG = {
 				},
 				["u1dbframes"] = {
 					["WhisperPopFrame"] = {
+						485.142944335938, -- [1]
+						507.71435546875, -- [2]
+						200.000030517578, -- [3]
+						324, -- [4]
 						["integrated"] = true,
 					},
-					["LiteBuffFrame"] = {
+					["U1CT"] = {
+						540.142944335938, -- [1]
+						681.428771972656, -- [2]
+						89.9999694824219, -- [3]
+						26.9999809265137, -- [4]
+						["integrated"] = true,
+					},
+					["GearManagerExToolBarFrame"] = {
+						79.0000076293945, -- [1]
+						707.428588867188, -- [2]
+						20.0000076293945, -- [3]
+						20.0000171661377, -- [4]
+						nil, -- [5]
+						"TOPLEFT", -- [6]
+						"PlayerFrame", -- [7]
+						"TOPLEFT", -- [8]
+						98.0000152587891, -- [9]
+						0, -- [10]
+						["integrated"] = true,
+					},
+					["TeamStatsFrame"] = {
+						221.142929077148, -- [1]
+						691.4287109375, -- [2]
+						727.999938964844, -- [3]
+						450, -- [4]
+						["integrated"] = true,
+					},
+					["DWCChatFrame"] = {
+						0.333638727664948, -- [1]
+						146.136856079102, -- [2]
+						235, -- [3]
+						27.0000038146973, -- [4]
+						nil, -- [5]
+						"TOPLEFT", -- [6]
+						"ChatFrame1", -- [7]
+						"BOTTOMLEFT", -- [8]
+						-33, -- [9]
+						-3, -- [10]
 						["integrated"] = true,
 					},
 					["RaidAlerter_Attack_Frame"] = {
@@ -802,19 +843,37 @@ U1DBG = {
 						[10] = -45,
 						[9] = 0,
 					},
-					["GearManagerExToolBarFrame"] = {
-						["integrated"] = true,
-					},
-					["DWCChatFrame"] = {
+					["GearHud"] = {
+						511.142944335938, -- [1]
+						569.714294433594, -- [2]
+						147.999969482422, -- [3]
+						147.999969482422, -- [4]
 						["integrated"] = true,
 					},
 					["WhisperPopNotifyButton"] = {
+						5.33363437652588, -- [1]
+						325.789459228516, -- [2]
+						20, -- [3]
+						19.9999961853027, -- [4]
+						nil, -- [5]
+						"BOTTOM", -- [6]
+						"QuickJoinToastButton", -- [7]
+						"TOP", -- [8]
+						0, -- [9]
+						2.00000047683716, -- [10]
+						["integrated"] = true,
+					},
+					["LiteBuffFrame"] = {
+						698.142883300781, -- [1]
+						219.999984741211, -- [2]
+						50.0000724792481, -- [3]
+						49.9999961853027, -- [4]
 						["integrated"] = true,
 					},
 				},
 				["ptype"] = "auto",
 				["class"] = "WARRIOR",
-				["savedate"] = 1537931355,
+				["savedate"] = 1538484392,
 				["config"] = {
 					["u1dbconfigs"] = true,
 					["u1dbaddons"] = true,
@@ -872,7 +931,7 @@ U1DBG = {
 					["toyplus"] = 0,
 					["dominos"] = 0,
 					["hpetbattleany"] = 0,
-					["handynotes_arathi"] = 1,
+					["handynotes_arathi"] = 0,
 					["chocolatebar"] = 1,
 					["masque_cainyx"] = 1,
 					["weakaurasoptions"] = 1,
@@ -949,7 +1008,7 @@ U1DBG = {
 					["ellipsis_options"] = 1,
 					["broker_micromenu"] = 0,
 					["litebuff"] = 1,
-					["handynotes_hallowsend"] = 1,
+					["handynotes_hallowsend"] = 0,
 					["vbar"] = 0,
 					["handynotes_draenortreasures"] = 0,
 					["dbm-ulduar"] = 1,
@@ -957,14 +1016,14 @@ U1DBG = {
 					["hhtd"] = 0,
 					["dbm-party-cataclysm"] = 1,
 					["baudauction"] = 0,
-					["handynotes_battleforazerothtreasures"] = 1,
+					["handynotes_battleforazerothtreasures"] = 0,
 					["accountant_classic"] = 0,
 					["dbm-antorusburningthrone"] = 1,
 					["masque_goldpaw"] = 1,
 					["dbm-brawlers"] = 1,
 					["dbm_mods_wotlk"] = 1,
 					["paku_totems"] = 0,
-					["handynotes_argus"] = 1,
+					["handynotes_argus"] = 0,
 					["gladius"] = 0,
 					["questannounce"] = 1,
 					["tellmewhen"] = 0,
@@ -1002,7 +1061,7 @@ U1DBG = {
 					["tidyplates"] = 0,
 					["tidyplateshub"] = 1,
 					["theburningtrade"] = 1,
-					["handynotes_summerfestival"] = 1,
+					["handynotes_summerfestival"] = 0,
 					["tradeskillinfoui"] = 1,
 					["dbm-dragonsoul"] = 1,
 					["bagnon_config"] = 1,
@@ -1038,7 +1097,7 @@ U1DBG = {
 					["masque_apathy"] = 1,
 					["garrisonmissionmanager"] = 1,
 					["comergy_redux"] = 1,
-					["handynotes_lunarfestival"] = 1,
+					["handynotes_lunarfestival"] = 0,
 					["shadowedunitframes"] = 0,
 					["azeritetooltip"] = 1,
 					["tiptacitemref"] = 1,
@@ -1066,7 +1125,7 @@ U1DBG = {
 					["merchantex"] = 1,
 					["dbm-coliseum"] = 1,
 					["blizzbuffsfacade"] = 1,
-					["handynotes_suramartelemancy"] = 1,
+					["handynotes_suramartelemancy"] = 0,
 					["glowfosho"] = 0,
 					["gridstatustankcooldown"] = 1,
 					["duowanchat"] = 1,
@@ -1078,14 +1137,47 @@ U1DBG = {
 					["!kalielstracker"] = 0,
 					["gladiatorlossa2"] = 0,
 					["dbm-throneofthunder"] = 1,
-					["tdcore"] = 0,
+					["tdcore"] = 1,
 					["gridstatusenemytarget"] = 1,
 				},
 				["u1dbconfigs"] = {
 					["!!!163ui!!!/questWatchSort"] = true,
+					["163ui_buff/cvar_buffDurations"] = true,
+					["163ui_chathistory/showhis"] = false,
+					["comergy_redux/VerticalBars"] = false,
+					["dbm-core/hugebar"] = false,
+					["comergy_redux/ShowTargetHealthBar"] = false,
+					["oglow/oGlowPipes"] = {
+						["merchant"] = true,
+						["bags"] = true,
+						["char"] = true,
+						["char-flyout"] = true,
+						["loot"] = true,
+						["trade"] = true,
+						["mail"] = true,
+						["voidstore"] = true,
+						["gbank"] = true,
+						["bank"] = true,
+					},
+					["azeritetooltip/OnlySpec"] = "_NIL",
+					["163ui_moreoptions/cameraDistanceMaxZoomFactor"] = 2.6,
+					["azeritetooltip/Compact"] = "_NIL",
+					["!!!163ui!!!/english"] = "_NIL",
 					["landingGarrisonMMB"] = {
 						["minimapPos"] = 244,
 					},
+					["merchantex/sell/details"] = "_NIL",
+					["duowanchat/level"] = true,
+					["!!!163ui!!!/sortmem"] = false,
+					["deathannounce/auto"] = false,
+					["!!!163ui!!!/disableLaterLoading"] = true,
+					["dbm-core/voice"] = true,
+					["duowanchat/channel"] = false,
+					["comergy_redux/ShowPlayerHealthBar"] = false,
+					["!bauderrorframe/PlaySound"] = "_NIL",
+					["duowanchat/subgroup"] = true,
+					["comergy_redux/Locked"] = false,
+					["163ui_moreoptions/checkAddonVersion"] = true,
 				},
 				["user"] = "Zssgmarkwu",
 				["realm"] = "贫瘠之地",
@@ -1097,6 +1189,7 @@ U1DBG = {
 	["friendlist"] = {
 		["格瑞姆巴托 - Wssgmarkwu"] = {
 			["華麗背后丶"] = true,
+			["豪门灬弗格森"] = true,
 		},
 		["贫瘠之地 - Zssgmarkwu"] = {
 			["为你而战灬臸"] = true,
@@ -1156,7 +1249,7 @@ U1DBG = {
 			["你若不离不弃"] = true,
 			["Olilipipi"] = true,
 			["潇湘少主"] = true,
-			["窝里个去"] = true,
+			["你老师突然"] = true,
 			["惊风羽"] = true,
 			["怪盗丶"] = true,
 			["随便怎么都呆"] = true,
@@ -1174,8 +1267,8 @@ U1DBG = {
 			["凝望唏嘘岁月"] = true,
 			["名字取的好愁"] = true,
 			["Seraphims"] = true,
-			["你老师突然"] = true,
 			["追猎星辰"] = true,
+			["无锡小笼包"] = true,
 			["白骨吱吱"] = true,
 			["米卢瓦斯"] = true,
 			["尽管伤害太少"] = true,

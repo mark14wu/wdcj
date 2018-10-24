@@ -5111,16 +5111,17 @@ CanIMogItDatabase = {
 			[99318] = 1677,
 		},
 		["appearances"] = {
-			["34682:INVTYPE_SHOULDER"] = {
+			["36275:INVTYPE_SHOULDER"] = {
 				["sources"] = {
-					[90510] = {
-						["subClass"] = "板甲",
+					[94104] = {
+						["subClass"] = "皮甲",
 					},
-					[90293] = {
-						["subClass"] = "板甲",
-						["classRestrictions"] = {
-							"战士", -- [1]
-						},
+				},
+			},
+			["37353:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[94303] = {
+						["subClass"] = "皮甲",
 					},
 				},
 			},
@@ -5146,16 +5147,16 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["35953:INVTYPE_SHOULDER"] = {
+			["36292:INVTYPE_WRIST"] = {
 				["sources"] = {
-					[94008] = {
+					[94074] = {
 						["subClass"] = "皮甲",
 					},
 				},
 			},
-			["38323:INVTYPE_FEET"] = {
+			["35947:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[98916] = {
+					[98195] = {
 						["subClass"] = "皮甲",
 					},
 				},
@@ -5167,9 +5168,402 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["37411:INVTYPE_WAIST"] = {
+				["sources"] = {
+					[98511] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["36044:INVTYPE_FEET"] = {
+				["sources"] = {
+					[96028] = {
+						["subClass"] = "板甲",
+					},
+				},
+			},
+			["35948:INVTYPE_FEET"] = {
+				["sources"] = {
+					[98190] = {
+						["subClass"] = "皮甲",
+					},
+					[94004] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["36283:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[94136] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["35940:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[94040] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["38449:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[99203] = {
+						["subClass"] = "布甲",
+					},
+				},
+			},
+			["35936:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[94035] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["35961:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[93975] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["36279:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[94131] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["37346:INVTYPE_WAIST"] = {
+				["sources"] = {
+					[95090] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["36298:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[94202] = {
+						["subClass"] = "单手锤",
+					},
+				},
+			},
+			["35952:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[98193] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["20304:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[95364] = {
+						["subClass"] = "长柄武器",
+					},
+				},
+			},
+			["37496:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[95589] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["35258:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[90755] = {
+						["subClass"] = "长柄武器",
+					},
+				},
+			},
+			["16822:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[38950] = {
+						["subClass"] = "板甲",
+					},
+				},
+			},
+			["11347:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[21743] = {
+						["subClass"] = "法杖",
+					},
+				},
+			},
+			["35937:INVTYPE_HAND"] = {
+				["sources"] = {
+					[94037] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["34678:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[90273] = {
+						["subClass"] = "板甲",
+						["classRestrictions"] = {
+							"战士", -- [1]
+						},
+					},
+				},
+			},
+			["37322:INVTYPE_WRIST"] = {
+				["sources"] = {
+					[95590] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["38300:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[99199] = {
+						["subClass"] = "布甲",
+					},
+				},
+			},
+			["16889:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[39836] = {
+						["subClass"] = "法杖",
+					},
+				},
+			},
+			["36253:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[94831] = {
+						["subClass"] = "单手斧",
+					},
+				},
+			},
+			["38473:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[98907] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["14732:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[89680] = {
+						["subClass"] = "板甲",
+						["classRestrictions"] = {
+							"战士", -- [1]
+						},
+					},
+				},
+			},
+			["35941:INVTYPE_WRIST"] = {
+				["sources"] = {
+					[94042] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["2413:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[2809] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["36650:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[91780] = {
+						["subClass"] = "布甲",
+					},
+				},
+			},
+			["27103:INVTYPE_WRIST"] = {
+				["sources"] = {
+					[78938] = {
+						["subClass"] = "板甲",
+					},
+				},
+			},
+			["36273:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[94102] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["36039:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[92208] = {
+						["subClass"] = "板甲",
+					},
+				},
+			},
+			["36271:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[94099] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["36272:INVTYPE_HAND"] = {
+				["sources"] = {
+					[94101] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["37386:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[97387] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["35950:INVTYPE_HAND"] = {
+				["sources"] = {
+					[98191] = {
+						["subClass"] = "皮甲",
+					},
+					[94005] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["37324:INVTYPE_HAND"] = {
+				["sources"] = {
+					[98487] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["17121:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[91104] = {
+						["subClass"] = "皮甲",
+						["classRestrictions"] = {
+							"武僧", -- [1]
+						},
+					},
+				},
+			},
+			["34679:INVTYPE_HAND"] = {
+				["sources"] = {
+					[90281] = {
+						["subClass"] = "板甲",
+						["classRestrictions"] = {
+							"战士", -- [1]
+						},
+					},
+				},
+			},
+			["38324:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[98894] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["38328:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[96560] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["36269:INVTYPE_WAIST"] = {
+				["sources"] = {
+					[94105] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["37414:INVTYPE_HAND"] = {
+				["sources"] = {
+					[98509] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["37914:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[96928] = {
+						["subClass"] = "布甲",
+					},
+				},
+			},
+			["38517:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[99295] = {
+						["subClass"] = "布甲",
+					},
+				},
+			},
+			["37494:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[98439] = {
+						["subClass"] = "皮甲",
+					},
+					[98456] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["34682:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[90510] = {
+						["subClass"] = "板甲",
+					},
+					[90293] = {
+						["subClass"] = "板甲",
+						["classRestrictions"] = {
+							"战士", -- [1]
+						},
+					},
+				},
+			},
+			["35934:INVTYPE_WAIST"] = {
+				["sources"] = {
+					[94041] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["38461:INVTYPE_FEET"] = {
+				["sources"] = {
+					[98346] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["36660:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[94217] = {
+						["subClass"] = "布甲",
+					},
+				},
+			},
+			["35953:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[94008] = {
+						["subClass"] = "皮甲",
+					},
+					[98194] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["38323:INVTYPE_FEET"] = {
+				["sources"] = {
+					[98916] = {
+						["subClass"] = "皮甲",
+					},
+					[99235] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
 			["36290:INVTYPE_LEGS"] = {
 				["sources"] = {
 					[96415] = {
+						["subClass"] = "皮甲",
+					},
+					[94071] = {
 						["subClass"] = "皮甲",
 					},
 				},
@@ -5191,6 +5585,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["16034:INVTYPE_2HWEAPON"] = {
+				["sources"] = {
+					[39859] = {
+						["subClass"] = "长柄武器",
+					},
+				},
+			},
 			["38045:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[96655] = {
@@ -5205,16 +5606,19 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["37374:INVTYPE_WRIST"] = {
+				["sources"] = {
+					[98512] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
 			["38465:INVTYPE_LEGS"] = {
 				["sources"] = {
 					[96570] = {
 						["subClass"] = "皮甲",
 					},
-				},
-			},
-			["37327:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[98460] = {
+					[98345] = {
 						["subClass"] = "皮甲",
 					},
 				},
@@ -5224,12 +5628,8 @@ CanIMogItDatabase = {
 					[94039] = {
 						["subClass"] = "皮甲",
 					},
-				},
-			},
-			["38449:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[99203] = {
-						["subClass"] = "布甲",
+					[96941] = {
+						["subClass"] = "皮甲",
 					},
 				},
 			},
@@ -5244,6 +5644,13 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[92254] = {
 						["subClass"] = "板甲",
+					},
+				},
+			},
+			["36280:INVTYPE_HAND"] = {
+				["sources"] = {
+					[96419] = {
+						["subClass"] = "皮甲",
 					},
 				},
 			},
@@ -5264,6 +5671,13 @@ CanIMogItDatabase = {
 					},
 				},
 			},
+			["35959:INVTYPE_HAND"] = {
+				["sources"] = {
+					[93973] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
 			["17980:INVTYPE_WEAPON"] = {
 				["sources"] = {
 					[91117] = {
@@ -5274,30 +5688,9 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["37346:INVTYPE_WAIST"] = {
-				["sources"] = {
-					[95090] = {
-						["subClass"] = "皮甲",
-					},
-				},
-			},
-			["20304:INVTYPE_2HWEAPON"] = {
-				["sources"] = {
-					[95364] = {
-						["subClass"] = "长柄武器",
-					},
-				},
-			},
 			["35957:INVTYPE_FEET"] = {
 				["sources"] = {
 					[93972] = {
-						["subClass"] = "皮甲",
-					},
-				},
-			},
-			["38327:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[98906] = {
 						["subClass"] = "皮甲",
 					},
 				},
@@ -5333,13 +5726,6 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["37325:INVTYPE_HEAD"] = {
-				["sources"] = {
-					[95586] = {
-						["subClass"] = "皮甲",
-					},
-				},
-			},
 			["28727:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
 					[77731] = {
@@ -5350,58 +5736,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["35937:INVTYPE_HAND"] = {
+			["16625:INVTYPE_FEET"] = {
 				["sources"] = {
-					[94037] = {
+					[39819] = {
 						["subClass"] = "皮甲",
-					},
-				},
-			},
-			["34678:INVTYPE_CHEST"] = {
-				["sources"] = {
-					[90273] = {
-						["subClass"] = "板甲",
-						["classRestrictions"] = {
-							"战士", -- [1]
-						},
-					},
-				},
-			},
-			["37322:INVTYPE_WRIST"] = {
-				["sources"] = {
-					[95590] = {
-						["subClass"] = "皮甲",
-					},
-				},
-			},
-			["19435:INVTYPE_TABARD"] = {
-				["sources"] = {
-					[46577] = {
-						["subClass"] = "其它",
-					},
-				},
-			},
-			["36253:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[94831] = {
-						["subClass"] = "单手斧",
-					},
-				},
-			},
-			["18836:INVTYPE_WEAPON"] = {
-				["sources"] = {
-					[44280] = {
-						["subClass"] = "单手斧",
-					},
-				},
-			},
-			["14732:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[89680] = {
-						["subClass"] = "板甲",
-						["classRestrictions"] = {
-							"战士", -- [1]
-						},
 					},
 				},
 			},
@@ -5412,52 +5750,17 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["38461:INVTYPE_FEET"] = {
+			["38468:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[98346] = {
+					[98900] = {
 						["subClass"] = "皮甲",
 					},
 				},
 			},
-			["11347:INVTYPE_2HWEAPON"] = {
+			["35967:INVTYPE_2HWEAPON"] = {
 				["sources"] = {
-					[21743] = {
-						["subClass"] = "法杖",
-					},
-				},
-			},
-			["35258:INVTYPE_2HWEAPON"] = {
-				["sources"] = {
-					[90755] = {
+					[95504] = {
 						["subClass"] = "长柄武器",
-					},
-				},
-			},
-			["38300:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[99199] = {
-						["subClass"] = "布甲",
-					},
-				},
-			},
-			["36270:INVTYPE_FEET"] = {
-				["sources"] = {
-					[94100] = {
-						["subClass"] = "皮甲",
-					},
-				},
-			},
-			["2413:INVTYPE_LEGS"] = {
-				["sources"] = {
-					[2809] = {
-						["subClass"] = "皮甲",
-					},
-				},
-			},
-			["36650:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[91780] = {
-						["subClass"] = "布甲",
 					},
 				},
 			},
@@ -5468,30 +5771,187 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["27103:INVTYPE_WRIST"] = {
+			["36291:INVTYPE_SHOULDER"] = {
 				["sources"] = {
-					[78938] = {
-						["subClass"] = "板甲",
-					},
-				},
-			},
-			["36273:INVTYPE_HEAD"] = {
-				["sources"] = {
-					[94102] = {
+					[94072] = {
 						["subClass"] = "皮甲",
 					},
 				},
 			},
-			["36039:INVTYPE_SHOULDER"] = {
+			["35956:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[92208] = {
+					[93977] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["35960:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[93974] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["35951:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[98192] = {
+						["subClass"] = "皮甲",
+					},
+					[94006] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["37611:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[92320] = {
+						["subClass"] = "布甲",
+					},
+				},
+			},
+			["35962:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[93976] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["37348:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[95725] = {
+						["subClass"] = "皮甲",
+					},
+					[95587] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["35949:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[98189] = {
+						["subClass"] = "皮甲",
+					},
+					[94003] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["36287:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[94067] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["35958:INVTYPE_CHEST"] = {
+				["sources"] = {
+					[93971] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["35954:INVTYPE_WRIST"] = {
+				["sources"] = {
+					[98196] = {
+						["subClass"] = "皮甲",
+					},
+					[94010] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["36277:INVTYPE_WAIST"] = {
+				["sources"] = {
+					[94137] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["38327:INVTYPE_LEGS"] = {
+				["sources"] = {
+					[99237] = {
+						["subClass"] = "皮甲",
+					},
+					[99239] = {
+						["subClass"] = "皮甲",
+					},
+					[98906] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["37325:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[95586] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["36270:INVTYPE_FEET"] = {
+				["sources"] = {
+					[94100] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["36037:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[92198] = {
 						["subClass"] = "板甲",
 					},
 				},
 			},
-			["37494:INVTYPE_HEAD"] = {
+			["15788:INVTYPE_WRIST"] = {
 				["sources"] = {
-					[98439] = {
+					[78792] = {
+						["subClass"] = "板甲",
+						["classRestrictions"] = {
+							"战士", -- [1]
+						},
+					},
+				},
+			},
+			["19435:INVTYPE_TABARD"] = {
+				["sources"] = {
+					[46577] = {
+						["subClass"] = "其它",
+					},
+				},
+			},
+			["36382:INVTYPE_HOLDABLE"] = {
+				["sources"] = {
+					[96925] = {
+						["subClass"] = "其它",
+					},
+				},
+			},
+			["36254:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[94188] = {
+						["subClass"] = "单手斧",
+					},
+				},
+			},
+			["36234:INVTYPE_HOLDABLE"] = {
+				["sources"] = {
+					[96404] = {
+						["subClass"] = "其它",
+					},
+				},
+			},
+			["38469:INVTYPE_FEET"] = {
+				["sources"] = {
+					[99242] = {
+						["subClass"] = "皮甲",
+					},
+					[99243] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["36288:INVTYPE_HAND"] = {
+				["sources"] = {
+					[94069] = {
 						["subClass"] = "皮甲",
 					},
 				},
@@ -5506,17 +5966,24 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["2419:INVTYPE_WRIST"] = {
+			["36046:INVTYPE_HAND"] = {
 				["sources"] = {
-					[2815] = {
+					[96059] = {
+						["subClass"] = "板甲",
+					},
+				},
+			},
+			["35935:INVTYPE_FEET"] = {
+				["sources"] = {
+					[94036] = {
 						["subClass"] = "皮甲",
 					},
 				},
 			},
-			["38517:INVTYPE_CLOAK"] = {
+			["38463:INVTYPE_HAND"] = {
 				["sources"] = {
-					[99295] = {
-						["subClass"] = "布甲",
+					[97223] = {
+						["subClass"] = "皮甲",
 					},
 				},
 			},
@@ -5525,22 +5992,71 @@ CanIMogItDatabase = {
 					[93978] = {
 						["subClass"] = "皮甲",
 					},
-				},
-			},
-			["36046:INVTYPE_HAND"] = {
-				["sources"] = {
-					[96059] = {
-						["subClass"] = "板甲",
+					[97027] = {
+						["subClass"] = "皮甲",
 					},
 				},
 			},
-			["17121:INVTYPE_LEGS"] = {
+			["36274:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[91104] = {
+					[94103] = {
 						["subClass"] = "皮甲",
-						["classRestrictions"] = {
-							"武僧", -- [1]
-						},
+					},
+				},
+			},
+			["37329:INVTYPE_SHOULDER"] = {
+				["sources"] = {
+					[95720] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["18836:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[44280] = {
+						["subClass"] = "单手斧",
+					},
+				},
+			},
+			["2419:INVTYPE_WRIST"] = {
+				["sources"] = {
+					[2815] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["36281:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[94134] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["37497:INVTYPE_WAIST"] = {
+				["sources"] = {
+					[98481] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["36289:INVTYPE_HEAD"] = {
+				["sources"] = {
+					[94070] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["36299:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[94212] = {
+						["subClass"] = "单手剑",
+					},
+				},
+			},
+			["16881:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[39858] = {
+						["subClass"] = "单手斧",
 					},
 				},
 			},
@@ -5551,82 +6067,10 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["36234:INVTYPE_HOLDABLE"] = {
+			["37327:INVTYPE_LEGS"] = {
 				["sources"] = {
-					[96404] = {
-						["subClass"] = "其它",
-					},
-				},
-			},
-			["38324:INVTYPE_CHEST"] = {
-				["sources"] = {
-					[98894] = {
+					[98460] = {
 						["subClass"] = "皮甲",
-					},
-				},
-			},
-			["36283:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[94136] = {
-						["subClass"] = "皮甲",
-					},
-				},
-			},
-			["38328:INVTYPE_SHOULDER"] = {
-				["sources"] = {
-					[96560] = {
-						["subClass"] = "皮甲",
-					},
-				},
-			},
-			["18686:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[91118] = {
-						["subClass"] = "布甲",
-						["classRestrictions"] = {
-							"武僧", -- [1]
-						},
-					},
-				},
-			},
-			["36037:INVTYPE_HEAD"] = {
-				["sources"] = {
-					[92198] = {
-						["subClass"] = "板甲",
-					},
-				},
-			},
-			["37611:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[92320] = {
-						["subClass"] = "布甲",
-					},
-				},
-			},
-			["15788:INVTYPE_WRIST"] = {
-				["sources"] = {
-					[78792] = {
-						["subClass"] = "板甲",
-						["classRestrictions"] = {
-							"战士", -- [1]
-						},
-					},
-				},
-			},
-			["37914:INVTYPE_CLOAK"] = {
-				["sources"] = {
-					[96928] = {
-						["subClass"] = "布甲",
-					},
-				},
-			},
-			["34679:INVTYPE_HAND"] = {
-				["sources"] = {
-					[90281] = {
-						["subClass"] = "板甲",
-						["classRestrictions"] = {
-							"战士", -- [1]
-						},
 					},
 				},
 			},
@@ -5647,9 +6091,33 @@ CanIMogItDatabase = {
 					},
 				},
 			},
-			["38463:INVTYPE_HAND"] = {
+			["37320:INVTYPE_WAIST"] = {
 				["sources"] = {
-					[97223] = {
+					[95580] = {
+						["subClass"] = "皮甲",
+					},
+				},
+			},
+			["18686:INVTYPE_CLOAK"] = {
+				["sources"] = {
+					[91118] = {
+						["subClass"] = "布甲",
+						["classRestrictions"] = {
+							"武僧", -- [1]
+						},
+					},
+				},
+			},
+			["38444:INVTYPE_WEAPON"] = {
+				["sources"] = {
+					[99992] = {
+						["subClass"] = "拳套",
+					},
+				},
+			},
+			["37413:INVTYPE_FEET"] = {
+				["sources"] = {
+					[98508] = {
 						["subClass"] = "皮甲",
 					},
 				},
@@ -5658,27 +6126,6 @@ CanIMogItDatabase = {
 				["sources"] = {
 					[89911] = {
 						["subClass"] = "板甲",
-					},
-				},
-			},
-			["37386:INVTYPE_CHEST"] = {
-				["sources"] = {
-					[97387] = {
-						["subClass"] = "皮甲",
-					},
-				},
-			},
-			["37320:INVTYPE_WAIST"] = {
-				["sources"] = {
-					[95580] = {
-						["subClass"] = "皮甲",
-					},
-				},
-			},
-			["37324:INVTYPE_HAND"] = {
-				["sources"] = {
-					[98487] = {
-						["subClass"] = "皮甲",
 					},
 				},
 			},

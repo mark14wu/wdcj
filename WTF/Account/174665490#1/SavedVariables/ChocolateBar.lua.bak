@@ -25,13 +25,18 @@ ChocolateBarDB = {
 					["barName"] = "ChocolateBar1",
 					["align"] = "right",
 				},
+				["Grid"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+				},
 				["世界战场时间"] = {
 					["barName"] = "ChocolateBar1",
 				},
 				["邮件提示"] = {
 					["barName"] = "ChocolateBar1",
 				},
-				["Grid"] = {
+				["BagnonLauncher"] = {
 					["showText"] = false,
 					["barName"] = "ChocolateBar1",
 					["align"] = "right",
@@ -39,10 +44,8 @@ ChocolateBarDB = {
 				["Broker Currency"] = {
 					["barName"] = "ChocolateBar1",
 				},
-				["BagnonLauncher"] = {
-					["showText"] = false,
+				["WeakAuras"] = {
 					["barName"] = "ChocolateBar1",
-					["align"] = "right",
 				},
 				["BRRaidSave"] = {
 					["barName"] = "ChocolateBar1",
@@ -93,8 +96,10 @@ ChocolateBarDB = {
 				["Broker_Equipment"] = {
 					["barName"] = "ChocolateBar1",
 				},
-				["WeakAuras"] = {
+				["ExRT"] = {
+					["showText"] = false,
 					["barName"] = "ChocolateBar1",
+					["align"] = "right",
 				},
 			},
 			["fixedStrata"] = true,

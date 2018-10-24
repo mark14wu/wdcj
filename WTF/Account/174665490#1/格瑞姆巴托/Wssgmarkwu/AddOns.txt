@@ -180,7 +180,7 @@ kib_questmobs: enabled
 skadaexplosiveorbs: enabled
 buyemall: enabled
 azeritetooltip: enabled
-comergy_redux: enabled
+comergy_redux: disabled
 canimogit: enabled
 handynotes_suramartelemancy: disabled
 autoturnin: enabled

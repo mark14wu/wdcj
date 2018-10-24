@@ -10,27 +10,27 @@ SkadaPerCharDB = {
 		["overhealing"] = 0,
 		["interrupts"] = 0,
 		["alertDamage"] = 0,
-		["damagetaken"] = 0,
+		["mobs"] = {
+		},
 		["damage"] = 0,
 		["players"] = {
 		},
 		["deaths"] = 0,
-		["mobs"] = {
-		},
+		["damagetaken"] = 0,
 		["mobtaken"] = 0,
 		["ccbreaks"] = 0,
 		["healing"] = 0,
-		["power"] = {
-		},
+		["shielding"] = 0,
 		["auras"] = {
 		},
-		["starttime"] = 1537932234,
+		["starttime"] = 1538235153,
 		["time"] = 0,
 		["name"] = "总计",
 		["alertCount"] = 0,
-		["shielding"] = 0,
+		["power"] = {
+		},
 		["mobhdone"] = 0,
-		["last_action"] = 1537932234,
+		["last_action"] = 1538235153,
 		["mobdone"] = 0,
 	},
 }

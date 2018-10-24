@@ -100,9 +100,9 @@ GridDB = {
 					["layouts"] = {
 						["raid_10"] = "30人团队",
 					},
-					["PosY"] = -171,
+					["PosY"] = -139,
 					["layout"] = "ByGroup",
-					["PosX"] = 23,
+					["PosX"] = 12,
 				},
 			},
 		},

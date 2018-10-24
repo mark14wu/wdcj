@@ -24,13 +24,13 @@ SkadaPerCharDB = {
 		},
 		["auras"] = {
 		},
-		["starttime"] = 1538046479,
+		["starttime"] = 1540383081,
 		["time"] = 0,
 		["name"] = "总计",
 		["alertCount"] = 0,
 		["shielding"] = 0,
 		["mobhdone"] = 0,
-		["last_action"] = 1538046479,
+		["last_action"] = 1540383081,
 		["mobdone"] = 0,
 	},
 }

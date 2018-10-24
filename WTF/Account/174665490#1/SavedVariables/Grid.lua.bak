@@ -100,9 +100,9 @@ GridDB = {
 					["layouts"] = {
 						["raid_10"] = "30人团队",
 					},
-					["PosY"] = -156,
+					["PosY"] = -212,
 					["layout"] = "ByGroup",
-					["PosX"] = 24,
+					["PosX"] = 47,
 				},
 			},
 		},
@@ -113,11 +113,6 @@ GridDB = {
 		["GridStatusRole"] = {
 		},
 		["GridRoster"] = {
-			["profiles"] = {
-				["Default"] = {
-					["party_state"] = "party",
-				},
-			},
 		},
 		["GridStatusAuras"] = {
 			["profiles"] = {

@@ -36,13 +36,13 @@ ChocolateBarDB = {
 				["邮件提示"] = {
 					["barName"] = "ChocolateBar1",
 				},
-				["WeakAuras"] = {
+				["Broker_Equipment"] = {
 					["barName"] = "ChocolateBar1",
 				},
 				["Broker Currency"] = {
 					["barName"] = "ChocolateBar1",
 				},
-				["Broker_Equipment"] = {
+				["WeakAuras"] = {
 					["barName"] = "ChocolateBar1",
 				},
 				["BRRaidSave"] = {

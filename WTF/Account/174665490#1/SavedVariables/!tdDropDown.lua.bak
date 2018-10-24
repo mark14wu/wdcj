@@ -1,7 +1,8 @@
 
 tdDropDownDB = {
 	["BrowseName"] = {
-		"书卷", -- [1]
+		"精湛潮汐紫水晶", -- [1]
+		"书卷", -- [2]
 	},
 	["FriendsFrameBroadcastInput"] = {
 	},

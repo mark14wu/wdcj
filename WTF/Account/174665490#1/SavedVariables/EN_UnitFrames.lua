@@ -1,6 +1,6 @@
 
 mg_EUF_Options = {
-	["yOfs"] = 23.6186256408691,
+	["yOfs"] = -7.53491497039795,
 	["格瑞姆巴托.Wssgmarkwu"] = {
 		["TARGETCLASSICONSMALL"] = 1,
 		["PARTYCLASSICONSMALL"] = 1,
@@ -25,9 +25,9 @@ mg_EUF_Options = {
 		["NUMBERFORMAT"] = 1,
 		["PARTYINFO"] = 1,
 	},
-	["relativePoint"] = "CENTER",
+	["relativePoint"] = "LEFT",
 	["scale"] = 1,
-	["xOfs"] = -178.232864379883,
+	["xOfs"] = 261.788360595703,
 	["贫瘠之地.Zssgmarkwu"] = {
 		["TARGETCLASSICONSMALL"] = 1,
 		["PARTYCLASSICONSMALL"] = 1,
@@ -52,5 +52,5 @@ mg_EUF_Options = {
 		["PLAYERRARE"] = 0,
 		["PARTYINFO"] = 1,
 	},
-	["point"] = "CENTER",
+	["point"] = "LEFT",
 }
