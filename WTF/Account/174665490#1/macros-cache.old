@@ -178,14 +178,17 @@ END
 VER 3 0000000000000044 "101" "134400"
 /script T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function()local t=GetTime()if t-T>8 then SendChatMessage("《铁血》大降价 【新CD史诗地狱火堡垒】暴力团队，良心品牌团 无竞争，不强迫消 费 抱团赠坐骑（温馨提示）先转账的都是骗子","channel",nil,4)T=t end end end F:SetScript("OnUpdate",X)
 END
+VER 3 0000000000000045 "11" "135846"
+/施放 寒冰箭
+/施放 魔法增效
+END
 VER 3 0000000000000046 "11" "136048"
 /施放 奥术强化
 /cast 狂暴
 /use 涨潮符咒
 END
-VER 3 0000000000000045 "11" "135846"
-/施放 寒冰箭
-/施放 魔法增效
+VER 3 0000000000000089 "11" "INV_MISC_QUESTIONMARK"
+/use 一把糖果
 END
 VER 3 0000000000000048 "111" "134400"
 /run T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function()local t=GetTime()if t-T>1 then StaticPopup1Button1:Click()T=t end end end F:SetScript("OnUpdate",X)
@@ -199,12 +202,6 @@ END
 VER 3 000000000000004A "123" "338784"
 /run local a=C_LootJournal.GetFilteredLegendaries();local b=select(2,GetItemInfo(a[random(#a)]));local c=ChatTypeInfo["LOOT"]LegendaryItemAlertSystem:AddAlert(b);DEFAULT_CHAT_FRAME:AddMessage(format(LOOT_ITEM_PUSHED_SELF,b),c.r,c.
 END
-VER 3 000000000000004B "2" "413587"
-/run local a={"鹏面","噬骨","财宝","狡诈","壮丽","狼骑","妖鬼","人之靴","荡长","猎头者","白夹","原始外","性甲","员的长"} b=mod(b or 0,#(a))+1 BrowseName:SetText(a[b]) QueryAuctionItems(a[b])
-END
-VER 3 000000000000004C "2" "136222"
-/跟随 拉别哥
-END
 VER 3 000000000000004D "2" "INV_Misc_QuestionMark"
 #showtooltip 流星
 /cast [@cursor] 流星
@@ -215,6 +212,12 @@ VER 3 000000000000004E "2" "136103"
 /cast 火焰冲击
 /cast  凤凰烈焰(神器)
 /cast 火焰冲击
+END
+VER 3 000000000000004B "2" "413587"
+/run local a={"鹏面","噬骨","财宝","狡诈","壮丽","狼骑","妖鬼","人之靴","荡长","猎头者","白夹","原始外","性甲","员的长"} b=mod(b or 0,#(a))+1 BrowseName:SetText(a[b]) QueryAuctionItems(a[b])
+END
+VER 3 000000000000004C "2" "136222"
+/跟随 拉别哥
 END
 VER 3 000000000000004F "222" "134400"
 /run frm2 = CreateFrame("PlayerModel");frm2:SetPoint("BOTTOMRIGHT",frm,"BOTTOMLEFT",0,0);frm2:SetHeight(600);frm2:SetWidth(300);frm2:SetUnit("target")
@@ -247,15 +250,15 @@ VER 3 0000000000000057 "BF_Mount" "132226"
 /target 凛冬之痕
 /跟随 
 END
-VER 3 0000000000000008 "BF_Mount" "224"
-/bfmount
-END
 VER 3 0000000000000058 "BF_Pet" "236701"
 /BFPET
 END
-VER 3 000000000000005C "Decursive" "134400"
+VER 3 0000000000000009 "Decursive" "INV_MISC_QUESTIONMARK"
+/script DecursiveRootTable.Dcr:Println('没有相关技能')
+END
+VER 3 000000000000005B "Decursive" "134400"
 /stopcasting
-/cast [@mouseover,nomod,exists] 散魔功;  [@mouseover,exists,mod:ctrl] 清创生血; [@mouseover,exists,mod:shift] 散魔功
+/cast [@mouseover,nomod,exists] 变形术;  [@mouseover,exists,mod:ctrl] 变形术; [@mouseover,exists,mod:shift] 变形术
 END
 VER 3 000000000000005A "Decursive" "134400"
 /stopcasting
@@ -265,12 +268,9 @@ VER 3 0000000000000059 "Decursive" "1"
 /stopcasting
 /cast [@mouseover,nomod,exists] 解除诅咒;  [@mouseover,exists,mod:ctrl] 变形术; [@mouseover,exists,mod:shift] 解除诅咒
 END
-VER 3 000000000000005B "Decursive" "134400"
+VER 3 000000000000005C "Decursive" "134400"
 /stopcasting
-/cast [@mouseover,nomod,exists] 变形术;  [@mouseover,exists,mod:ctrl] 变形术; [@mouseover,exists,mod:shift] 变形术
-END
-VER 3 0000000000000009 "Decursive" "INV_MISC_QUESTIONMARK"
-/script DecursiveRootTable.Dcr:Println('没有相关技能')
+/cast [@mouseover,nomod,exists] 散魔功;  [@mouseover,exists,mod:ctrl] 清创生血; [@mouseover,exists,mod:shift] 散魔功
 END
 VER 3 0000000000000022 "JGH" "Ability_Creature_Disease_01"
 /hw JGH
@@ -340,17 +340,14 @@ END
 VER 3 0000000000000069 "倒数" "644389"
 /DBM PULL 8
 END
-VER 3 000000000000006A "倒数" "132226"
-/dbm pull 10
-END
 VER 3 000000000000006B "倒数" "134400"
 /dbm pull 7
 END
+VER 3 000000000000006A "倒数" "132226"
+/dbm pull 10
+END
 VER 3 000000000000006C "倒数7" "1052644"
 /DBM PULL 7
-END
-VER 3 000000000000006F "倒数宏" "136002"
-/rt pull 3
 END
 VER 3 000000000000006D "倒数宏" "136002"
 /rt pull 10
@@ -369,6 +366,9 @@ VER 3 000000000000006E "倒数宏" "237565"
 /IN 9 /RW 1
 /IN 9 /RW GO！
 END
+VER 3 000000000000006F "倒数宏" "136002"
+/rt pull 3
+END
 VER 3 0000000000000070 "光环" "INV_Misc_QuestionMark"
 #showtooltip 虔诚光环
 /stopcasting
@@ -377,6 +377,12 @@ VER 3 0000000000000070 "光环" "INV_Misc_QuestionMark"
 END
 VER 3 0000000000000071 "军团入侵宏" "134400"
 /script print(GetAchievementLink(11201));
+END
+VER 3 0000000000000073 "冰箱" "INV_Misc_QuestionMark"
+#showtooltip 寒冰屏障
+/stopcasting 
+/cancelAura 寒冰屏障 
+/cast 寒冰屏障
 END
 VER 3 0000000000000072 "冰箱" "INV_Misc_QuestionMark"
 #showtooltip 寒冰屏障
@@ -404,12 +410,6 @@ VER 3 0000000000000074 "冰箱" "INV_Misc_QuestionMark"
 /in 8 /s 寒冰屏障 还剩 2秒……
 /in 9 /s 寒冰屏障 还剩 1秒……
 /in 10 /s寒冰屏障 结束了,下个接上
-END
-VER 3 0000000000000073 "冰箱" "INV_Misc_QuestionMark"
-#showtooltip 寒冰屏障
-/stopcasting 
-/cancelAura 寒冰屏障 
-/cast 寒冰屏障
 END
 VER 3 0000000000000075 "冰箱取消" "135841"
 /stopcasting
@@ -484,6 +484,11 @@ VER 3 0000000000000085 "奥强" "INV_Misc_QuestionMark"
 /cast 气定神闲
 /cast 狂暴(种族特长)
 END
+VER 3 0000000000000086 "审判" "INV_Misc_QuestionMark"
+#showtooltip 祝福之锤
+/startattack
+/castsequence reset=4 审判,奉献,祝福之锤,祝福之锤,审判,祝福之锤,奉献,审判,祝福之锤
+END
 VER 3 0000000000000088 "审判" "INV_Misc_QuestionMark"
 #showtooltip 审判
 /cast [target=target,harm] [target=targettarget,harm] 审判
@@ -491,11 +496,6 @@ END
 VER 3 0000000000000087 "审判" "INV_Misc_QuestionMark"
 #showtooltip 审判
 /cast [@mouseover,exists,harm][harm,nodead] [@focus,harm,nodead] [@targettarget,harm,nodead][]审判
-END
-VER 3 0000000000000086 "审判" "INV_Misc_QuestionMark"
-#showtooltip 祝福之锤
-/startattack
-/castsequence reset=4 审判,奉献,祝福之锤,祝福之锤,审判,祝福之锤,奉献,审判,祝福之锤
 END
 VER 3 0000000000000015 "怒傻子" "INV_MISC_QUESTIONMARK"
 /run print(IsQuestFlaggedCompleted(32099) and '杀了' or '沒杀') 

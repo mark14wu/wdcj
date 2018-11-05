@@ -1,8 +1,12 @@
 
 tdDropDownDB = {
 	["BrowseName"] = {
-		"精湛潮汐紫水晶", -- [1]
-		"书卷", -- [2]
+		"燎火之碎骨", -- [1]
+		"燎火之碎骨护肩", -- [2]
+		"碎骨", -- [3]
+		"溅血", -- [4]
+		"精湛潮汐紫水晶", -- [5]
+		"书卷", -- [6]
 	},
 	["FriendsFrameBroadcastInput"] = {
 	},
@@ -10,10 +14,10 @@ tdDropDownDB = {
 	},
 	["AchievementFrame.searchBox"] = {
 	},
-	["SendMailNameEditBox"] = {
+	["BuyName"] = {
 	},
 	["TradeSkillFrame.SearchBox"] = {
 	},
-	["BuyName"] = {
+	["SendMailNameEditBox"] = {
 	},
 }

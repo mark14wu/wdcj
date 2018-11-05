@@ -1,5 +1,7 @@
 
 SkadaPerCharDB = {
+	["sets"] = {
+	},
 	["total"] = {
 		["orb_count"] = 0,
 		["healingabsorbed"] = 0,
@@ -19,16 +21,14 @@ SkadaPerCharDB = {
 		},
 		["auras"] = {
 		},
-		["starttime"] = 1532980532,
+		["mobtaken"] = 0,
+		["overhealing"] = 0,
+		["name"] = "总体",
 		["mobs"] = {
 		},
-		["name"] = "总体",
-		["overhealing"] = 0,
-		["mobtaken"] = 0,
+		["starttime"] = 1532980532,
 		["mobhdone"] = 0,
 		["last_action"] = 1532980532,
 		["mobdone"] = 0,
-	},
-	["sets"] = {
 	},
 }

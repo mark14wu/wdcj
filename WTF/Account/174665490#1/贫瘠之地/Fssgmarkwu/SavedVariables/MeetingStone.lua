@@ -5,7 +5,7 @@ MEETINGSTONE_CHARACTER_DB = {
 	},
 	["profiles"] = {
 		["Fssgmarkwu - 贫瘠之地"] = {
-			["version"] = "80000.01",
+			["version"] = "80000.06",
 		},
 	},
 }

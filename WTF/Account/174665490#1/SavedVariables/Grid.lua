@@ -25,65 +25,65 @@ GridDB = {
 			["profiles"] = {
 				["Default"] = {
 					["colors"] = {
-						["HUNTER"] = {
-							["r"] = 0.67,
-							["g"] = 0.83,
-							["b"] = 0.45,
-						},
-						["PALADIN"] = {
-							["r"] = 0.96,
-							["g"] = 0.55,
-							["b"] = 0.73,
+						["SHAMAN"] = {
+							["b"] = 0.87,
+							["g"] = 0.44,
+							["r"] = 0,
 						},
 						["MAGE"] = {
-							["r"] = 0.41,
-							["g"] = 0.8,
 							["b"] = 0.94,
+							["g"] = 0.8,
+							["r"] = 0.41,
 						},
 						["DRUID"] = {
-							["r"] = 1,
-							["g"] = 0.49,
 							["b"] = 0.04,
+							["g"] = 0.49,
+							["r"] = 1,
 						},
 						["MONK"] = {
-							["r"] = 0,
-							["g"] = 1,
 							["b"] = 0.59,
+							["g"] = 1,
+							["r"] = 0,
 						},
 						["DEATHKNIGHT"] = {
-							["r"] = 0.77,
-							["g"] = 0.12,
 							["b"] = 0.23,
+							["g"] = 0.12,
+							["r"] = 0.77,
 						},
 						["PRIEST"] = {
-							["r"] = 1,
-							["g"] = 1,
 							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
 						},
-						["WARRIOR"] = {
-							["r"] = 0.78,
-							["g"] = 0.61,
-							["b"] = 0.43,
+						["HUNTER"] = {
+							["b"] = 0.45,
+							["g"] = 0.83,
+							["r"] = 0.67,
 						},
 						["WARLOCK"] = {
-							["r"] = 0.58,
-							["g"] = 0.51,
 							["b"] = 0.79,
+							["g"] = 0.51,
+							["r"] = 0.58,
 						},
 						["DEMONHUNTER"] = {
-							["r"] = 0.64,
-							["g"] = 0.19,
 							["b"] = 0.79,
+							["g"] = 0.19,
+							["r"] = 0.64,
 						},
-						["SHAMAN"] = {
-							["r"] = 0,
-							["g"] = 0.44,
-							["b"] = 0.87,
+						["WARRIOR"] = {
+							["b"] = 0.43,
+							["g"] = 0.61,
+							["r"] = 0.78,
+						},
+						["PALADIN"] = {
+							["b"] = 0.73,
+							["g"] = 0.55,
+							["r"] = 0.96,
 						},
 						["ROGUE"] = {
-							["r"] = 1,
-							["g"] = 0.96,
 							["b"] = 0.41,
+							["g"] = 0.96,
+							["r"] = 1,
 						},
 					},
 				},
@@ -100,9 +100,9 @@ GridDB = {
 					["layouts"] = {
 						["raid_10"] = "30人团队",
 					},
-					["PosY"] = -139,
+					["PosY"] = -164,
 					["layout"] = "ByGroup",
-					["PosX"] = 12,
+					["PosX"] = 134,
 				},
 			},
 		},
@@ -113,13 +113,15 @@ GridDB = {
 		["GridStatusRole"] = {
 		},
 		["GridRoster"] = {
+			["profiles"] = {
+				["Default"] = {
+					["party_state"] = "party",
+				},
+			},
 		},
 		["GridStatusAuras"] = {
 			["profiles"] = {
 				["Default"] = {
-					["buff_恢复"] = {
-						["icon"] = 135953,
-					},
 					["buff_真言术：盾"] = {
 						["icon"] = 135940,
 					},
@@ -141,23 +143,29 @@ GridDB = {
 					["buff_激流"] = {
 						["icon"] = "Interface\\Icons\\spell_nature_riptide",
 					},
+					["buff_赋予信仰"] = {
+						["icon"] = 236249,
+					},
+					["buff_恢复"] = {
+						["icon"] = 135953,
+					},
 					["buff_回春术"] = {
 						["icon"] = 136081,
 					},
 				},
 			},
 		},
-		["GridIndicatorsDynamic"] = {
+		["GridStatusResurrect"] = {
+		},
+		["GridBuffIcons"] = {
 		},
 		["GridStatusRes"] = {
 		},
-		["GridBorderStyle"] = {
-		},
 		["GridMBStatus"] = {
 		},
-		["GridStatusTarget"] = {
+		["GridStatusThreat"] = {
 		},
-		["GridStatusEnemyTarget"] = {
+		["GridStatusTarget"] = {
 		},
 		["GridStatusRaidDebuff"] = {
 			["profiles"] = {
@@ -166,15 +174,21 @@ GridDB = {
 				},
 			},
 		},
-		["GridStatusGroup"] = {
+		["GridIndicatorSideIcons"] = {
 		},
 		["GridStatusPhase"] = {
 		},
-		["GridStatusMouseover"] = {
+		["GridStatusHealth"] = {
+		},
+		["GridStatusHots"] = {
 		},
 		["GridCooldownText"] = {
 		},
-		["GridStatusVoiceComm"] = {
+		["GridStatusName"] = {
+		},
+		["GridLayoutManager"] = {
+		},
+		["GridStatusVehicle"] = {
 		},
 		["GridFrame"] = {
 			["profiles"] = {
@@ -187,34 +201,32 @@ GridDB = {
 				},
 			},
 		},
-		["GridStatusVehicle"] = {
-		},
-		["GridLayoutManager"] = {
-		},
-		["GridStatusName"] = {
-		},
-		["GridStatusHots"] = {
+		["GridStatusVoiceComm"] = {
 		},
 		["GridStatusReadyCheck"] = {
 		},
-		["GridStatusHealth"] = {
+		["GridStatusMouseover"] = {
 		},
-		["GridIndicatorSideIcons"] = {
+		["GridStatusGroup"] = {
 		},
 		["GridStatusRaidIcon"] = {
 		},
-		["GridStatusThreat"] = {
+		["GridStatusEnemyTarget"] = {
 		},
-		["GridBuffIcons"] = {
+		["GridBorderStyle"] = {
 		},
-		["GridStatusResurrect"] = {
+		["GridIndicatorsDynamic"] = {
 		},
 	},
 	["profileKeys"] = {
-		["Zssgmarkwu - 贫瘠之地"] = "Default",
+		["Wildpower - 贫瘠之地"] = "Default",
 		["Wssgmarkwu - 贫瘠之地"] = "Default",
-		["Wssgmarkwu - 格瑞姆巴托"] = "Default",
 		["Fssgmarkwu - 贫瘠之地"] = "Default",
+		["Zssgmarkwu - 贫瘠之地"] = "Default",
+		["Dksgmarkwu - 贫瘠之地"] = "Default",
+		["Dhsgmarkwu - 贫瘠之地"] = "Default",
+		["Wssgmarkwu - 格瑞姆巴托"] = "Default",
+		["Qssgmarkwu - 贫瘠之地"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

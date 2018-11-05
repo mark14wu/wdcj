@@ -1,5 +1,5 @@
 
-DuowanAddon_FizzleDB = {
+FizzleDB = {
 	["namespaces"] = {
 		["Inspect"] = {
 		},
