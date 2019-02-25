@@ -1,0 +1,19 @@
+
+KalielsTrackerDB = {
+	["char"] = {
+		["Wildpower - 贫瘠之地"] = {
+			["collapsed"] = true,
+		},
+	},
+	["global"] = {
+		["version"] = "3.1.4",
+	},
+	["profileKeys"] = {
+		["Wssgmarkwu - 死亡之翼"] = "Default",
+		["Wildpower - 贫瘠之地"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

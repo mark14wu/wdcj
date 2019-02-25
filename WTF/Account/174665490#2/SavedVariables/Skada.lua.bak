@@ -1,0 +1,39 @@
+
+SkadaDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["天行丶陶矢 - 死亡之翼"] = "Default",
+		["Testbenchmk - 死亡之翼"] = "Default",
+		["Zssgmarkwu - 死亡之翼"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["windows"] = {
+				{
+					["set"] = "total",
+					["hidden"] = true,
+					["y"] = 92.1057815551758,
+					["mode"] = "伤害",
+					["barwidth"] = 315.174835205078,
+					["background"] = {
+						["height"] = 335.566009521484,
+					},
+					["x"] = -101.797119140625,
+				}, -- [1]
+			},
+			["versions"] = {
+				["1.6.7"] = true,
+				["1.6.4"] = true,
+				["1.6.3"] = true,
+			},
+			["modeclicks"] = {
+				["治疗"] = 2,
+				["伤害"] = 18,
+				["总计治疗"] = 1,
+			},
+		},
+	},
+}

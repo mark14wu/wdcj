@@ -1,5 +1,16 @@
 
 OmniCC4Config = {
+	["groups"] = {
+		{
+			["id"] = "163UI_Grid",
+			["rules"] = {
+				"GridLayoutHeader", -- [1]
+			},
+			["version"] = "20160728",
+			["enabled"] = true,
+		}, -- [1]
+	},
+	["version"] = "8.1.1",
 	["groupSettings"] = {
 		["base"] = {
 			["minDuration"] = 2,
@@ -27,17 +38,17 @@ OmniCC4Config = {
 			["fontFace"] = "Fonts\\ARKai_T.ttf",
 			["fontSize"] = 26,
 			["effect"] = "none",
-			["scaleText"] = true,
+			["minDuration"] = 3,
 			["mmSSDuration"] = 0,
 			["minSize"] = 0.1,
 			["spiralOpacity"] = 0.6,
-			["minDuration"] = 3,
+			["yOff"] = 5,
 			["xOff"] = 10,
 			["tenthsDuration"] = 0,
 			["fontOutline"] = "OUTLINE",
 			["anchor"] = "TOPRIGHT",
 			["minEffectDuration"] = 30,
-			["yOff"] = 5,
+			["scaleText"] = true,
 			["styles"] = {
 				["soon"] = {
 					["a"] = 1,
@@ -84,15 +95,4 @@ OmniCC4Config = {
 			},
 		},
 	},
-	["groups"] = {
-		{
-			["id"] = "163UI_Grid",
-			["rules"] = {
-				"GridLayoutHeader", -- [1]
-			},
-			["version"] = "20160728",
-			["enabled"] = true,
-		}, -- [1]
-	},
-	["version"] = "8.0.6",
 }

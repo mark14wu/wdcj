@@ -1,0 +1,39 @@
+VER 3 0000000000000003 "1" "INV_MISC_QUESTIONMARK"
+/cast 消失
+/use 灵魂之引
+END
+VER 3 0000000000000004 "1" "133482"
+/cast 脚踢
+/Y 我已经打断 3断3333333
+END
+VER 3 0000000000000001 "11" "ABILITY_KICK"
+/use 脚踢
+/run I=I or CreateFrame("frame")I:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED")I:SetScript("OnEvent",function
+(_,_,_,e,_,_,p,_,_,_,n,_,_,_,_,_,_,s)if(e=="SPELL_INTERRUPT"and p=="Ferocious")then SendChatMessage("打断了>"..n.."<
+的-"..s,"Say");end;end)
+E
+END
+VER 3 0000000000000002 "33" "INV_STAFF_10"
+/1 工会招收DZ和远程DPS，活动时间456晚7点30-11点30   主母百分之10，有兴趣M。
+END
+VER 3 0000000000000005 "、" "644389"
+/console weatherDensity 0
+END
+VER 3 000000000000000A "倒数宏" "132337"
+/DBM PULL 8
+END
+VER 3 0000000000000006 "欢乐桶" "132368"
+/script SetRaidTarget("mouseover",2)
+/click ExtraActionButton1
+END
+VER 3 0000000000000007 "离" "135833"
+/console cameraDistanceMaxZoomFactor 2.6 
+END
+VER 3 0000000000000008 "邀请" "236307"
+/邀请 钚願飝翔的風-刺骨利刃
+/邀请 壹夫当关-凤凰之神
+END
+VER 3 0000000000000009 "邀请2" "1378702"
+/邀请 肉厚皮不糙-斯克提斯
+/邀请 丿江南皮革厂-海克泰尔
+END

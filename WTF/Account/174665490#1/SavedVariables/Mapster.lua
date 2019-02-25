@@ -4,6 +4,11 @@ MapsterDB = {
 		["GroupIcons"] = {
 		},
 		["Coords"] = {
+			["profiles"] = {
+				["Default"] = {
+					["accuracy"] = 2,
+				},
+			},
 		},
 		["FogClear"] = {
 			["profiles"] = {
@@ -20,17 +25,21 @@ MapsterDB = {
 		["一少纯帅之父 - 贫瘠之地"] = "Default",
 		["Dhsgmarkwu - 贫瘠之地"] = "Default",
 		["Zssgmarkwu - 贫瘠之地"] = "Default",
+		["无码分散 - 死亡之翼"] = "Default",
+		["Wssgmarkwu - 死亡之翼"] = "Default",
 		["Wssgmarkwu - 贫瘠之地"] = "Default",
 		["Fssgmarkwu - 贫瘠之地"] = "Default",
+		["一少纯帅之母 - 贫瘠之地"] = "Default",
+		["Markws - 死亡之翼"] = "Default",
 		["Dksgmarkwu - 贫瘠之地"] = "Default",
 		["Wssgmarkwu - 格瑞姆巴托"] = "Default",
-		["一少纯帅之母 - 贫瘠之地"] = "Default",
 		["Qssgmarkwu - 贫瘠之地"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
-			["y"] = 35.2169647216797,
-			["x"] = 37.5026473999023,
+			["scale"] = 0.89486575126648,
+			["y"] = 43.8110674379277,
+			["x"] = 22.6048449701229,
 			["point"] = "CENTER",
 		},
 	},

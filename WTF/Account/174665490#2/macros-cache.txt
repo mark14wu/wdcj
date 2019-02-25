@@ -1,3 +1,6 @@
+VER 3 0000000000000006 "555666" "134400"
+/脚本 T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function()local t=GetTime()if t-T>33 then SendChatMessage("剑行H阿克团BOSS面前有需求的老板M","channel",nil,7)T=t end end end F:SetScript("OnUpdate",X)
+END
 VER 3 0000000000000002 "TSMDestroyer" "ACHIEVEMENT_GUILDPERK_HASTYHEARTH"
 /tsm destroy
 END

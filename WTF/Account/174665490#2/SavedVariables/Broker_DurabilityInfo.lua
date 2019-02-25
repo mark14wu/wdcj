@@ -1,0 +1,12 @@
+
+Broker_DurabilityInfoDB = {
+	["profileKeys"] = {
+		["天行丶陶矢 - 死亡之翼"] = "Default",
+		["Zssgmarkwu - 死亡之翼"] = "Default",
+		["Testbenchmk - 死亡之翼"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

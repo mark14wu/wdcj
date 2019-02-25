@@ -1,18 +1,18 @@
 
 AutoTurnInCharacterDB = {
-	["togglekey"] = 4,
+	["completeonly"] = false,
 	["questlevel"] = true,
 	["secondary"] = {
 	},
 	["showrewardtext"] = true,
 	["questshare"] = false,
 	["watchlevel"] = true,
-	["completeonly"] = false,
+	["armor"] = {
+	},
 	["enabled"] = false,
 	["todarkmoon"] = true,
 	["autoequip"] = false,
-	["armor"] = {
-	},
+	["togglekey"] = 4,
 	["relictoggle"] = true,
 	["darkmoonautostart"] = true,
 	["darkmoonteleport"] = true,

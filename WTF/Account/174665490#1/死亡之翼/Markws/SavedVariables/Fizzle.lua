@@ -1,0 +1,17 @@
+
+FizzleDB = {
+	["namespaces"] = {
+		["Inspect"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Wssgmarkwu - 死亡之翼"] = "Wssgmarkwu - 死亡之翼",
+		["Markws - 死亡之翼"] = "Markws - 死亡之翼",
+	},
+	["profiles"] = {
+		["Wssgmarkwu - 死亡之翼"] = {
+		},
+		["Markws - 死亡之翼"] = {
+		},
+	},
+}

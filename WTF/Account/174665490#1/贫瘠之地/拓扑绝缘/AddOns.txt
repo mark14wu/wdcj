@@ -1,0 +1,10 @@
+9813229.taobao.comWSJX: disabled
+BigWigs: disabled
+BigWigs_Azeroth: disabled
+BigWigs_BattleOfDazaralor: disabled
+BigWigs_CrucibleOfStorms: disabled
+BigWigs_Uldir: disabled
+BigWigs_Plugins: disabled
+BigWigs_Core: disabled
+BigWigs_Options: disabled
+Simulationcraft: disabled

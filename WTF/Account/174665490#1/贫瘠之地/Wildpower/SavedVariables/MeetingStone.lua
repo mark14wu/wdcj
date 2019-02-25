@@ -12,7 +12,7 @@ MEETINGSTONE_CHARACTER_DB = {
 					["scale"] = 1,
 				},
 			},
-			["version"] = "80000.06",
+			["version"] = "80100.02",
 		},
 	},
 }

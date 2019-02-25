@@ -1,0 +1,27 @@
+
+HHTD_SavedVariables = {
+	["char"] = {
+		["Wssgmarkwu - 死亡之翼"] = {
+			["settingsMigrated"] = false,
+		},
+		["Zssgmarkwu - 贫瘠之地"] = {
+			["settingsMigrated"] = false,
+		},
+	},
+	["global"] = {
+		["settingsMigrated"] = false,
+		["oldNameEnableState"] = 2,
+	},
+	["profileKeys"] = {
+		["Wssgmarkwu - 死亡之翼"] = "Wssgmarkwu - 死亡之翼",
+		["Zssgmarkwu - 贫瘠之地"] = "Zssgmarkwu - 贫瘠之地",
+	},
+	["namespaces"] = {
+		["Announcer"] = {
+		},
+		["CM"] = {
+		},
+		["NPH"] = {
+		},
+	},
+}

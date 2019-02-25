@@ -1,0 +1,21 @@
+
+tdDropDownDB = {
+	["BrowseName"] = {
+		"黑铁袭击者战靴", -- [1]
+		"背水一战重型腰带", -- [2]
+		"自动铁锤", -- [3]
+		"漩涡战鼓", -- [4]
+	},
+	["FriendsFrameBroadcastInput"] = {
+	},
+	["EncounterJournalSearchBox"] = {
+	},
+	["AchievementFrame.searchBox"] = {
+	},
+	["SendMailNameEditBox"] = {
+	},
+	["TradeSkillFrame.SearchBox"] = {
+	},
+	["BuyName"] = {
+	},
+}

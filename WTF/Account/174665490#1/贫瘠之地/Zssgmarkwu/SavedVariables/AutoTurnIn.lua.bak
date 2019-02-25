@@ -1,18 +1,18 @@
 
 AutoTurnInCharacterDB = {
-	["togglekey"] = 4,
+	["completeonly"] = false,
 	["questlevel"] = true,
 	["weapon"] = {
 	},
 	["showrewardtext"] = true,
 	["trivial"] = false,
 	["watchlevel"] = true,
-	["completeonly"] = false,
+	["armor"] = {
+	},
 	["enabled"] = false,
 	["todarkmoon"] = true,
 	["autoequip"] = false,
-	["armor"] = {
-	},
+	["togglekey"] = 4,
 	["tournament"] = 2,
 	["darkmoonautostart"] = true,
 	["darkmoonteleport"] = true,

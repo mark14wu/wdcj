@@ -1,0 +1,222 @@
+
+GridDB = {
+	["namespaces"] = {
+		["GridStatusStagger"] = {
+		},
+		["GridStatusTankCooldown"] = {
+		},
+		["GridClickSets"] = {
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["GridCustomLayouts"] = {
+		},
+		["GridStatusResurrect"] = {
+		},
+		["GridStatusAbsorbs"] = {
+		},
+		["GridStatusSummon"] = {
+		},
+		["GridMBFrame"] = {
+		},
+		["GridStatusOverflow"] = {
+		},
+		["GridStatusRange"] = {
+		},
+		["GridStatus"] = {
+			["profiles"] = {
+				["Default"] = {
+					["colors"] = {
+						["PALADIN"] = {
+							["r"] = 0.96,
+							["g"] = 0.55,
+							["b"] = 0.73,
+						},
+						["MAGE"] = {
+							["r"] = 0.25,
+							["g"] = 0.78,
+							["b"] = 0.92,
+						},
+						["DRUID"] = {
+							["r"] = 1,
+							["g"] = 0.49,
+							["b"] = 0.04,
+						},
+						["MONK"] = {
+							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0.59,
+						},
+						["DEATHKNIGHT"] = {
+							["r"] = 0.77,
+							["g"] = 0.12,
+							["b"] = 0.23,
+						},
+						["PRIEST"] = {
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["HUNTER"] = {
+							["r"] = 0.67,
+							["g"] = 0.83,
+							["b"] = 0.45,
+						},
+						["WARLOCK"] = {
+							["r"] = 0.53,
+							["g"] = 0.53,
+							["b"] = 0.93,
+						},
+						["DEMONHUNTER"] = {
+							["r"] = 0.64,
+							["g"] = 0.19,
+							["b"] = 0.79,
+						},
+						["WARRIOR"] = {
+							["r"] = 0.78,
+							["g"] = 0.61,
+							["b"] = 0.43,
+						},
+						["SHAMAN"] = {
+							["r"] = 0,
+							["g"] = 0.44,
+							["b"] = 0.87,
+						},
+						["ROGUE"] = {
+							["r"] = 1,
+							["g"] = 0.96,
+							["b"] = 0.41,
+						},
+					},
+				},
+			},
+		},
+		["GridStatusAggro"] = {
+		},
+		["GridStatusHeals"] = {
+		},
+		["GridLayout"] = {
+			["profiles"] = {
+				["Default"] = {
+					["anchorRel"] = "TOPLEFT",
+					["PosY"] = -155,
+					["layout"] = "ByGroup",
+					["PosX"] = 21,
+				},
+			},
+		},
+		["GridQuickHealth"] = {
+		},
+		["GridFrame"] = {
+			["profiles"] = {
+				["Default"] = {
+					["statusmap"] = {
+						["iconbottom"] = {
+						},
+					},
+					["texture"] = "TukNorm",
+				},
+			},
+		},
+		["GridStatusVehicle"] = {
+		},
+		["GridRoster"] = {
+		},
+		["GridStatusName"] = {
+		},
+		["GridBorderStyle"] = {
+		},
+		["GridMBStatus"] = {
+		},
+		["GridStatusTarget"] = {
+		},
+		["GridStatusPhase"] = {
+		},
+		["GridLayoutManager"] = {
+		},
+		["GridStatusHealth"] = {
+		},
+		["GridStatusMana"] = {
+		},
+		["GridStatusRole"] = {
+		},
+		["GridStatusMouseover"] = {
+		},
+		["GridIndicatorsDynamic"] = {
+		},
+		["GridStatusReadyCheck"] = {
+		},
+		["GridStatusAuras"] = {
+		},
+		["GridStatusGroup"] = {
+		},
+		["GridStatusRaidIcon"] = {
+		},
+		["GridBuffIcons"] = {
+		},
+		["GridStatusEnemyTarget"] = {
+		},
+		["GridStatusRaidDebuff"] = {
+			["profiles"] = {
+				["Default"] = {
+					["detected_debuff"] = {
+						["塞塔里斯神庙"] = {
+							["瘟疫"] = 269686,
+							["瓶中闪电"] = 272696,
+							["极化力场"] = 273274,
+							["毒性喷吐"] = 272699,
+							["烈焰震击"] = 268013,
+							["剧毒之池"] = 263927,
+							["缠绕的蛇群"] = 263958,
+							["夺魂"] = 288388,
+							["偷袭"] = 268993,
+							["暗影碎击"] = 288694,
+							["狂风之力"] = 263778,
+							["驱逐灵魂"] = 290085,
+							["细胞毒素"] = 267027,
+							["充电"] = 266923,
+							["毒蛇诱惑"] = 268008,
+							["黄沙冲刷"] = 272655,
+							["神经毒素"] = 273563,
+							["导电"] = 263371,
+							["毒性吐息"] = 272657,
+							["盲目之沙"] = 269970,
+							["心脏打击"] = 268007,
+							["脉冲"] = 268024,
+							["强化"] = 269670,
+						},
+						["奥杜尔"] = {
+							["理智"] = 63050,
+							["厄运诅咒"] = 64157,
+							["能量衰减"] = 64145,
+							["黑色热疫"] = 64153,
+							["冷漠"] = 64156,
+							["挤压"] = 64126,
+						},
+						["自由镇"] = {
+							["毒性打击"] = 257437,
+							["污秽油膜"] = 257274,
+						},
+						["影牙城堡"] = {
+							["喷洒诱惑香水"] = 68607,
+							["泼洒浓缩的诱惑香水"] = 68927,
+							["泼洒浓缩的迷魅古龙水"] = 68934,
+							["诱惑香水"] = 68641,
+							["无法抗拒的古龙水"] = 68947,
+						},
+					},
+					["isFirst"] = false,
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["天行丶陶矢 - 死亡之翼"] = "Default",
+		["Testbenchmk - 死亡之翼"] = "Default",
+		["Zssgmarkwu - 死亡之翼"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

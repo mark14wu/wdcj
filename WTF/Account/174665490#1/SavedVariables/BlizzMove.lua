@@ -1,15 +1,25 @@
 
 BlizzMoveDB = {
 	["TradeSkillFrame"] = {
+		["point"] = "TOPLEFT",
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -1.87298560142517,
+		["xOfs"] = 1.77780783176422,
 	},
 	["RaidParentFrame"] = {
+	},
+	["ClassTrainerFrame"] = {
+		["point"] = "LEFT",
+		["relativePoint"] = "LEFT",
+		["yOfs"] = 37.714282989502,
+		["xOfs"] = 16,
 	},
 	["GameMenuFrame"] = {
 		["defaultScale"] = 1,
 		["point"] = "CENTER",
 		["relativePoint"] = "CENTER",
-		["yOfs"] = -2.223128285550050e-005,
-		["xOfs"] = 4.446256571100090e-005,
+		["yOfs"] = 0,
+		["xOfs"] = -0.348279476165772,
 		["default"] = {
 			{
 				"CENTER", -- [1]
@@ -28,8 +38,8 @@ BlizzMoveDB = {
 				"TOP", -- [1]
 				"PlayerFrame", -- [2]
 				"TOP", -- [3]
-				49.0000076293945, -- [4]
-				-46, -- [5]
+				49, -- [4]
+				-45.9999961853027, -- [5]
 			}, -- [1]
 		},
 		["modifyKey"] = "IsShiftKeyDown",
@@ -38,19 +48,23 @@ BlizzMoveDB = {
 		["defaultScale"] = 1,
 		["point"] = "LEFT",
 		["relativePoint"] = "LEFT",
-		["yOfs"] = 37.0370292663574,
-		["xOfs"] = 11.2592468261719,
+		["yOfs"] = 34.328010559082,
+		["xOfs"] = 12.6137523651123,
 		["default"] = {
 			{
 				"TOPLEFT", -- [1]
 				"UIParent", -- [2]
 				"TOPLEFT", -- [3]
-				16, -- [4]
-				-116.000007629395, -- [5]
+				16.0000019073486, -- [4]
+				-116, -- [5]
 			}, -- [1]
 		},
 	},
 	["MacroFrame"] = {
+		["point"] = "LEFT",
+		["relativePoint"] = "LEFT",
+		["yOfs"] = 37.714282989502,
+		["xOfs"] = 16,
 	},
 	["ChatConfigFrame"] = {
 		["point"] = "TOP",
@@ -59,93 +73,53 @@ BlizzMoveDB = {
 		["xOfs"] = -55.5344085693359,
 	},
 	["CollectionsJournal"] = {
-		["defaultScale"] = 1,
 		["point"] = "TOPLEFT",
 		["relativePoint"] = "TOPLEFT",
-		["yOfs"] = -16.7724361419678,
-		["xOfs"] = 24.8042106628418,
-		["default"] = {
-			{
-				"TOPLEFT", -- [1]
-				nil, -- [2]
-				"TOPLEFT", -- [3]
-				18.0317649841309, -- [4]
-				-6.61367321014404, -- [5]
-			}, -- [1]
-		},
+		["yOfs"] = -9.99998664855957,
+		["xOfs"] = 16,
 		["save"] = true,
 	},
 	["AchievementFrame"] = {
-		["point"] = "CENTER",
-		["relativePoint"] = "CENTER",
-		["yOfs"] = 31.7353992462158,
+		["point"] = "RIGHT",
+		["relativePoint"] = "RIGHT",
+		["yOfs"] = 18.1904144287109,
+		["xOfs"] = -63.1537399291992,
 		["save"] = true,
-		["xOfs"] = 16.7618083953857,
 	},
 	["ComboPointPlayerFrame"] = {
 		["save"] = true,
 		["modifyKey"] = "IsShiftKeyDown",
 	},
 	["GarrisonLandingPage"] = {
-		["default"] = {
-			{
-				"TOPLEFT", -- [1]
-				"UIParent", -- [2]
-				"TOPLEFT", -- [3]
-				16, -- [4]
-				-53.4286499023438, -- [5]
-			}, -- [1]
-		},
-		["defaultScale"] = 1,
+		["point"] = "LEFT",
+		["relativePoint"] = "LEFT",
+		["yOfs"] = 15.518479347229,
+		["xOfs"] = -21.9259033203125,
 	},
 	["GarrisonCapacitiveDisplayFrame"] = {
-		["default"] = {
-			{
-				"TOPLEFT", -- [1]
-				"UIParent", -- [2]
-				"TOPLEFT", -- [3]
-				16, -- [4]
-				-116.000007629395, -- [5]
-			}, -- [1]
-		},
-		["defaultScale"] = 1,
+	},
+	["BarberShopFrame"] = {
+		["point"] = "RIGHT",
+		["relativePoint"] = "RIGHT",
+		["yOfs"] = -50.0000228881836,
+		["xOfs"] = -66.3698043823242,
 	},
 	["MageArcaneChargesFrame"] = {
 		["save"] = true,
 		["modifyKey"] = "IsShiftKeyDown",
 	},
 	["ScrappingMachineFrame"] = {
-		["defaultScale"] = 1,
-		["default"] = {
-			{
-				"LEFT", -- [1]
-				nil, -- [2]
-				"LEFT", -- [3]
-				15.3227462768555, -- [4]
-				110.714256286621, -- [5]
-			}, -- [1]
-		},
 		["point"] = "LEFT",
 		["relativePoint"] = "LEFT",
-		["yOfs"] = 110.714256286621,
+		["yOfs"] = 97.1692657470703,
+		["xOfs"] = 11.9364671707153,
 		["save"] = true,
-		["xOfs"] = 15.3227462768555,
 	},
 	["PlayerTalentFrame"] = {
-		["defaultScale"] = 1,
 		["point"] = "LEFT",
 		["relativePoint"] = "LEFT",
-		["yOfs"] = 28.2856407165527,
-		["xOfs"] = 16,
-		["default"] = {
-			{
-				"TOPLEFT", -- [1]
-				"UIParent", -- [2]
-				"TOPLEFT", -- [3]
-				16, -- [4]
-				-103.428657531738, -- [5]
-			}, -- [1]
-		},
+		["yOfs"] = 24.8993701934814,
+		["xOfs"] = 18.7089939117432,
 	},
 	["GuildBankFrame"] = {
 		["save"] = true,
@@ -154,39 +128,23 @@ BlizzMoveDB = {
 		["save"] = true,
 	},
 	["TotemFrame"] = {
-		["defaultScale"] = 1,
 		["save"] = true,
-		["default"] = {
-			{
-				"TOPLEFT", -- [1]
-				"PlayerFrame", -- [2]
-				"TOPLEFT", -- [3]
-				28.0000038146973, -- [4]
-				-75, -- [5]
-			}, -- [1]
-		},
 		["modifyKey"] = "IsShiftKeyDown",
 	},
 	["version"] = "20180816",
-	["ItemSocketingFrame"] = {
+	["GarrisonBuildingFrame"] = {
 	},
 	["QuestFrame"] = {
-		["defaultScale"] = 1,
 		["point"] = "LEFT",
 		["relativePoint"] = "LEFT",
 		["yOfs"] = 19.5766677856445,
-		["xOfs"] = 17.3544960021973,
-		["default"] = {
-			{
-				"TOPLEFT", -- [1]
-				"UIParent", -- [2]
-				"TOPLEFT", -- [3]
-				16, -- [4]
-				-95.4286499023438, -- [5]
-			}, -- [1]
-		},
+		["xOfs"] = 14.6455039978027,
 	},
 	["TradeFrame"] = {
+		["point"] = "LEFT",
+		["relativePoint"] = "LEFT",
+		["yOfs"] = 26.7142448425293,
+		["xOfs"] = 16,
 	},
 	["CalendarFrame"] = {
 		["point"] = "TOPLEFT",
@@ -198,29 +156,55 @@ BlizzMoveDB = {
 	["InterfaceOptionsFrame"] = {
 		["point"] = "CENTER",
 		["relativePoint"] = "CENTER",
-		["yOfs"] = -6.09523963928223,
-		["xOfs"] = 0.677253782749176,
+		["yOfs"] = 0,
+		["xOfs"] = 0,
 	},
 	["WarlockPowerFrame"] = {
 		["save"] = true,
 		["modifyKey"] = "IsShiftKeyDown",
 	},
-	["GarrisonBuildingFrame"] = {
-	},
 	["GarrisonMissionFrame"] = {
 	},
-	["InspectFrame"] = {
+	["PlayerPowerBarAlt"] = {
+		["default"] = {
+			{
+				"CENTER", -- [1]
+				nil, -- [2]
+				"CENTER", -- [3]
+				0, -- [4]
+				0, -- [5]
+			}, -- [1]
+		},
+		["defaultScale"] = 1,
 	},
-	["AuctionFrame"] = {
+	["InspectFrame"] = {
 		["point"] = "LEFT",
 		["relativePoint"] = "LEFT",
-		["yOfs"] = 43.1453399658203,
-		["xOfs"] = 10.581787109375,
-		["save"] = true,
+		["yOfs"] = 37.714282989502,
+		["xOfs"] = 16,
 	},
-	["Boss1TargetFrame"] = {
-		["save"] = false,
-		["modifyKey"] = "IsShiftKeyDown",
+	["AuctionFrame"] = {
+		["point"] = "TOPRIGHT",
+		["relativePoint"] = "TOPRIGHT",
+		["yOfs"] = -57.0798377990723,
+		["save"] = true,
+		["xOfs"] = -48.3477973937988,
+	},
+	["CharacterFrame"] = {
+		["defaultScale"] = 1,
+		["point"] = "TOPRIGHT",
+		["relativePoint"] = "TOPRIGHT",
+		["yOfs"] = -61.8201293945313,
+		["xOfs"] = -48.7830848693848,
+		["default"] = {
+			{
+				"TOPLEFT", -- [1]
+				"UIParent", -- [2]
+				"TOPLEFT", -- [3]
+				16.0000019073486, -- [4]
+				-116, -- [5]
+			}, -- [1]
+		},
 	},
 	["BankFrame"] = {
 	},
@@ -234,76 +218,36 @@ BlizzMoveDB = {
 		["xOfs"] = 17.3544254302979,
 		["save"] = true,
 	},
-	["CharacterFrame"] = {
-		["defaultScale"] = 1,
-		["point"] = "LEFT",
-		["relativePoint"] = "LEFT",
-		["yOfs"] = 37.7143325805664,
-		["xOfs"] = 16.0000019073486,
-		["default"] = {
-			{
-				"TOPLEFT", -- [1]
-				"UIParent", -- [2]
-				"TOPLEFT", -- [3]
-				16, -- [4]
-				-116.000007629395, -- [5]
-			}, -- [1]
-		},
-	},
-	["EclipseBarFrame"] = {
-		["save"] = true,
-		["modifyKey"] = "IsShiftKeyDown",
+	["SpellBookFrame"] = {
+		["point"] = "TOPLEFT",
+		["relativePoint"] = "TOPLEFT",
+		["yOfs"] = -47.1059112548828,
+		["xOfs"] = 16.6772117614746,
 	},
 	["PriestBarFrame"] = {
 		["save"] = true,
 		["modifyKey"] = "IsShiftKeyDown",
 	},
-	["LFDParentFrame"] = {
-		["default"] = {
-			{
-				"TOPLEFT", -- [1]
-				"GroupFinderFrame", -- [2]
-				"TOPLEFT", -- [3]
-				224.000030517578, -- [4]
-				0, -- [5]
-			}, -- [1]
-		},
-		["defaultScale"] = 1,
-	},
-	["FriendsFrame"] = {
-		["defaultScale"] = 1,
-		["default"] = {
-			{
-				"LEFT", -- [1]
-				nil, -- [2]
-				"LEFT", -- [3]
-				9.90476131439209, -- [4]
-				43.8095664978027, -- [5]
-			}, -- [1]
-		},
-		["relativePoint"] = "LEFT",
-		["yOfs"] = 43.8095664978027,
-		["save"] = true,
-		["xOfs"] = 9.90476131439209,
-		["point"] = "LEFT",
-	},
-	["GossipFrame"] = {
-		["defaultScale"] = 1,
-		["point"] = "LEFT",
-		["relativePoint"] = "LEFT",
-		["yOfs"] = 20.2538318634033,
-		["xOfs"] = 18.7089996337891,
-		["default"] = {
-			{
-				"TOPLEFT", -- [1]
-				"UIParent", -- [2]
-				"TOPLEFT", -- [3]
-				16, -- [4]
-				-95.4286499023438, -- [5]
-			}, -- [1]
-		},
+	["KeyBindingFrame"] = {
 	},
 	["QuestLogPopupDetailFrame"] = {
+	},
+	["EclipseBarFrame"] = {
+		["save"] = true,
+		["modifyKey"] = "IsShiftKeyDown",
+	},
+	["GossipFrame"] = {
+		["point"] = "LEFT",
+		["relativePoint"] = "LEFT",
+		["yOfs"] = 22.2856826782227,
+		["xOfs"] = 16,
+	},
+	["AzeriteEmpoweredItemUI"] = {
+		["point"] = "TOPRIGHT",
+		["relativePoint"] = "TOPRIGHT",
+		["yOfs"] = -2.92592620849609,
+		["xOfs"] = -145.048126220703,
+		["save"] = true,
 	},
 	["ObjectiveTrackerFrame"] = {
 		["defaultScale"] = 1,
@@ -312,50 +256,28 @@ BlizzMoveDB = {
 				"TOPRIGHT", -- [1]
 				"MinimapCluster", -- [2]
 				"BOTTOMRIGHT", -- [3]
-				-78.3698043823242, -- [4]
-				0, -- [5]
+				-81.7097778320313, -- [4]
+				-5.00000810623169, -- [5]
 			}, -- [1]
 			{
 				"BOTTOMRIGHT", -- [1]
 				"UIParent", -- [2]
 				"BOTTOMRIGHT", -- [3]
-				-78.3698043823242, -- [4]
+				-81.7097778320313, -- [4]
 				130, -- [5]
 			}, -- [2]
 		},
 		["relativePoint"] = "BOTTOMRIGHT",
-		["yOfs"] = 63.9999961853027,
+		["yOfs"] = 63.999813079834,
 		["save"] = true,
 		["point"] = "BOTTOMRIGHT",
-		["xOfs"] = -77.6926422119141,
+		["xOfs"] = -77.015121459961,
 	},
-	["AzeriteEmpoweredItemUI"] = {
-		["save"] = true,
-	},
-	["WorldMapFrame"] = {
-		["defaultScale"] = 1,
-		["save"] = true,
-		["default"] = {
-			{
-				"CENTER", -- [1]
-				"UIParent", -- [2]
-				"CENTER", -- [3]
-				37.5026512145996, -- [4]
-				35.2169647216797, -- [5]
-			}, -- [1]
-		},
-	},
-	["DressUpFrame"] = {
-		["default"] = {
-			{
-				"TOPLEFT", -- [1]
-				"UIParent", -- [2]
-				"TOPLEFT", -- [3]
-				16, -- [4]
-				-46.4286499023438, -- [5]
-			}, -- [1]
-		},
-		["defaultScale"] = 1,
+	["MerchantFrame"] = {
+		["point"] = "LEFT",
+		["relativePoint"] = "LEFT",
+		["yOfs"] = 27.7142944335938,
+		["xOfs"] = 16,
 	},
 	["MinimapCluster"] = {
 		["defaultScale"] = 1,
@@ -371,98 +293,66 @@ BlizzMoveDB = {
 		},
 		["modifyKey"] = "IsShiftKeyDown",
 	},
+	["DressUpFrame"] = {
+	},
+	["WorldMapFrame"] = {
+		["save"] = true,
+	},
 	["RuneFrame"] = {
 		["save"] = true,
 		["modifyKey"] = "IsShiftKeyDown",
 	},
-	["SpellBookFrame"] = {
-		["defaultScale"] = 1,
-		["point"] = "TOPLEFT",
-		["relativePoint"] = "TOPLEFT",
-		["yOfs"] = -47.7831649780273,
-		["xOfs"] = 15.322790145874,
-		["default"] = {
-			{
-				"TOPLEFT", -- [1]
-				"UIParent", -- [2]
-				"TOPLEFT", -- [3]
-				16, -- [4]
-				-46.4286499023438, -- [5]
-			}, -- [1]
-		},
+	["LFDParentFrame"] = {
 	},
 	["LootFrame"] = {
 	},
-	["MerchantFrame"] = {
-		["defaultScale"] = 1,
-		["point"] = "LEFT",
-		["relativePoint"] = "LEFT",
-		["yOfs"] = 28.3915500640869,
-		["xOfs"] = 15.3227462768555,
-		["default"] = {
-			{
-				"TOPLEFT", -- [1]
-				"UIParent", -- [2]
-				"TOPLEFT", -- [3]
-				16, -- [4]
-				-116.000007629395, -- [5]
-			}, -- [1]
-		},
-	},
-	["KeyBindingFrame"] = {
-	},
-	["PVEFrame"] = {
+	["FriendsFrame"] = {
 		["defaultScale"] = 1,
 		["default"] = {
 			{
-				"TOPLEFT", -- [1]
-				"UIParent", -- [2]
-				"TOPLEFT", -- [3]
-				16, -- [4]
-				-116.000007629395, -- [5]
+				"CENTER", -- [1]
+				nil, -- [2]
+				"CENTER", -- [3]
+				216.83088684082, -- [4]
+				-33.3969688415527, -- [5]
 			}, -- [1]
 		},
-		["relativePoint"] = "CENTER",
-		["yOfs"] = -30.6561145782471,
-		["save"] = true,
 		["point"] = "CENTER",
-		["xOfs"] = -111.500190734863,
+		["relativePoint"] = "CENTER",
+		["yOfs"] = -33.3969650268555,
+		["save"] = true,
+		["xOfs"] = 216.83088684082,
 	},
 	["PaladinPowerBarFrame"] = {
 		["save"] = true,
+		["modifyKey"] = "IsShiftKeyDown",
+	},
+	["PVEFrame"] = {
+		["point"] = "CENTER",
+		["relativePoint"] = "CENTER",
+		["yOfs"] = 22.1694145202637,
+		["save"] = true,
+		["xOfs"] = 93.7831039428711,
+	},
+	["Boss1TargetFrame"] = {
+		["save"] = false,
 		["modifyKey"] = "IsShiftKeyDown",
 	},
 	["MirrorTimer1"] = {
 		["save"] = true,
 		["modifyKey"] = "IsShiftKeyDown",
 	},
-	["PlayerPowerBarAlt"] = {
-		["default"] = {
-			{
-				"BOTTOM", -- [1]
-				"UIParent", -- [2]
-				"BOTTOM", -- [3]
-				0, -- [4]
-				160, -- [5]
-			}, -- [1]
-		},
-		["defaultScale"] = 1,
-	},
 	["VideoOptionsFrame"] = {
-		["defaultScale"] = 1,
 		["point"] = "CENTER",
 		["relativePoint"] = "CENTER",
 		["yOfs"] = 0,
 		["xOfs"] = 0,
-		["default"] = {
-			{
-				"CENTER", -- [1]
-				"UIParent", -- [2]
-				"CENTER", -- [3]
-				0, -- [4]
-				0, -- [5]
-			}, -- [1]
-		},
+	},
+	["ItemSocketingFrame"] = {
+		["point"] = "LEFT",
+		["relativePoint"] = "LEFT",
+		["yOfs"] = 36.3598175048828,
+		["xOfs"] = 16.6772537231445,
 	},
 	["HelpFrame"] = {
 	},

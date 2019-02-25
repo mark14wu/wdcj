@@ -1,0 +1,77 @@
+VER 3 0100000000000021 "DB_Arms_AOE" "INV_Misc_QuestionMark"
+#showtooltip
+/click DB_Arms_AOE
+END
+VER 3 0100000000000016 "DB_Arms_ST" "INV_Misc_QuestionMark"
+#showtooltip
+/click DB_Arms_ST
+END
+VER 3 0100000000000017 "DB_Fury1" "INV_Misc_QuestionMark"
+#showtooltip
+/click DB_Fury1
+END
+VER 3 0100000000000018 "DB_Fury2" "INV_Misc_QuestionMark"
+#showtooltip
+/click DB_Fury2
+END
+VER 3 0100000000000019 "DB_Fury3" "INV_Misc_QuestionMark"
+#showtooltip
+/click DB_Fury3
+END
+VER 3 010000000000001A "DB_Fury4" "INV_Misc_QuestionMark"
+/cast 冲锋
+/咆哮
+END
+VER 3 0100000000000024 "LAZYFURYST" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/click [button:2] LAZYFURYST RightButton; [button:3] LAZYFURYST MiddleButton; [button:4] LAZYFURYST Button4; [button:5] LAZYFURYST Button5; LAZYFURYST
+END
+VER 3 0100000000000022 "亲吻" "134400"
+/KISS
+END
+VER 3 0100000000000004 "冲锋" "INV_MISC_QUESTIONMARK"
+/cast 冲锋
+/咆哮
+END
+VER 3 0100000000000009 "单" "INV_MISC_QUESTIONMARK"
+#showtooltip 复仇
+/startattack 
+/console Sound_EnableSFX 0 
+/castsequence reset=0.5 1,2,3,雷霆一击
+/castsequence reset=0.5 1,2,毁灭打击
+/castsequence reset=0.5 1,盾牌猛击
+/castsequence reset=0.5 复仇
+/script UIErrorsFrame:Clear() 
+/console Sound_EnableSFX 1
+END
+VER 3 010000000000001D "打中" "134400"
+/y 命中目标！
+END
+VER 3 0100000000000005 "拦截" "INV_MISC_QUESTIONMARK"
+/cast 拦截
+/咆哮
+END
+VER 3 010000000000001E "显示声望" "134400"
+/run SetWatchedFactionIndex(8)) 
+END
+VER 3 0100000000000014 "爆发" "458972"
+/cast 战吼
+/cast 浴血奋战
+END
+VER 3 010000000000000A "群" "INV_MISC_QUESTIONMARK"
+#showtooltip 雷霆一击
+/startattack 
+/console Sound_EnableSFX 0 
+/castsequence reset=0.5 1,2,3,毁灭打击
+/castsequence reset=0.5 1,2,盾牌猛击
+/castsequence reset=0.5 1,雷霆一击
+/castsequence reset=0.5 复仇
+/script UIErrorsFrame:Clear() 
+/console Sound_EnableSFX 1
+END
+VER 3 010000000000001F "蛋疼" "134400"
+/y %T注意啦！你已经被自杀式飞艇锁定拉！赶快跳楼吧！
+END
+VER 3 0100000000000020 "风之悍将" "134400"
+风之悍将 傻逼
+END

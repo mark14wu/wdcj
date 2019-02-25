@@ -1,0 +1,24 @@
+
+BFAInvasionTimerDB = {
+	["profileKeys"] = {
+		["天行丶陶矢 - 死亡之翼"] = "Default",
+		["Testbenchmk - 死亡之翼"] = "Default",
+		["Zssgmarkwu - 死亡之翼"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["timeText"] = false,
+			["position"] = {
+				"RIGHT", -- [1]
+				"RIGHT", -- [2]
+				-114.529159545898, -- [3]
+				-119.195846557617, -- [4]
+			},
+		},
+	},
+}
+BFAInvasionTime = nil
+BFAInvasionData = {
+	1550710804, -- [1]
+	6, -- [2]
+}

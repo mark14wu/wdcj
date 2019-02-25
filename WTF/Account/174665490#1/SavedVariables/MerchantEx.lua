@@ -13,13 +13,19 @@ MerchantExDB = {
 		},
 		["贫瘠之地-Zssgmarkwu"] = {
 		},
-		["贫瘠之地-Wildpower"] = {
-		},
-		["贫瘠之地-Qssgmarkwu"] = {
+		["死亡之翼-Markws"] = {
 		},
 		["贫瘠之地-Dksgmarkwu"] = {
 		},
+		["贫瘠之地-Qssgmarkwu"] = {
+		},
+		["死亡之翼-Wssgmarkwu"] = {
+		},
+		["死亡之翼-无码分散"] = {
+		},
 		["贫瘠之地-Fssgmarkwu"] = {
+		},
+		["贫瘠之地-Wildpower"] = {
 		},
 	},
 	["exception"] = {
@@ -31,13 +37,19 @@ MerchantExDB = {
 		},
 		["贫瘠之地-Zssgmarkwu"] = {
 		},
-		["贫瘠之地-Wildpower"] = {
-		},
-		["贫瘠之地-Qssgmarkwu"] = {
+		["死亡之翼-Markws"] = {
 		},
 		["贫瘠之地-Dksgmarkwu"] = {
 		},
+		["贫瘠之地-Qssgmarkwu"] = {
+		},
+		["死亡之翼-Wssgmarkwu"] = {
+		},
+		["死亡之翼-无码分散"] = {
+		},
 		["贫瘠之地-Fssgmarkwu"] = {
+		},
+		["贫瘠之地-Wildpower"] = {
 		},
 	},
 }

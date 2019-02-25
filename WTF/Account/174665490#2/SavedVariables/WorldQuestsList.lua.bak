@@ -1,0 +1,40 @@
+
+VWQL = {
+	["天行丶陶矢-死亡之翼"] = {
+		["VERSION"] = 85,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Testbenchmk-死亡之翼"] = {
+		["VERSION"] = 85,
+		["Filter"] = 63,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["DisableShellGame"] = true,
+	["Scale"] = 0.8,
+	["DisableIconsGeneralMap947"] = true,
+	["DisableLFG_Popup"] = true,
+	["Ignore"] = {
+	},
+	["Sort"] = 5,
+	["Zssgmarkwu-死亡之翼"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 85,
+	},
+	["VERSION"] = 85,
+	["DisableLFG_PopupLeave"] = true,
+	["AzeriteFormat"] = 20,
+	["ArgusMap"] = true,
+	["HideLegion"] = true,
+}

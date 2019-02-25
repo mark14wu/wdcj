@@ -1,0 +1,94 @@
+VER 3 0100000000000004 "一键" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/castsequence reset=combat 醉酿投,火焰之息,幻灭猛击,猛虎掌,猛虎掌,幻灭猛击,醉酿投,幻灭猛击,猛虎掌,猛虎掌,幻灭猛击,猛虎掌,幻灭猛击
+END
+VER 3 0100000000000001 "一键2" "INV_MISC_QUESTIONMARK"
+#showtooltip 
+/castsequence reset=ctrl/alt/shift/combat 醉酿投,幻灭猛击,猛虎掌,火焰之息,幻灭猛击,真气爆裂,猛虎掌,
+END
+VER 3 0100000000000005 "一键3" "INV_MISC_QUESTIONMARK"
+#showtooltip 醉酿投
+/castsequence reset=4 醉酿投,火焰之息,幻灭猛击,猛虎掌,猛虎掌,幻灭猛击
+END
+VER 3 0100000000000003 "取消雕像" "INV_MISC_QUESTIONMARK"
+/click TotemFrameTotem1 RightButton
+END
+VER 3 0100000000000010 "大触目标" "INV_Misc_QuestionMark"
+/tar 散疫触须
+END
+VER 3 0100000000000006 "屠夫" "134400"
+.morph 25281
+END
+VER 3 0100000000000007 "希利苏斯" "134400"
+/tar 克里拉克
+/tar 丘猎者
+/tar 厄科
+/tar 哈瑞
+/tar 奎里克
+/tar 托克斯
+/tar 拉克玛亲王
+/tar 拉普
+/tar 暮光之王艾沃兰
+/tar 格雷瑟尔
+/tar 格鲁布
+/tar 洛萨
+/tar 潜地者邦
+/tar 玛纳科斯
+/tar 瑟提斯
+/tar 科姆
+/tar 苏尔拉 
+/tar 雷克斯
+END
+VER 3 0100000000000009 "开宝箱" "134400"
+/USE 堕夜精灵的存货
+/USE 法罗迪斯的保险柜
+/USE 肯瑞托宝箱
+/USE 守望者战地包
+/USE 瓦拉加尔储物箱
+/USE 织梦者补给
+/USE 至高岭贡品
+END
+VER 3 010000000000000A "开怪" "135833"
+/dbm pull 10
+/pull 10
+END
+VER 3 010000000000000B "开箱子" "134400"
+/use 一大箱回收物资
+/use 一袋回收的物资
+END
+VER 3 010000000000000D "日志" "134400"
+/rt bw
+END
+VER 3 010000000000000E "智障宏" "134400"
+/script SetRaidTarget("mouseover",2)
+END
+VER 3 010000000000000F "最远视距" "134400"
+/console cameraDistanceMaxZoomFactor 2.6
+END
+VER 3 0100000000000011 "爆发" "134400"
+UI_Conifg = CreateFrame（“Frame”）
+　　UI_Conifg：RegisterEvent（“PLAYER_ENTERING_WORLD”）
+　　UI_Conifg：SetScript（“OnEvent”， function（self， event）
+　　self：UnregisterEvent（“PLAYER_ENTERING_WORLD”）
+　　SetCVar（“cameraDistanceMaxZoomFactor”， 2.6）
+　　end）
+END
+VER 3 0100000000000012 "爆发宏" "134400"
+/use 高山战鼓
+/use 上古战神药水
+/use 勇气号角
+END
+VER 3 0100000000000002 "群嘲" "INV_MISC_QUESTIONMARK"
+/target 玄牛雕像
+/cast [@player] 玄牛雕像
+/cast [noharm]嚎镇八方
+/targetlasttarget [help]
+/click TotemFrameTotem1 RightButton
+END
+VER 3 0100000000000013 "酒仙" "INV_MISC_QUESTIONMARK"
+#showtooltip 9813229.taobao.com
+/click 酒仙
+END
+VER 3 0100000000000008 "雷龙" "237585"
+/w 佶天鸿公益号-伊森利恩 801
+END

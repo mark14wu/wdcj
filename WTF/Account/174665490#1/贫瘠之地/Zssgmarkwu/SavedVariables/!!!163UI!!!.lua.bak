@@ -1,10 +1,11 @@
 
 U1DB = {
 	["minimapPos"] = 191,
+	["enteredWorld"] = true,
 	["addons"] = {
 		["gladiatorlossa_zhcn"] = 1,
-		["battlegroundtargets"] = 0,
-		["exrt"] = 0,
+		["battlegroundtargets"] = 1,
+		["exrt"] = 1,
 		["meetingstone"] = 1,
 		["abybossguide"] = 0,
 		["tinyinspect"] = 1,
@@ -27,18 +28,21 @@ U1DB = {
 		["ellipsis"] = 0,
 		["shadoweduf_options"] = 1,
 		["masque_caith"] = 1,
+		["bigwigs"] = 1,
 		["wmarker"] = 0,
 		["mapster"] = 1,
 		["dbm-scenario-mop"] = 1,
 		["dbm-party-wod"] = 1,
 		["deathannounce"] = 1,
+		["tomcats-darkshorerares"] = 1,
 		["whisperpop"] = 1,
 		["dbm_mods_legion"] = 1,
 		["worldquestslist"] = 1,
 		["tullarange"] = 1,
 		["xloot"] = 1,
 		["tidyplateswidgets"] = 1,
-		["bgdefender"] = 0,
+		["bfainvasiontimer"] = 1,
+		["bgdefender"] = 1,
 		["tiptacoptions"] = 1,
 		["dbm-garrisoninvasions"] = 1,
 		["xloot_options"] = 1,
@@ -51,7 +55,7 @@ U1DB = {
 		["toyplus"] = 0,
 		["dominos"] = 0,
 		["hpetbattleany"] = 0,
-		["handynotes_arathi"] = 0,
+		["handynotes_arathi"] = 1,
 		["chocolatebar"] = 1,
 		["masque_cainyx"] = 1,
 		["weakaurasoptions"] = 1,
@@ -62,11 +66,12 @@ U1DB = {
 		["worldflightmap"] = 1,
 		["angrykeystones"] = 1,
 		["tiptactalents"] = 1,
-		["handynotes"] = 0,
+		["handynotes"] = 1,
 		["dresser"] = 1,
 		["quartz"] = 0,
 		["tradelog"] = 1,
 		["dejacharacterstats"] = 0,
+		["bigwigs_uldir"] = 1,
 		["trinketmenu"] = 0,
 		["dbm_mods_cataclysm"] = 1,
 		["masque_cleanui"] = 1,
@@ -78,6 +83,7 @@ U1DB = {
 		["npcscan"] = 0,
 		["combuctor_config"] = 1,
 		["gridstatusrd_wod"] = 1,
+		["handynotes_dungeonlocations"] = 1,
 		["dbm-bastiontwilight"] = 1,
 		["!!!163ui!!!"] = 1,
 		["achievementsreminder"] = 0,
@@ -99,25 +105,27 @@ U1DB = {
 		["tellmewhen_options"] = 1,
 		["163ui_chathistory"] = 1,
 		["dbm-onyxia"] = 1,
-		["omnibar"] = 0,
+		["omnibar"] = 1,
 		["compactraid"] = 0,
-		["parrot"] = 0,
-		["handynotes_legionrarestreasures"] = 0,
+		["parrot"] = 1,
+		["handynotes_legionrarestreasures"] = 1,
 		["masque_litestep"] = 1,
 		["eventalertmod"] = 0,
 		["omnicc_config"] = 1,
 		["postal"] = 1,
 		["dominos_cast"] = 0,
 		["dbm-blackwingdescent"] = 1,
+		["simulationcraft"] = 1,
 		["tdpack"] = 1,
 		["dbm-party-mop"] = 1,
 		["gridindicatorsdynamic"] = 1,
-		["gladiatorlossa2"] = 0,
+		["gladiatorlossa2"] = 1,
 		["dbm-eyeofeternity"] = 1,
 		["broker_currency"] = 1,
 		["dbm-hellfirecitadel"] = 1,
 		["gathermate2"] = 0,
 		["163ui_teamstats"] = 1,
+		["bfainvasiontimer_options"] = 1,
 		["!bauderrorframe"] = 1,
 		["dbm-voa"] = 1,
 		["dbm-emeraldnightmare"] = 1,
@@ -128,28 +136,29 @@ U1DB = {
 		["ellipsis_options"] = 1,
 		["gridquickhealth"] = 1,
 		["litebuff"] = 1,
-		["handynotes_hallowsend"] = 0,
+		["handynotes_hallowsend"] = 1,
 		["shadowedunitframes"] = 0,
-		["handynotes_draenortreasures"] = 0,
+		["handynotes_draenortreasures"] = 1,
 		["dbm-ulduar"] = 1,
 		["recount"] = 0,
-		["hhtd"] = 0,
+		["hhtd"] = 1,
 		["dbm-party-cataclysm"] = 1,
 		["baudauction"] = 0,
-		["handynotes_battleforazerothtreasures"] = 0,
+		["handynotes_battleforazerothtreasures"] = 1,
 		["accountant_classic"] = 0,
+		["bigwigs_crucibleofstorms"] = 1,
 		["dbm-antorusburningthrone"] = 1,
 		["masque_apathy"] = 1,
 		["dbm-brawlers"] = 1,
 		["dbm_mods_wotlk"] = 1,
 		["paku_totems"] = 0,
-		["handynotes_argus"] = 0,
+		["handynotes_argus"] = 1,
 		["gladius"] = 0,
 		["questannounce"] = 1,
 		["tellmewhen"] = 0,
 		["masque_gears"] = 1,
 		["dbm-gui"] = 1,
-		["tidyplates_grey"] = 1,
+		["tidyplates_grey"] = 0,
 		["healers-have-to-die"] = 1,
 		["targetnameplateindicator"] = 1,
 		["grail-reputations"] = 1,
@@ -160,120 +169,146 @@ U1DB = {
 		["gridbufficons"] = 1,
 		["gridstatusrd_legion"] = 1,
 		["dominos_roll"] = 1,
-		["weakauras"] = 0,
+		["weakauras"] = 1,
 		["chatfilter"] = 1,
+		["dbm-zuldazarraid"] = 1,
 		["broker_durabilityinfo"] = 1,
+		["gridstatusenemytarget"] = 1,
+		["bigwigs_options"] = 1,
 		["masterplana"] = 0,
 		["castdelaybar"] = 1,
 		["dbm-heartoffear"] = 1,
+		["dbm-throneofthunder"] = 1,
 		["bagnon"] = 1,
+		["bigdebuffs"] = 1,
+		["bigwigs_core"] = 1,
 		["en_unitframes"] = 1,
 		["tradeskillinfo"] = 0,
 		["dbm-pandaria"] = 1,
-		["dbm-party-bfa"] = 1,
 		["dbm-draenor"] = 1,
-		["myslot"] = 0,
-		["duowanchat"] = 1,
-		["masque_kenzo"] = 1,
-		["dbm-party-wotlk"] = 1,
-		["dbm-highmaul"] = 1,
-		["swingbar"] = 0,
-		["handynotes_summerfestival"] = 0,
-		["tidyplateshub"] = 1,
-		["blinkhealthtext"] = 0,
-		["theburningtrade"] = 1,
-		["tidyplates_graphite"] = 1,
-		["dbm-dragonsoul"] = 1,
-		["tidyplates_neon"] = 1,
-		["gearhud"] = 1,
-		["dbm-azeroth-bfa"] = 1,
-		["glowfosho"] = 0,
+		["dbm-party-bfa"] = 1,
+		["dbm-baradinhold"] = 1,
+		["gridmanabars"] = 1,
+		["tidyplates_quatre"] = 0,
+		["dbm-coliseum"] = 1,
 		["163ui_buff"] = 1,
+		["handynotes_summerfestival"] = 1,
+		["swingbar"] = 0,
+		["theburningtrade"] = 1,
+		["tidyplateshub"] = 1,
+		["tidyplates_graphite"] = 0,
+		["gridclicksets"] = 1,
+		["dbm-worldevents"] = 1,
+		["dbm-dragonsoul"] = 1,
+		["masque_goldpaw"] = 1,
+		["gearhud"] = 0,
+		["dbm-azeroth-bfa"] = 1,
+		["tullarange_config"] = 1,
+		["163ui_plugins"] = 1,
 		["dbm-dmf"] = 1,
-		["autoturnin"] = 1,
+		["dbm-trialofvalor"] = 1,
 		["fizzle"] = 1,
 		["dominos_encounter"] = 1,
 		["dbm-terraceofendlessspring"] = 1,
 		["bagbrother"] = 1,
 		["weakaurasmodelpaths"] = 1,
-		["dbm-trialofvalor"] = 1,
-		["tidyplates_blizzardplates"] = 1,
+		["gridstatusrd_bfa"] = 1,
 		["dbm-naxx"] = 1,
+		["tidyplates"] = 0,
 		["grail"] = 1,
 		["wholly"] = 0,
-		["tidyplates"] = 0,
+		["autoturnin"] = 1,
 		["dominos_config"] = 1,
-		["gearmanagerex"] = 1,
+		["masque_serenity"] = 1,
 		["dbm_mods_mop"] = 1,
-		["dbm-firelands"] = 1,
+		["quakeassist"] = 1,
 		["atlaslootreverse"] = 1,
-		["tradeskillinfoui"] = 1,
-		["combuctor"] = 0,
+		["kib_questmobs"] = 1,
 		["bagnon_config"] = 1,
-		["broker_micromenu"] = 0,
+		["masque"] = 0,
+		["skadaexplosiveorbs"] = 1,
 		["gtfo"] = 1,
 		["masque_parabole"] = 1,
 		["grail-when"] = 1,
-		["dbm-chamberofaspects"] = 1,
-		["rangedisplay"] = 0,
+		["buyemall"] = 1,
+		["xloot_master"] = 1,
 		["vbar"] = 0,
-		["handynotes_lunarfestival"] = 0,
-		["canimogit"] = 1,
-		["skada"] = 1,
+		["handynotes_lunarfestival"] = 1,
+		["!worldflightmaploader"] = 1,
+		["azeritetooltip"] = 1,
 		["tiptacitemref"] = 1,
 		["163ui_chat"] = 1,
+		["comergy_redux"] = 0,
 		["garrisonmissionmanager"] = 1,
-		["comergy_redux"] = 1,
-		["azeritetooltip"] = 1,
-		["!worldflightmaploader"] = 1,
+		["skada"] = 1,
+		["canimogit"] = 1,
 		["dbm-argus"] = 1,
-		["xloot_master"] = 1,
-		["buyemall"] = 1,
-		["skadaexplosiveorbs"] = 1,
-		["masque"] = 0,
+		["rangedisplay"] = 0,
+		["bigwigs_plugins"] = 1,
+		["dbm-chamberofaspects"] = 1,
+		["broker_micromenu"] = 0,
 		["dbm-vpyike"] = 1,
-		["kib_questmobs"] = 1,
-		["quakeassist"] = 1,
-		["masque_serenity"] = 1,
+		["dbm-firelands"] = 1,
+		["combuctor"] = 0,
+		["tradeskillinfoui"] = 1,
 		["grail-rewards"] = 1,
 		["weakaurastemplates"] = 1,
 		["comergy_redux_options"] = 1,
-		["gridstatusrd_bfa"] = 1,
+		["tidyplates_blizzardplates"] = 1,
 		["dominos_progress"] = 1,
-		["tullarange_config"] = 1,
-		["masque_goldpaw"] = 1,
-		["dbm-worldevents"] = 1,
-		["gridclicksets"] = 1,
-		["blizzbuffsfacade"] = 1,
-		["handynotes_suramartelemancy"] = 0,
+		["gearmanagerex"] = 1,
+		["glowfosho"] = 0,
 		["163ui_combattimer"] = 1,
+		["tidyplates_neon"] = 0,
+		["blizzbuffsfacade"] = 1,
+		["handynotes_suramartelemancy"] = 1,
+		["blinkhealthtext"] = 0,
 		["gridstatustankcooldown"] = 1,
-		["dbm-coliseum"] = 1,
-		["163ui_plugins"] = 1,
-		["tidyplates_quatre"] = 1,
-		["gridmanabars"] = 1,
-		["dbm-baradinhold"] = 1,
+		["dbm-highmaul"] = 1,
+		["dbm-party-wotlk"] = 1,
+		["masque_kenzo"] = 1,
+		["duowanchat"] = 1,
+		["myslot"] = 1,
 		["grail-achievements"] = 1,
 		["!kalielstracker"] = 0,
-		["bigdebuffs"] = 0,
-		["dbm-throneofthunder"] = 1,
+		["bigwigs_azeroth"] = 1,
+		["bigwigs_battleofdazaralor"] = 1,
 		["tdcore"] = 1,
-		["gridstatusenemytarget"] = 1,
+		["9813229.taobao.comwsjx"] = 1,
 	},
 	["disableLaterLoading"] = false,
 	["configs"] = {
-		["!!!163ui!!!/questWatchSort"] = true,
-		["163ui_buff/cvar_buffDurations"] = true,
-		["comergy_redux/Locked"] = false,
-		["163ui_chathistory/showhis"] = false,
-		["!bauderrorframe/PlaySound"] = "_NIL",
-		["comergy_redux/VerticalBars"] = false,
-		["dbm-core/hugebar"] = false,
-		["!!!163ui!!!/disableLaterLoading"] = true,
-		["duowanchat/level"] = true,
 		["dbm-core/voice"] = true,
-		["azeritetooltip/OnlySpec"] = "_NIL",
+		["gladiatorlossa2/notall/battleground"] = true,
+		["163ui_moreoptions/cvar_overrideArchive"] = true,
+		["gladiatorlossa2/notall/arena"] = true,
+		["dbm-core/hugebar"] = false,
+		["163ui_buff/cvar_noBuffDebuffFilterOnTarget"] = false,
 		["azeritetooltip/Compact"] = "_NIL",
+		["163ui_moreoptions/cvar_floatingCombatTextCombatDamage"] = false,
+		["landingGarrisonMMB"] = {
+			["minimapPos"] = 244,
+		},
+		["163ui_moreoptions/cvar_comboPointLocation"] = "2",
+		["!!!163ui!!!/disableLaterLoading"] = true,
+		["duowanchat/channel"] = false,
+		["gladiatorlossa2/notall"] = true,
+		["comergy_redux/ShowTargetHealthBar"] = false,
+		["163ui_moreoptions/cvar_threatShowNumeric"] = true,
+		["merchantex/sell/details"] = "_NIL",
+		["!bauderrorframe/PlaySound"] = false,
+		["duowanchat/subgroup"] = true,
+		["163ui_moreoptions/cvar_ShowClassColorInFriendlyNameplate"] = true,
+		["163ui_moreoptions/cvar_floatingCombatTextCombatHealing"] = true,
+		["!!!163ui!!!/questWatchSort"] = true,
+		["163ui_moreoptions/cvar_autoQuestWatch"] = true,
+		["163ui_moreoptions/cvar_nameplateShowSelf"] = false,
+		["163ui_buff/cvar_buffDurations"] = true,
+		["163ui_moreoptions/cvar_nameplateMaxDistance"] = "40",
+		["comergy_redux/Locked"] = false,
+		["comergy_redux/ShowPlayerHealthBar"] = false,
+		["myslot/save3"] = "@ Myslot ( V24)\n@ 时间:Thu Jan  3 07:45:45 2019\n@ 玩家:Zssgmarkwu\n@ 职业:战士\n@ 专精:武器\n@ 等级:120\n@ \n@ 问题/建议  farmer1992@gmail.com\n@ --------------------\nGFYEFpMmOOAKBwgBEAEYhmAKBwgCEAEY2DkKBwgDEAEYuAsKCAgEEAEYo/QPCggIBRABGKiTEQoHCAgQARjjAgoICAkQAhj3iAoKBwgKEAEYsw0KBwgLEAEY/igKBwgMEAEYmDMKCAgNEAEYkoMICggIDhAIGPDhBwoHCA8QCRjjBwoICBAQARiZ9AsKCAgREAEYq/QLCggIEhABGLj0CwoHCBMQCRjjBwoJCBQQCRj///9/CggIFRAIGOuxAwoHCBYQCRiPCAoICBcQCBjJmgcKCAgYEAgYh+ADCggIGRACGO2pCQoICBoQAhjsqQkKCAgcEAEYt/QLCggIIRACGKfVBgoHCCIQCRicAgoHCCMQARj+KAoJCCQQCRj///9/CggIJRACGNe9BQoICCYQAhirmQUKCAgnEAIYoZkFCggIKBACGNXpBQoICCkQAhiyvgUKCAgqEAIY86kBCggIKxACGL7cAgoHCDAQCRjBAwoICDEQAhj6/QMKCAgyEAIYg+cJCgcIMxABGJE0CggINRACGKj8CQoICDYQAhivsAkKCAg3EAEYm8MDCggIOBACGJ35CQoHCDkQAhiIKwoICDoQAhil0ggKCAg8EAEYq94MCgcIPRABGJANCggIPhABGOT0DwoICD8QARiRgBAKBghAEAEYZAoICEEQARj8jAIKCAhCEAEYtvkFCggIQxABGLqIDAoICEQQARiH9A0KCAhFEAEYlpoHCgcIRhABGJAzCggIRxABGMOQAQoICEgQARir3gwKBghtEAEYZAoHCG8QARiYMxIICAESBAgQEAASDggCEgQIVxAAGgQIcBAAEg4IAxIECFMQABoECG4QABIOCAQSBAhBEAAaBAhxEAASDggFEgQIRBAAGgQIbxAAEggIBhIECFEQABIICAcSBAhFEAASDggIEgQIfRAAGgQILRAAEggICRIECFgQABIICAoSBAhaEAASDggLEgQIZxAAGgQIERAAEggIDBIECG0QABIICA0SBAhsEAASCAgOEgQIeRAAEggIEBIECHQQABIICBESBAhlEAASCAgSEgQIaRAAEggIExIECGgQABIICBQSBAhoEAESCAgWEgQIUhABEggIFxIECGkQAhIICBgSBAhoEAISCAgZEgQIaBBrEggIGhIECDgQABIICBsSBAg5EAASCAgcEgQIOhAAEggIHRIECDsQABIICB4SBAg8EAASCAgfEgQIPRAAEggIIBIECD4QABIICCESBAg/EAASCAgiEgQIQBAAEggIIxIECFQQABIOCCQSBAhHEAAaBAhbEAASDgglEgQIXRAAGgQIRhAAEggIJhIECAEQAhIICCcSBAgCEAISCAgoEgQIAxACEggIKRIECAQQAhIICCoSBAgFEAISCAgrEgQIBhACEggILBIECAcQAhIICC0SBAgIEAISCAguEgQICRACEggILxIECAoQAhIICDMSBAg7EAISCAg0EgQIPBACEggINRIECD0QAhIICDYSBAg+EAISCAg3EgQIPxACEggIOBIECEAQAhIICDkSBAg3EAISCAg6EgQIOBABEggIOxIECDkQARIICDwSBAg6EAESCAg9EgQIOxABEggIPhIECDwQARIICD8SBAg9EAESDghAEgQIcBABGgQIfhABEg4IQRIECG4QARoECH8QARIJCMYBEgQIOBADEgkIxwESBAg5EAMSCQjIARIECDoQAxIJCMkBEgQIOxADEgkIygESBAhSEAASCQjLARIECAEQABIJCMwBEgQIAhAAEgkIzQESBAgDEAASCQjOARIECAQQABIJCM8BEgQIOBACEgkI0AESBAg5EAISCQjRARIECDoQAhIICFQSBAhyEAASCAhVEgQIchABEggIVhIECHIQAhIICFcSBAhyEGsSCAhgEgQIBRAAEggIYRIECAEQARIICGISBAgCEAESCAhjEgQIAxABEggIZBIECAQQARIICGUSBAgFEAESCAhoEgQIVhAAEggIaRIECFYQARIICGoSBAhWEAISCAhwEgQIVBABEgkIhgESBAh1EAASDgh2EgQIQhABGgQIDBAAEggIdxIECAgQABIICHgSBAgJEAASCAh5EgQIChAAEggIehIECAsQABIICHsSBAhCEAASCAh1EgQIQxAAEgkIhAESBAhVEAASCAh9EgQIUBAAEggIfhIECEsQABIICH8SBAhJEAESCQiBARIECE4QABIJCJYBEgQIWRAAEgkIlwESBAhZEAESCQiFARIECEwQABIJCIgBEgQITRAAEgkIkwESBAhNEAESCQiSARIECH0QARIJCI0BEgQIShAAEgkIigESBAhPEAASCQi1AhIECEkQABIJCLYCEgQISRACEgkIggESBAhIEAASCQi3AhIECFAQ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",
+		["comergy_redux/VerticalBars"] = false,
 		["oglow/oGlowPipes"] = {
 			["merchant"] = true,
 			["bags"] = true,
@@ -286,38 +321,47 @@ U1DB = {
 			["gbank"] = true,
 			["bank"] = true,
 		},
-		["landingGarrisonMMB"] = {
-			["minimapPos"] = 244,
-		},
-		["comergy_redux/ShowTargetHealthBar"] = false,
-		["deathannounce/auto"] = false,
+		["duowanchat/level"] = true,
+		["163ui_chat/worldchannel"] = true,
+		["163ui_moreoptions/cvar_ActionButtonUseKeyDown"] = false,
+		["163ui_moreoptions/cvar_nameplateOtherTopInset"] = false,
+		["163ui_moreoptions/cvar_floatingCombatTextCombatLogPeriodicSpells"] = false,
+		["azeritetooltip/OnlySpec"] = "_NIL",
+		["163ui_moreoptions/cvar_ShowClassColorInNameplate"] = true,
 		["!!!163ui!!!/sortmem"] = false,
-		["duowanchat/channel"] = false,
-		["merchantex/sell/details"] = "_NIL",
-		["duowanchat/subgroup"] = true,
-		["comergy_redux/ShowPlayerHealthBar"] = false,
+		["163ui_plugins/bfautorelease"] = true,
+		["163ui_chathistory/showhis"] = false,
+		["gladiatorlossa2/notall/field"] = false,
+		["parrot/shortenAmount"] = false,
+		["163ui_moreoptions/cvar_floatingCombatTextPetMeleeDamage"] = false,
+		["deathannounce/auto"] = false,
+		["163ui_moreoptions/cvar_nameplateShowFriendlyNPCs"] = false,
+		["myslot/save2"] = "@ Myslot ( V24)\n@ 时间:Wed Jan  2 08:03:49 2019\n@ 玩家:Zssgmarkwu\n@ 职业:战士\n@ 专精:武器\n@ 等级:120\n@ \n@ 问题/建议  farmer1992@gmail.com\n@ --------------------\nGFYEFm3HxdUKBwgBEAEYhmAKBwgCEAEY2DkKBwgDEAEYuAsKCAgEEAEYtsgGCggIBRABGKiTEQoICAYQARj8jAIKBwgHEAEYkA0KBwgIEAEY4wIKCAgJEAEYuogMCgcIChABGLMNCgcICxABGP4oCgcIDBABGJgzCggIDRABGJKDCAoICA4QCBjw4QcKCQgPEAkY////fwoICBAQARiZ9AsKCAgREAEYq/QLCggIEhABGLj0CwoJCBQQCRj///9/CggIFRAIGOuxAwoHCBYQCRiPCAoICBcQCBjJmgcKCAgYEAgYh+ADCggIGRACGO2pCQoICBoQAhjsqQkKCAgcEAEYt/QLCggIIRACGKfVBgoHCCIQCRicAgoHCCMQARj+KAoJCCQQCRj///9/CggIJRACGNe9BQoICCYQAhirmQUKCAgnEAIYoZkFCggIKBACGNXpBQoICCkQAhiyvgUKCAgqEAIY86kBCggIKxACGL7cAgoHCDAQCRjBAwoICDEQAhj6/QMKCAgyEAIYg+cJCgcIMxABGJE0CggINRACGKj8CQoICDYQAhivsAkKCAg3EAEYm8MDCgcIORACGIgrCggIOhACGKXSCAoICDwQARir3gwKCAg9EAEYssgGCggIPhABGOT0DwoICD8QARiRgBAKBghAEAEYZAoICEEQARihkQwKCAhCEAEYtvkFCggIQxABGK20DgoICEQQARiH9A0KCAhFEAEYlpoHCgcIRhABGJAzCggIRxABGMOQAQoICEgQARir3gwKBghtEAEYZAoHCG8QARiYMxIICAESBAgQEAASDggCEgQIVxAAGgQIcBAAEg4IAxIECFMQABoECG4QABIOCAQSBAhBEAAaBAhxEAASDggFEgQIRBAAGgQIbxAAEggIBhIECFEQABIICAcSBAhFEAASDggIEgQIfRAAGgQILRAAEggICRIECFgQABIICAoSBAhaEAASDggLEgQIZxAAGgQIERAAEggIDBIECG0QABIICA0SBAhsEAASCAgOEgQIeRAAEggIEBIECHQQABIICBESBAhlEAASCAgSEgQIaRAAEggIExIECGgQABIICBQSBAhoEAESCAgWEgQIUhABEggIFxIECGkQAhIICBgSBAhoEAISCAgZEgQIaBBrEggIGhIECDgQABIICBsSBAg5EAASCAgcEgQIOhAAEggIHRIECDsQABIICB4SBAg8EAASCAgfEgQIPRAAEggIIBIECD4QABIICCESBAg/EAASCAgiEgQIQBAAEggIIxIECFQQABIICCQSBAhHEAASCAglEgQIRhAAEggIJhIECAEQAhIICCcSBAgCEAISCAgoEgQIAxACEggIKRIECAQQAhIICCoSBAgFEAISCAgrEgQIBhACEggILBIECAcQAhIICC0SBAgIEAISCAguEgQICRACEggILxIECAoQAhIICDMSBAg7EAISCAg0EgQIPBACEggINRIECD0QAhIICDYSBAg+EAISCAg3EgQIPxACEggIOBIECEAQAhIICDkSBAg3EAISCAg6EgQIOBABEggIOxIECDkQARIICDwSBAg6EAESCAg9EgQIOxABEggIPhIECDwQARIICD8SBAg9EAESDghAEgQIcBABGgQIfhABEg4IQRIECG4QARoECH8QARIJCMYBEgQIOBADEgkIxwESBAg5EAMSCQjIARIECDoQAxIJCMkBEgQIOxADEgkIygESBAhSEAASCQjLARIECAEQABIJCMwBEgQIAhAAEgkIzQESBAgDEAASCQjOARIECAQQABIJCM8BEgQIOBACEgkI0AESBAg5EAISCQjRARIECDoQAhIICFQSBAhyEAASCAhVEgQIchABEggIVhIECHIQAhIICFcSBAhyEGsSCAhgEgQIBRAAEggIYRIECAEQARIICGISBAgCEAESCAhjEgQIAxABEggIZBIECAQQARIICGUSBAgFEAESCAhoEgQIVhAAEggIaRIECFYQARIICGoSBAhWEAISCAhwEgQIVBABEgkIhgESBAh1EAASDgh2EgQIQhABGgQIDBAAEggIdxIECAgQABIICHgSBAgJEAASCAh5EgQIChAAEggIehIECAsQABIICHsSBAhCEAASCAh1EgQIQxAAEgkIhAESBAhVEAASCAh9EgQIUBAAEggIfhIECEsQABIICH8SBAhJEAESCQiBARIECE4QABIJCJYBEgQIWRAAEgkIlwESBAhZEAESCQiFARIECEwQABIJCIgBEgQITRAAEgkIkwESBAhNEAESCQiSARIECH0QARIJCI0BEgQIShAAEgkIigESBAhPEAASCQi1AhIECEkQABIJCLYCEgQISRACEgkIggESBAhIEAASCQi3AhIECFAQARIJCKYCEgQI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",
+		["bfainvasiontimer/type"] = 1,
+		["163ui_moreoptions/cvar_floatingCombatTextPetSpellDamage"] = false,
 		["!!!163ui!!!/english"] = "_NIL",
 		["163ui_moreoptions/cameraDistanceMaxZoomFactor"] = 2.6,
+		["163ui_moreoptions/cvar_showTargetCastbar"] = true,
 		["163ui_moreoptions/checkAddonVersion"] = true,
 	},
 	["frames"] = {
 		["WhisperPopFrame"] = {
-			485.142944335938, -- [1]
-			507.71435546875, -- [2]
-			200.000030517578, -- [3]
-			324, -- [4]
+			216.952514648438, -- [1]
+			731.428649902344, -- [2]
+			200, -- [3]
+			324.000030517578, -- [4]
 			["integrated"] = true,
 		},
 		["U1CT"] = {
-			540.142944335938, -- [1]
-			681.428771972656, -- [2]
-			89.9999771118164, -- [3]
-			27.0000114440918, -- [4]
+			541.196044921875, -- [1]
+			731.428649902344, -- [2]
+			89.9999694824219, -- [3]
+			26.9999809265137, -- [4]
 			["integrated"] = true,
 		},
 		["WhisperPopNotifyButton"] = {
-			2.00027704238892, -- [1]
-			325.789428710938, -- [2]
+			3.76285028457642, -- [1]
+			364.244262695313, -- [2]
 			20, -- [3]
 			19.9999961853027, -- [4]
 			nil, -- [5]
@@ -325,27 +369,40 @@ U1DB = {
 			"QuickJoinToastButton", -- [7]
 			"TOP", -- [8]
 			0, -- [9]
-			2.00000047683716, -- [10]
+			2.00000143051147, -- [10]
 			["integrated"] = true,
 		},
 		["TeamStatsFrame"] = {
-			221.142913818359, -- [1]
-			691.4287109375, -- [2]
-			727.999877929688, -- [3]
-			450, -- [4]
+			17.9682235717773, -- [1]
+			731.428649902344, -- [2]
+			728.000244140625, -- [3]
+			450.000091552734, -- [4]
 			["integrated"] = true,
 		},
 		["DWCChatFrame"] = {
-			0, -- [1]
-			146.136840820313, -- [2]
+			-0, -- [1]
+			155.503524780273, -- [2]
 			235, -- [3]
-			27, -- [4]
+			27.0000038146973, -- [4]
 			nil, -- [5]
 			"TOPLEFT", -- [6]
 			"ChatFrame1", -- [7]
 			"BOTTOMLEFT", -- [8]
-			-33, -- [9]
-			-3, -- [10]
+			-33.0000038146973, -- [9]
+			-3.00000023841858, -- [10]
+			["integrated"] = true,
+		},
+		["GearManagerExToolBarFrame"] = {
+			79.0000076293945, -- [1]
+			707.428588867188, -- [2]
+			20.0000076293945, -- [3]
+			20.0000171661377, -- [4]
+			nil, -- [5]
+			"TOPLEFT", -- [6]
+			"PlayerFrame", -- [7]
+			"TOPLEFT", -- [8]
+			98.0000152587891, -- [9]
+			0, -- [10]
 			["integrated"] = true,
 		},
 		["RaidAlerter_Attack_Frame"] = {
@@ -361,41 +418,34 @@ U1DB = {
 			-45, -- [10]
 		},
 		["GearHud"] = {
-			511.142974853516, -- [1]
+			511.143157958984, -- [1]
 			569.714294433594, -- [2]
-			147.999954223633, -- [3]
-			147.999954223633, -- [4]
+			147.999969482422, -- [3]
+			147.999969482422, -- [4]
 			["integrated"] = true,
+		},
+		["BGDefenderFrame"] = {
+			108.421028137207, -- [1]
+			654.455200195313, -- [2]
+			157.000015258789, -- [3]
+			55.9999771118164, -- [4]
 		},
 		["LiteBuffFrame"] = {
-			698.142883300781, -- [1]
-			219.999984741211, -- [2]
-			50.0000724792481, -- [3]
-			49.9999961853027, -- [4]
-			["integrated"] = true,
-		},
-		["GearManagerExToolBarFrame"] = {
-			79.0000076293945, -- [1]
-			707.428649902344, -- [2]
-			20, -- [3]
-			19.9999961853027, -- [4]
-			nil, -- [5]
-			"TOPLEFT", -- [6]
-			"PlayerFrame", -- [7]
-			"TOPLEFT", -- [8]
-			98.0000152587891, -- [9]
-			0, -- [10]
+			474.651123046875, -- [1]
+			205.100387573242, -- [2]
+			50.0000190734863, -- [3]
+			50, -- [4]
 			["integrated"] = true,
 		},
 	},
-	["last_logout_time"] = 1538485066,
-	["selectedTag"] = "BIG",
+	["last_logout_time"] = 1550043525,
+	["selectedTag"] = "COMBATINFO",
 	["ignoreList"] = {
 	},
 	["sortByName"] = true,
-	["enteredWorld"] = true,
+	["lastSearch"] = "my",
 	["collectList"] = {
 	},
-	["selectedAddon"] = "exrt",
+	["selectedAddon"] = "myslot",
 	["loadSpeed"] = 2,
 }

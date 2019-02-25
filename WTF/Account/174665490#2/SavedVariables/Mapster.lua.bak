@@ -16,7 +16,10 @@ MapsterDB = {
 		},
 	},
 	["profileKeys"] = {
+		["Testbenchmk - 死亡之翼"] = "Default",
+		["天行丶陶矢 - 死亡之翼"] = "Default",
 		["Lrsgmarkwu - 贫瘠之地"] = "Default",
+		["Zssgmarkwu - 死亡之翼"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

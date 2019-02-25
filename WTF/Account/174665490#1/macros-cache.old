@@ -1,7 +1,3 @@
-VER 3 000000000000002B " " "INV_Misc_QuestionMark"
-/target 灬尐寳灬-凤凰之神
-/跟随
-END
 VER 3 0000000000000025 " " "458224"
 /cast 时间扭曲
 /in 1 /y Once more into the fray…
@@ -9,77 +5,75 @@ VER 3 0000000000000025 " " "458224"
 /in 10 /y Live and die on this day…
 /in 15 /y Live and die on this day…
 END
-VER 3 0000000000000026 " " "INV_Misc_QuestionMark"
-#showtooltip 燃烧
-/use 13
-/use 14
-/castsequence reset=15 能量符文,燃烧,灼烧,炎爆术,火焰冲击,炎爆术,火焰冲击,炎爆术,烈焰飞舞,火焰冲击,炎爆术,火焰冲击,炎爆术,灼烧,炎爆术,灼烧,炎爆术,灼烧
+VER 3 000000000000005D " " "606549"
+/施放 碧玉疾风
+/施放 铁骨酒
 END
-VER 3 0000000000000027 " " "INV_Misc_QuestionMark"
+VER 3 000000000000005F " " "INV_Misc_QuestionMark"
 #showtooltip [target=pet,nodead,exists]冰冻术;召唤水元素 
 /cast 冰冻术
 /stopmacro [target=pet,nodead,exists,nomod]
 /cast 召唤水元素
 END
-VER 3 0000000000000028 " " "134400"
+VER 3 0000000000000060 " " "134400"
 /use 法力宝石
 /cast 生命之血
 END
-VER 3 0000000000000029 " " "134400"
-/DBM PULL 5
-END
-VER 3 000000000000002D " " "651274"
+VER 3 0000000000000061 " " "651274"
 /目标 Lovejoelol
 /cast 气定神闲
 END
-VER 3 000000000000002C " " "INV_Misc_QuestionMark"
+VER 3 0000000000000062 " " "INV_Misc_QuestionMark"
 #showtooltip
 /cast 鲁莽
 /cast 血性狂怒(种族特长)
 /USE 13
 END
-VER 3 000000000000002A " " "236171"
+VER 3 0000000000000063 " " "236171"
 /script SetRaidTarget("mouseover",2)
 /click ExtraActionButton1
 END
-VER 3 0000000000000024 " " "INV_Misc_QuestionMark"
+VER 3 0000000000000064 " " "INV_Misc_QuestionMark"
 #showtooltip 法术吸取
 /stopcasting
 /cast 法术吸取
 END
-VER 3 000000000000002E "  " "132317"
-/跟随 丶小黄鸭-冰风岗
+VER 3 000000000000005E " " "INV_Misc_QuestionMark"
+#showtooltip 燃烧
+/use 13
+/use 14
+/castsequence reset=15 能量符文,燃烧,灼烧,炎爆术,火焰冲击,炎爆术,火焰冲击,炎爆术,烈焰飞舞,火焰冲击,炎爆术,火焰冲击,炎爆术,灼烧,炎爆术,灼烧,炎爆术,灼烧
 END
-VER 3 000000000000002F "    " "135824"
+VER 3 000000000000002E "  " "132317"
+问英雄为何早亡，因阵前没有拿糖。人生自古谁无死，只怕入厕没带纸。开怪之前不拿糖，大家没事你独亡。带上十几二十个，基尔加丹随便抗！！！
+END
+VER 3 0000000000000065 "    " "135824"
 /施放 燃烧
 /use 蠕动肌腱
 END
-VER 3 0000000000000030 " 111" "134400"
+VER 3 0000000000000066 " 111" "134400"
 /run if not TuInd then UIParent:CreateTexture("TuInd");TuInd:SetSize(20,20);TuInd:SetPoint("CENTER",0, 0);TuInd:SetTexture(ICON_LIST[3]:sub(3,-2)) ;TuInd:Hide()end; if TuInd:IsShown() then TuInd:Hide() else TuInd:Show() end
 END
-VER 3 0000000000000031 " AOE" "236220"
+VER 3 0000000000000067 " AOE" "236220"
 /cast 活动炸弹
 /cast 法拉米尔的禁忌魔典
 END
-VER 3 0000000000000032 " 炎爆术" "INV_Misc_QuestionMark"
+VER 3 0000000000000068 " 炎爆术" "INV_Misc_QuestionMark"
 #showtooltip
 /stopcasting
 /cast 炎爆术
 END
-VER 3 0000000000000033 " 爆炸" "134400"
+VER 3 0000000000000069 " 爆炸" "134400"
 /施放 奥术强化
 /施放 狂暴(种族特长)
 /use 勇气号角
 /cast 涨潮符咒
 END
-VER 3 0000000000000035 "." "132119"
+VER 3 000000000000006A "." "132119"
 /cast 
 /use 14
 END
-VER 3 0000000000000036 "." "134400"
-/跟随  鷄児梆硬-死亡之翼
-END
-VER 3 0000000000000034 "." "134174"
+VER 3 000000000000006C "." "134174"
 /click StaticPopup1Button1
 /目标 鲁克胡克
 /目标 雷霆纳克
@@ -87,7 +81,65 @@ VER 3 0000000000000034 "." "134174"
 /目标 重拳
 /团队 发现<%t>
 END
-VER 3 0000000000000037 "1" "134400"
+VER 3 000000000000006B "." "134400"
+/跟随  鷄児梆硬-死亡之翼
+END
+VER 3 0000000000000073 "1" "INV_Misc_QuestionMark"
+#showtooltip 强化隐形术
+/stopcasting
+/cast 强化隐形术
+END
+VER 3 0000000000000072 "1" "INV_Misc_QuestionMark"
+#showtooltip
+/click 1
+END
+VER 3 0000000000000071 "1" "134400"
+/cast [@cursor] 流星
+END
+VER 3 000000000000006F "1" "134400"
+cleartarget
+/tar 雷霆纳克
+/tar 重拳
+/tar 戈罗克
+/tar  鲁克胡克
+/tar 泥皮
+/tar 觅径者
+/说  发现目标 [%T]
+/团队  发现目标 [%T] 
+END
+VER 3 0000000000000074 "1" "237551"
+/script DEFAULT_CHAT_FRAME:AddMessage("\124cffffffff\124Hitem:2586:0:0:0:0:0:0:0:0\124h[GM的长袍]\124h\124r");
+/script DEFAULT_CHAT_FRAME:AddMessage("NGA数据库 - 地狱霹雳火的长袍: \124cffffffff\124Hitem:2586:0:0:0:0:0:0:0:0\124h[GM的长袍]\124h\124r");
+END
+VER 3 0000000000000079 "1" "136222"
+/script BrowseWowTokenResults.Buyout:Enable()
+/script BrowseWowTokenResultsText:Hide()
+/script BrowseWowTokenResults.Buyout:Click()
+/script StaticPopUp1Button1:Click()
+/script WowTokenDialog.Button1:Click()
+END
+VER 3 0000000000000078 "1" "INV_Misc_QuestionMark"
+#showtooltip 
+/Cast [target=focus,harm,exists,modifier:alt]变形术; [target=mouseover, harm, exists]变形术;变形术
+/PETFOLLOW
+END
+VER 3 0000000000000077 "1" "134400"
+/script T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function() local t=GetTime() if t-T>20 then SendChatMessage(" 普通地狱火1-12G团，打工来700+熟练选手。来各板甲布甲皮布 消费。包团价格优惠。 12点开打。","channel",nil,6) T=t end end end F:SetScript("O
+END
+VER 3 0000000000000075 "1" "135838"
+/施放 冰冷血脉
+/use 涨潮符咒
+/cast 狂暴(种族特长)
+/cast 气定神闲
+END
+VER 3 0000000000000070 "1" "413587"
+/run local a={"丝面","大副","蛛肩","薄纱衬","极光衬","团护肩","绿纹衬","官护肩","苇护肩","颅肩","徒的手","著缠","质缠","祖热","银丝","幻光","贤者","海盗"} b=mod(b or 0,#(a))+1 BrowseName:SetText(a[b]) QueryAuctionItems(a[b])
+END
+VER 3 000000000000006E "1" "135838"
+/cast 冰冷血脉
+/cast 狂暴
+END
+VER 3 000000000000006D "1" "134400"
 /cleartarget
 /目标 洛卡纳哈
 /目标 末日
@@ -116,243 +168,194 @@ VER 3 0000000000000037 "1" "134400"
 //目标 波塞冬斯
 /大喊 混蛋出来<%t>
 END
-VER 3 0000000000000038 "1" "135838"
-/cast 冰冷血脉
-/cast 狂暴
-END
-VER 3 0000000000000039 "1" "134400"
-cleartarget
-/tar 雷霆纳克
-/tar 重拳
-/tar 戈罗克
-/tar  鲁克胡克
-/tar 泥皮
-/tar 觅径者
-/说  发现目标 [%T]
-/团队  发现目标 [%T] 
-END
-VER 3 000000000000003A "1" "413587"
-/run local a={"丝面","大副","蛛肩","薄纱衬","极光衬","团护肩","绿纹衬","官护肩","苇护肩","颅肩","徒的手","著缠","质缠","祖热","银丝","幻光","贤者","海盗"} b=mod(b or 0,#(a))+1 BrowseName:SetText(a[b]) QueryAuctionItems(a[b])
-END
-VER 3 000000000000003B "1" "134400"
-/cast [@cursor] 流星
-END
-VER 3 000000000000003C "1" "INV_Misc_QuestionMark"
-#showtooltip
-/click 1
-END
-VER 3 0000000000000043 "1" "INV_Misc_QuestionMark"
-#showtooltip 强化隐形术
-/stopcasting
-/cast 强化隐形术
-END
-VER 3 0000000000000042 "1" "237551"
-/script DEFAULT_CHAT_FRAME:AddMessage("\124cffffffff\124Hitem:2586:0:0:0:0:0:0:0:0\124h[GM的长袍]\124h\124r");
-/script DEFAULT_CHAT_FRAME:AddMessage("NGA数据库 - 地狱霹雳火的长袍: \124cffffffff\124Hitem:2586:0:0:0:0:0:0:0:0\124h[GM的长袍]\124h\124r");
-END
-VER 3 000000000000003E "1" "135838"
-/施放 冰冷血脉
-/use 涨潮符咒
-/cast 狂暴(种族特长)
-/cast 气定神闲
-END
-VER 3 000000000000003F "1" "INV_Misc_QuestionMark"
+VER 3 0000000000000076 "1" "INV_Misc_QuestionMark"
 #showtooltip 烈焰风暴
 /cast [@cursor] 烈焰风暴
 END
-VER 3 0000000000000040 "1" "134400"
-/script T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function() local t=GetTime() if t-T>20 then SendChatMessage(" 普通地狱火1-12G团，打工来700+熟练选手。来各板甲布甲皮布 消费。包团价格优惠。 12点开打。","channel",nil,6) T=t end end end F:SetScript("O
-END
-VER 3 0000000000000041 "1" "INV_Misc_QuestionMark"
-#showtooltip 
-/Cast [target=focus,harm,exists,modifier:alt]变形术; [target=mouseover, harm, exists]变形术;变形术
-/PETFOLLOW
-END
-VER 3 000000000000003D "1" "136222"
-/script BrowseWowTokenResults.Buyout:Enable()
-/script BrowseWowTokenResultsText:Hide()
-/script BrowseWowTokenResults.Buyout:Click()
-/script StaticPopUp1Button1:Click()
-/script WowTokenDialog.Button1:Click()
-END
-VER 3 0000000000000044 "101" "134400"
+VER 3 000000000000007A "101" "134400"
 /script T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function()local t=GetTime()if t-T>8 then SendChatMessage("《铁血》大降价 【新CD史诗地狱火堡垒】暴力团队，良心品牌团 无竞争，不强迫消 费 抱团赠坐骑（温馨提示）先转账的都是骗子","channel",nil,4)T=t end end end F:SetScript("OnUpdate",X)
 END
-VER 3 0000000000000045 "11" "135846"
+VER 3 000000000000007B "11" "135846"
 /施放 寒冰箭
 /施放 魔法增效
 END
-VER 3 0000000000000046 "11" "136048"
+VER 3 000000000000007D "11" "134400"
+/use 一把糖果
+END
+VER 3 000000000000007C "11" "136048"
 /施放 奥术强化
 /cast 狂暴
 /use 涨潮符咒
 END
-VER 3 0000000000000089 "11" "INV_MISC_QUESTIONMARK"
-/use 一把糖果
-END
-VER 3 0000000000000048 "111" "134400"
-/run T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function()local t=GetTime()if t-T>1 then StaticPopup1Button1:Click()T=t end end end F:SetScript("OnUpdate",X)
-END
-VER 3 0000000000000047 "111" "134400"
+VER 3 000000000000007F "111" "134400"
 /run frm = CreateFrame("PlayerModel");frm:SetPoint("BOTTOMRIGHT",nil,"BOTTOMRIGHT",0,100);frm:SetHeight(600);frm:SetWidth(300);frm:RegisterEvent("PLAYER_TARGET_CHANGED");frm:SetScript("OnEvent",function(self,event,...) frm:SetUnit("target") end);
 END
-VER 3 0000000000000049 "1212" "134400"
+VER 3 000000000000007E "111" "134400"
+/run T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function()local t=GetTime()if t-T>1 then StaticPopup1Button1:Click()T=t end end end F:SetScript("OnUpdate",X)
+END
+VER 3 0000000000000080 "1212" "134400"
 /script T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function()local t=GetTime()if t-T>100 then SendChatMessage("《铁血》大降价 【新CD史诗地狱火堡垒】暴力团队，良心品牌团 无竞争，不强迫消 费 抱团赠坐骑（温馨提示）先转账的都是骗子","channel",nil,4)T=t end end end F:SetScript("OnUpdate",X)
 END
-VER 3 000000000000004A "123" "338784"
+VER 3 0000000000000081 "123" "338784"
 /run local a=C_LootJournal.GetFilteredLegendaries();local b=select(2,GetItemInfo(a[random(#a)]));local c=ChatTypeInfo["LOOT"]LegendaryItemAlertSystem:AddAlert(b);DEFAULT_CHAT_FRAME:AddMessage(format(LOOT_ITEM_PUSHED_SELF,b),c.r,c.
 END
-VER 3 000000000000004D "2" "INV_Misc_QuestionMark"
+VER 3 0000000000000083 "2" "136222"
+/跟随 拉别哥
+END
+VER 3 0000000000000084 "2" "INV_Misc_QuestionMark"
 #showtooltip 流星
 /cast [@cursor] 流星
 END
-VER 3 000000000000004E "2" "136103"
+VER 3 0000000000000085 "2" "136103"
 /cast 燃烧
 /cast 龙息术
 /cast 火焰冲击
 /cast  凤凰烈焰(神器)
 /cast 火焰冲击
 END
-VER 3 000000000000004B "2" "413587"
+VER 3 0000000000000082 "2" "413587"
 /run local a={"鹏面","噬骨","财宝","狡诈","壮丽","狼骑","妖鬼","人之靴","荡长","猎头者","白夹","原始外","性甲","员的长"} b=mod(b or 0,#(a))+1 BrowseName:SetText(a[b]) QueryAuctionItems(a[b])
 END
-VER 3 000000000000004C "2" "136222"
-/跟随 拉别哥
-END
-VER 3 000000000000004F "222" "134400"
+VER 3 0000000000000086 "222" "134400"
 /run frm2 = CreateFrame("PlayerModel");frm2:SetPoint("BOTTOMRIGHT",frm,"BOTTOMLEFT",0,0);frm2:SetHeight(600);frm2:SetWidth(300);frm2:SetUnit("target")
 　　
 END
-VER 3 0000000000000050 "3" "413587"
+VER 3 0000000000000087 "3" "413587"
 /run local a={"坚定","嗜血","微光锁","勇士肩","黑炉肩","骨链肩","奥护腿","铁皮","华丽","火壳","火鬃","保卫者","劫掠者"} b=mod(b or 0,#(a))+1 BrowseName:SetText(a[b]) QueryAuctionItems(a[b])
 END
-VER 3 0000000000000051 "333" "134400"
+VER 3 0000000000000088 "333" "134400"
 /run frm:UnregisterEvent("PLAYER_TARGET_CHANGED");frm:Hide();frm2:Hide()
 END
-VER 3 0000000000000052 "4" "413587"
+VER 3 0000000000000089 "4" "413587"
 /run local a={"光荣","翡翠","阳鳞","盐石","暴君","崇高","前锋","眼魔","血铸","踏云","沼肩","骨火"} b=mod(b or 0,#(a))+1 BrowseName:SetText(a[b]) QueryAuctionItems(a[b]) 
 END
-VER 3 0000000000000053 "40码显血" "134400"
+VER 3 000000000000008A "40码显血" "134400"
 /run SetCVar("nameplateMaxDistance", 30) SetCVar("nameplateOtherTopInset", -1) SetCVar("nameplateOtherBottomInset", -1)
 END
-VER 3 0000000000000054 "87686" "134400"
+VER 3 000000000000008B "87686" "134400"
 /console SET maxSpellStartRecoveryoffset 15
 END
-VER 3 0000000000000055 "a1" "INV_Misc_QuestionMark"
+VER 3 000000000000008C "a1" "INV_Misc_QuestionMark"
 #showtooltip 水流喷射
 /cast [@mouseover,harm,exists,nodead] 水流喷射; 水流喷射
 END
-VER 3 0000000000000056 "AH购买宏" "310730"
+VER 3 000000000000008D "AH购买宏" "310730"
 /click BrowseBuyoutButton
 /click StaticPopup1Button1
 END
-VER 3 0000000000000057 "BF_Mount" "132226"
+VER 3 000000000000008E "BF_Mount" "132226"
 /target 凛冬之痕
 /跟随 
 END
-VER 3 0000000000000058 "BF_Pet" "236701"
+VER 3 000000000000008F "BF_Pet" "236701"
 /BFPET
 END
-VER 3 0000000000000009 "Decursive" "INV_MISC_QUESTIONMARK"
-/script DecursiveRootTable.Dcr:Println('没有相关技能')
-END
-VER 3 000000000000005B "Decursive" "134400"
+VER 3 000000000000005A "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
-/cast [@mouseover,nomod,exists] 变形术;  [@mouseover,exists,mod:ctrl] 变形术; [@mouseover,exists,mod:shift] 变形术
+/cast [@mouseover,nomod,exists] 清创生血;  [@mouseover,exists,mod:ctrl] 清创生血; [@mouseover,exists,mod:shift] 清创生血
 END
-VER 3 000000000000005A "Decursive" "134400"
+VER 3 000000000000005B "Decursive" "INV_MISC_QUESTIONMARK"
 /stopcasting
-/cast [@mouseover,nomod,exists] 恐惧;  [@mouseover,exists,mod:ctrl] 恐惧; [@mouseover,exists,mod:shift] 恐惧
-END
-VER 3 0000000000000059 "Decursive" "1"
-/stopcasting
-/cast [@mouseover,nomod,exists] 解除诅咒;  [@mouseover,exists,mod:ctrl] 变形术; [@mouseover,exists,mod:shift] 解除诅咒
+/cast [@mouseover,nomod,exists] 清创生血;  [@mouseover,exists,mod:ctrl] 清创生血; [@mouseover,exists,mod:shift] 清创生血
 END
 VER 3 000000000000005C "Decursive" "134400"
 /stopcasting
 /cast [@mouseover,nomod,exists] 散魔功;  [@mouseover,exists,mod:ctrl] 清创生血; [@mouseover,exists,mod:shift] 散魔功
 END
-VER 3 0000000000000022 "JGH" "Ability_Creature_Disease_01"
+VER 3 0000000000000059 "Decursive" "1"
+/stopcasting
+/cast [@mouseover,nomod,exists] 解除诅咒;  [@mouseover,exists,mod:ctrl] 变形术; [@mouseover,exists,mod:shift] 解除诅咒
+END
+VER 3 0000000000000009 "Decursive" "INV_MISC_QUESTIONMARK"
+/script DecursiveRootTable.Dcr:Println('没有相关技能')
+END
+VER 3 0000000000000090 "DH" "135328"
+/跟随 趣伱麻德曾经-凤凰之神
+END
+VER 3 0000000000000091 "JGH" "132098"
 /hw JGH
 END
-VER 3 0000000000000023 "MJBH" "Ability_Creature_Disease_01"
+VER 3 0000000000000092 "MJBH" "132098"
 /hw MJBH
 END
-VER 3 0000000000000021 "MSS" "Ability_Creature_Disease_01"
+VER 3 0000000000000093 "MSS" "132098"
 /hw MSS
 END
-VER 3 000000000000005D "mub" "134400"
+VER 3 0000000000000094 "mub" "134400"
 /tar 阿卡扎曼扎拉克
 END
-VER 3 000000000000005E "shua" "134400"
+VER 3 0000000000000095 "shua" "134400"
 /script T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function()local t=GetTime()if t-T>180 then SendChatMessag 《寒霜》H黑石1-10 装备价格2W/5W 战火不加 来各系消费  来各职业暴力DPS  RMB消费比例1：10 布板锁无竞争 ）annel",nil,6)T=t end end end F:SetScript("OnUpdate",X)
 END
-VER 3 000000000000005F "sssss" "133564"
+VER 3 0000000000000096 "sssss" "133564"
 /cast 狂暴
 /cast 燃烧
 END
-VER 3 000000000000001B "TSMAucBClick" "1"
+VER 3 0000000000000097 "TSMAucBClick" "1"
 /click TSMAuctioningCancelButton
 /click TSMAuctioningPostButton
 END
-VER 3 0000000000000011 "TSMDestroyer" "ACHIEVEMENT_GUILDPERK_HASTYHEARTH"
+VER 3 0000000000000098 "TSMDestroyer" "413582"
 /tsm destroy
 END
-VER 3 0000000000000012 "TSMUseDestroyer" "ACHIEVEMENT_GUILDPERK_FASTTRACK_RANK2"
+VER 3 0000000000000099 "TSMUseDestroyer" "413579"
 /click TSMDestroyingButton1
 END
-VER 3 0000000000000060 "XX" "134400"
+VER 3 000000000000009A "XX" "134400"
 /click CompactRaidFrameManagerDisplayFrameLeaderOptionsRaidWorldMarkerButton
 /click DropDownList1Button2
 END
-VER 3 0000000000000061 "zuoji" "413588"
+VER 3 000000000000009B "zuoji" "413588"
 l
 END
-VER 3 0000000000000062 "。" "INV_Misc_QuestionMark"
+VER 3 000000000000009C "。" "INV_Misc_QuestionMark"
 #showtooltip 浮冰
 /cast 浮冰
 /cast 奥术冲击
 /cast 寒冰箭
 /cast 火球术
 END
-VER 3 0000000000000064 "。。" "134400"
+VER 3 000000000000009D "。。" "134400"
 /目标 谷地飞蛾
 END
-VER 3 0000000000000063 "。。" "134400"
+VER 3 000000000000009E "。。" "134400"
 /cast 奥伊纳克斯
 END
-VER 3 0000000000000065 "不掉" "644389"
+VER 3 000000000000009F "不掉" "644389"
 /script T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function()local t=GetTime()if t-T>1 then StaticPopup1Button1:Click()T=t end end end F:SetScript ("OnUpdate",X)
 END
-VER 3 0000000000000066 "不显示伤害数字" "134400"
+VER 3 00000000000000A0 "不显示伤害数字" "134400"
 /console floatingCombatTextCombatDamage 0
 END
-VER 3 0000000000000067 "世界" "134400"
+VER 3 00000000000000A1 "世界" "134400"
 /6 坐/ 骑 cd ，1000G/个 。  无敌 飞机头 星光龙 火鹰  DS 5号 ， 雷电 2号 ~
 END
-VER 3 000000000000001C "丝绸" "INV_MISC_QUESTIONMARK"
+VER 3 00000000000000A2 "丝绸" "134400"
 /施放 裁缝
 /run for i=1,GetNumTradeSkills()do a,_,b=GetTradeSkillInfo(i)if (a:find("帝王丝绸"))and b>0 then DoTradeSkill(i,b) break end end
 END
-VER 3 0000000000000068 "伤害数字" "135274"
+VER 3 00000000000000A3 "伤害数字" "135274"
 /console floatingCombatTextCombatDamage 1
 END
-VER 3 0000000000000069 "倒数" "644389"
-/DBM PULL 8
-END
-VER 3 000000000000006B "倒数" "134400"
+VER 3 00000000000000A5 "倒数" "134400"
 /dbm pull 7
 END
-VER 3 000000000000006A "倒数" "132226"
+VER 3 00000000000000A4 "倒数" "644389"
+/DBM PULL 8
+END
+VER 3 00000000000000A6 "倒数" "132226"
 /dbm pull 10
 END
-VER 3 000000000000006C "倒数7" "1052644"
+VER 3 00000000000000A7 "倒数7" "1052644"
 /DBM PULL 7
 END
-VER 3 000000000000006D "倒数宏" "136002"
+VER 3 00000000000000A8 "倒数宏" "136002"
+/rt pull 3
+END
+VER 3 00000000000000AA "倒数宏" "136002"
 /rt pull 10
 END
-VER 3 000000000000006E "倒数宏" "237565"
+VER 3 00000000000000A9 "倒数宏" "237565"
 /dbm pull 9
 /RW ***即将开怪***
 /IN 1 /RW 倒数9秒！
@@ -366,25 +369,22 @@ VER 3 000000000000006E "倒数宏" "237565"
 /IN 9 /RW 1
 /IN 9 /RW GO！
 END
-VER 3 000000000000006F "倒数宏" "136002"
-/rt pull 3
-END
-VER 3 0000000000000070 "光环" "INV_Misc_QuestionMark"
+VER 3 00000000000000AB "光环" "INV_Misc_QuestionMark"
 #showtooltip 虔诚光环
 /stopcasting
 /stopcasting
 /cast 虔诚光环
 END
-VER 3 0000000000000071 "军团入侵宏" "134400"
+VER 3 00000000000000AC "军团入侵宏" "134400"
 /script print(GetAchievementLink(11201));
 END
-VER 3 0000000000000073 "冰箱" "INV_Misc_QuestionMark"
+VER 3 00000000000000AD "冰箱" "INV_Misc_QuestionMark"
 #showtooltip 寒冰屏障
 /stopcasting 
 /cancelAura 寒冰屏障 
 /cast 寒冰屏障
 END
-VER 3 0000000000000072 "冰箱" "INV_Misc_QuestionMark"
+VER 3 00000000000000AF "冰箱" "INV_Misc_QuestionMark"
 #showtooltip 寒冰屏障
 /stopcasting
 /施放 寒冰屏障
@@ -400,7 +400,7 @@ VER 3 0000000000000072 "冰箱" "INV_Misc_QuestionMark"
 /IN 9 /Y 还剩1秒
 /in 10 /Y 风紧~扯呼！
 END
-VER 3 0000000000000074 "冰箱" "INV_Misc_QuestionMark"
+VER 3 00000000000000AE "冰箱" "INV_Misc_QuestionMark"
 #showtooltip 寒冰屏障
 /cast !寒冰屏障
 /S 寒冰屏障 已放,持续10秒...........
@@ -411,91 +411,91 @@ VER 3 0000000000000074 "冰箱" "INV_Misc_QuestionMark"
 /in 9 /s 寒冰屏障 还剩 1秒……
 /in 10 /s寒冰屏障 结束了,下个接上
 END
-VER 3 0000000000000075 "冰箱取消" "135841"
+VER 3 00000000000000B0 "冰箱取消" "135841"
 /stopcasting
 /cast 寒冰屏障
 /cancelAura 寒冰屏障
 END
-VER 3 0000000000000076 "冰脉" "INV_Misc_QuestionMark"
+VER 3 00000000000000B1 "冰脉" "INV_Misc_QuestionMark"
 #showtooltip 冰冷血脉
 /cast 狂暴
 /cast 冰冷血脉
 END
-VER 3 0000000000000077 "分流" "INV_Misc_QuestionMark"
+VER 3 00000000000000B2 "分流" "INV_Misc_QuestionMark"
 #showtooltips 符文分流
 /施放 活力分流
 /施放 符文分流
 END
-VER 3 0000000000000078 "加血" "INV_Misc_QuestionMark"
+VER 3 00000000000000B3 "加血" "INV_Misc_QuestionMark"
 #showtooltip 愈合
 /castsequence reset=4 回春术,愈合,治疗之触,治疗之触
 END
-VER 3 0000000000000079 "反制" "INV_Misc_QuestionMark"
+VER 3 00000000000000B4 "反制" "INV_Misc_QuestionMark"
 #showtooltip 法术反制  
 /Cast [modifier:shift,target=focus,exists] 法术反制;[target=mouseover,exists]法术反制;法术反制 
 END
-VER 3 000000000000007A "取消" "413586"
+VER 3 00000000000000B5 "取消" "413586"
 /reload ui
 END
-VER 3 000000000000007B "咆哮" "458735"
+VER 3 00000000000000B6 "咆哮" "458735"
 /咆哮
 END
-VER 3 000000000000007C "喊" "413582"
+VER 3 00000000000000B7 "喊" "413582"
 /script T,F=T or 0,F or CreateFrame("frame")if X then X=nil else X=function() local t=GetTime()  if t-T>70 then SendChatMessage(" 【帝尊】英雄阿克，买一送二，个人拾取+R好运符+成就，705+98一位，躺尸198一位，职业专属饰品等您来拿MMMM`{喊}","channel",nil,5)T=t end end end F:SetScript("OnUpdate",X)
 END
-VER 3 000000000000007D "喊话" "134400"
+VER 3 00000000000000B8 "喊话" "134400"
 /Y 8码分散
 END
-VER 3 000000000000007E "喷火" "135490"
+VER 3 00000000000000B9 "喷火" "135490"
 /click ExtraActionButton1
 END
-VER 3 000000000000007F "嗜血" "INV_Misc_QuestionMark"
+VER 3 00000000000000BA "嗜血" "INV_Misc_QuestionMark"
 #showtooltip 时间扭曲
 /cast 德拉诺智力药水
 /cast 时间扭曲
 END
-VER 3 0000000000000080 "回廊宏1" "134400"
+VER 3 00000000000000BB "回廊宏1" "134400"
 /dnd  回廊9-11 打本中，回复不便，想上车的兄弟可以 来斗鱼直播  房号 1024020 ，优先上车  
 END
-VER 3 0000000000000081 "地狱火" "134157"
+VER 3 00000000000000BC "地狱火" "134157"
 /target 亡首蟑螂 
 /script SetRaidTarget("target",4)
 END
-VER 3 000000000000001D "坐骑" "Ability_Mount_Charger"
+VER 3 00000000000000BD "坐骑" "132226"
 /target 四幺灭团之星
 /跟随 
 END
-VER 3 0000000000000082 "坐骑cd" "134400"
+VER 3 00000000000000BE "坐骑cd" "134400"
 /p 坐骑cd，0.5元/个，无敌 飞机头  星光龙 火鹰 等等。雷电2，巨龙之魂 5号。支付宝/威信  13776792158
 END
-VER 3 0000000000000083 "复仇者之盾" "135874"
+VER 3 00000000000000BF "复仇者之盾" "135874"
 /cast 复仇者之盾
 /cast 正义盾击
 /cast 守护者之手
 END
-VER 3 0000000000000084 "外域" "134400"
+VER 3 00000000000000C0 "外域" "134400"
 /tar 末日行者
 /TAR 扭曲
 /TAR 卡扎克
 END
-VER 3 0000000000000085 "奥强" "INV_Misc_QuestionMark"
+VER 3 00000000000000C1 "奥强" "INV_Misc_QuestionMark"
 #showtooltip 奥术强化
 /cast 奥术强化
 /cast 气定神闲
 /cast 狂暴(种族特长)
 END
-VER 3 0000000000000086 "审判" "INV_Misc_QuestionMark"
-#showtooltip 祝福之锤
-/startattack
-/castsequence reset=4 审判,奉献,祝福之锤,祝福之锤,审判,祝福之锤,奉献,审判,祝福之锤
-END
-VER 3 0000000000000088 "审判" "INV_Misc_QuestionMark"
+VER 3 00000000000000C3 "审判" "INV_Misc_QuestionMark"
 #showtooltip 审判
 /cast [target=target,harm] [target=targettarget,harm] 审判
 END
-VER 3 0000000000000087 "审判" "INV_Misc_QuestionMark"
+VER 3 00000000000000C4 "审判" "INV_Misc_QuestionMark"
 #showtooltip 审判
 /cast [@mouseover,exists,harm][harm,nodead] [@focus,harm,nodead] [@targettarget,harm,nodead][]审判
+END
+VER 3 00000000000000C2 "审判" "INV_Misc_QuestionMark"
+#showtooltip 祝福之锤
+/startattack
+/castsequence reset=4 审判,奉献,祝福之锤,祝福之锤,审判,祝福之锤,奉献,审判,祝福之锤
 END
 VER 3 0000000000000015 "怒傻子" "INV_MISC_QUESTIONMARK"
 /run print(IsQuestFlaggedCompleted(32099) and '杀了' or '沒杀') 
@@ -507,7 +507,7 @@ VER 3 000000000000001E "炼金" "INV_MISC_QUESTIONMARK"
 /施放 炼金术
 /run for i=1,GetNumTradeSkills()do a,_,b=GetTradeSkillInfo(i)if (a:find("活化钢"))and b>0 then DoTradeSkill(i,b) break end end
 END
-VER 3 0000000000000013 "爱情娃娃" "INV_MISC_QUESTIONMARK"
+VER 3 00000000000000C5 "爱情娃娃" "134400"
 /chicken
 END
 VER 3 000000000000001F "磨草" "INV_MISC_QUESTIONMARK"
@@ -518,10 +518,10 @@ VER 3 0000000000000020 "铭文" "INV_MISC_QUESTIONMARK"
 /施放 铭文
 /run for i=1,GetNumTradeSkills()do a,_,b=GetTradeSkillInfo(i)if (a:find("智慧卷轴"))and b>0 then DoTradeSkill(i,b) break end end
 END
-VER 3 000000000000001A "随机召唤" "INV_MISC_QUESTIONMARK"
+VER 3 00000000000000C6 "随机召唤" "134400"
 /run local temp = C_PetJournal.SetPetLoadOutInfo;C_PetJournal.SetPetLoadOutInfo=function(...)if ...==1 then C_PetJournal.SummonRandomPet(1)end;temp(...)end
 END
-VER 3 0000000000000014 "鞠躬" "INV_MISC_QUESTIONMARK"
+VER 3 00000000000000C7 "鞠躬" "134400"
 /鞠躬
 END
 VER 3 0000000000000017 "黑蛋刀" "INV_MISC_QUESTIONMARK"
